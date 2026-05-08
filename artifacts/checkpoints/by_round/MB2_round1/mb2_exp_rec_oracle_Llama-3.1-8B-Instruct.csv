@@ -1,0 +1,137 @@
+idx,status_label,ttf_label_days,ttf_label_bucket,summary,explanation,recommendations_json,raw_output
+148969,FAILED,10.0,7-30,"Window index: 148969
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.8e+04, max=2.89e+04, mean=2.84e+04, last=2.89e+04, delta=913); raw_values=[28014.0, 28038.0, 28062.0, 28086.0, 28206.0, 28230.0, 28254.0, 28278.0, 28302.0, 28326.0, 28350.0, 28374.0, 28398.0, 28422.0, 28446.0, 28470.0, 28494.0, 28523.0, 28547.0, 28567.0, 28591.0, 28615.0, 28639.0, 28663.0, 28687.0, 28711.0, 28735.0, 28759.0, 28783.0, 28927.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts across multiple SMART attributes, indicating a potential issue with the drive's controller or firmware. This is likely causing the drive to experience increased stress and wear, leading to its failure.","[""Run a firmware update on the SSD to ensure the latest version is installed, which may resolve the issue."", ""Consider replacing the SSD with a new one, as the drive's failure is imminent and may cause data loss or corruption.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts across multiple SMART attributes, indicating a potential issue with the drive's controller or firmware. This is likely causing the drive to experience increased stress and wear, leading to its failure."",
+  ""recommendations"": [
+    ""Run a firmware update on the SSD to ensure the latest version is installed, which may resolve the issue."",
+    ""Consider replacing the SSD with a new one, as the drive's failure is imminent and may cause data loss or corruption.""
+  ]
+}"
+469909,FAILED,25.0,7-30,"Window index: 469909
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: days 0-5: frequent bursts across most of the patch; days 5-10: frequent bursts across most of the patch; days 10-15: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.78e+04, max=2.79e+04, mean=2.79e+04, last=2.79e+04, delta=96); raw_values=[27832.0, 27856.0, 27880.0, 27904.0, 27928.0]]; days 15-20: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.8e+04, max=2.8e+04, mean=2.8e+04, last=2.8e+04, delta=96); raw_values=[27952.0, 27976.0, 28000.0, 28024.0, 28048.0]]; days 20-25: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.81e+04, max=2.82e+04, mean=2.81e+04, last=2.82e+04, delta=97); raw_values=[28072.0, 28096.0, 28120.0, 28145.0, 28169.0]]; days 25-30: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.82e+04, max=2.83e+04, mean=2.82e+04, last=2.83e+04, delta=96); raw_values=[28196.0, 28220.0, 28244.0, 28268.0, 28292.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts of errors across multiple attributes, indicating a high likelihood of physical wear or data corruption. This is likely caused by a combination of factors, including high usage, poor quality storage media, or inadequate cooling.","[""Run a full disk scan and repair to identify and fix any corrupted data."", ""Consider replacing the SSD with a new one, as the drive is likely nearing the end of its lifespan."", ""Implement a more aggressive disk quota and monitoring system to prevent over-usage and detect potential issues earlier.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts of errors across multiple attributes, indicating a high likelihood of physical wear or data corruption. This is likely caused by a combination of factors, including high usage, poor quality storage media, or inadequate cooling."",
+  ""recommendations"": [
+    ""Run a full disk scan and repair to identify and fix any corrupted data."",
+    ""Consider replacing the SSD with a new one, as the drive is likely nearing the end of its lifespan."",
+    ""Implement a more aggressive disk quota and monitoring system to prevent over-usage and detect potential issues earlier.""
+  ]
+}"
+500654,FAILED,3.0,<7,"Window index: 500654
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.88e+04, max=2.97e+04, mean=2.92e+04, last=2.97e+04, delta=861); raw_values=[28811.0, 28835.0, 28859.0, 28883.0, 28907.0, 28931.0, 28957.0, 28981.0, 29007.0, 29031.0, 29055.0, 29079.0, 29103.0, 29127.0, 29151.0, 29175.0, 29199.0, 29223.0, 29367.0, 29391.0, 29415.0, 29439.0, 29463.0, 29480.0, 29504.0, 29576.0, 29600.0, 29624.0, 29648.0, 29672.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The drive is failing due to frequent bursts in multiple SMART attributes (r_5, r_9, r_12, and others), indicating a high rate of read errors and potential issues with the SSD's read channel or controller. This suggests a mechanical or firmware-related failure.","[""Immediately replace the drive to prevent data loss and ensure system availability."", ""Consider implementing a more robust monitoring and alerting system to detect similar issues in other drives and prevent unexpected failures.""]","{
+  ""explanation"": ""The drive is failing due to frequent bursts in multiple SMART attributes (r_5, r_9, r_12, and others), indicating a high rate of read errors and potential issues with the SSD's read channel or controller. This suggests a mechanical or firmware-related failure."",
+  ""recommendations"": [
+    ""Immediately replace the drive to prevent data loss and ensure system availability."",
+    ""Consider implementing a more robust monitoring and alerting system to detect similar issues in other drives and prevent unexpected failures.""
+  ]
+}"
+614918,FAILED,21.0,7-30,"Window index: 614918
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.81e+04, max=2.89e+04, mean=2.85e+04, last=2.89e+04, delta=819); raw_values=[28057.0, 28081.0, 28105.0, 28153.0, 28177.0, 28201.0, 28225.0, 28249.0, 28273.0, 28297.0, 28417.0, 28441.0, 28465.0, 28489.0, 28513.0, 28537.0, 28561.0, 28585.0, 28609.0, 28633.0, 28657.0, 28681.0, 28705.0, 28735.0, 28759.0, 28780.0, 28804.0, 28828.0, 28852.0, 28876.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The drive is failing due to frequent bursts in multiple SMART attributes (r_5, r_9, r_12, and others), indicating a high likelihood of physical or mechanical issues such as wear, vibration, or thermal stress.","[""Replace the drive as soon as possible to prevent data loss and further degradation."", ""Consider implementing a more robust storage solution, such as redundant arrays or mirrored drives, to ensure data availability and integrity.""]","{
+  ""explanation"": ""The drive is failing due to frequent bursts in multiple SMART attributes (r_5, r_9, r_12, and others), indicating a high likelihood of physical or mechanical issues such as wear, vibration, or thermal stress."",
+  ""recommendations"": [
+    ""Replace the drive as soon as possible to prevent data loss and further degradation."",
+    ""Consider implementing a more robust storage solution, such as redundant arrays or mirrored drives, to ensure data availability and integrity.""
+  ]
+}"
+825235,FAILED,10.0,7-30,"Window index: 825235
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The drive is failing due to frequent bursts across multiple SMART attributes, indicating a high likelihood of physical or mechanical failure. The presence of frequent bursts across most attributes suggests a sudden and rapid degradation of the drive's health.","[""Immediately replace the drive to prevent data loss and ensure business continuity."", ""Run a disk check and repair on the replacement drive before deploying it to production to ensure it's in good health.""]","{
+  ""explanation"": ""The drive is failing due to frequent bursts across multiple SMART attributes, indicating a high likelihood of physical or mechanical failure. The presence of frequent bursts across most attributes suggests a sudden and rapid degradation of the drive's health."",
+  ""recommendations"": [
+    ""Immediately replace the drive to prevent data loss and ensure business continuity."",
+    ""Run a disk check and repair on the replacement drive before deploying it to production to ensure it's in good health.""
+  ]
+}"

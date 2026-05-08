@@ -1,0 +1,3 @@
+dataset,source_split,sample_file,num_windows,num_failed,num_healthy,window_days,num_attributes,feature_names
+MB1,processed/MB1_round1/test.npz,MB1_round1_test_sample.npz,32,8,24,30,15,"r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242"
+MB2,processed/MB2_round1/test.npz,MB2_round1_test_sample.npz,32,8,24,30,15,"r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242"

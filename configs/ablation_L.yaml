@@ -1,0 +1,9 @@
+study: patch
+datasets: [MB1, MB2]
+rounds: [1, 2, 3]
+window_values: [30]
+patch_values: [2, 4, 5, 10, 15]
+backbones: [OS3, PROP]
+device: cuda:0
+processed_root: data/splits
+artifacts_root: artifacts/checkpoints/by_round

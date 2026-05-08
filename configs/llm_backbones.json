@@ -1,0 +1,42 @@
+{
+  "OS1": {
+    "paper_code": "OS1",
+    "paper_name": "Llama-3.1-8B-Instruct",
+    "model_name": "Llama-3.1-8B-Instruct",
+    "family": "open_source",
+    "default_base_url": "http://localhost:8000/v1",
+    "default_api_key_env": "OPENAI_API_KEY"
+  },
+  "OS2": {
+    "paper_code": "OS2",
+    "paper_name": "Qwen2.5-14B-Instruct",
+    "model_name": "Qwen2.5-14B-Instruct",
+    "family": "open_source",
+    "default_base_url": "http://localhost:8000/v1",
+    "default_api_key_env": "OPENAI_API_KEY"
+  },
+  "OS3": {
+    "paper_code": "OS3",
+    "paper_name": "Phi-4",
+    "model_name": "Phi-4",
+    "family": "open_source",
+    "default_base_url": "http://localhost:8000/v1",
+    "default_api_key_env": "OPENAI_API_KEY"
+  },
+  "OS4": {
+    "paper_code": "OS4",
+    "paper_name": "Gemma-2-27B-it",
+    "model_name": "Gemma-2-27B-it",
+    "family": "open_source",
+    "default_base_url": "http://localhost:8000/v1",
+    "default_api_key_env": "OPENAI_API_KEY"
+  },
+  "PROP": {
+    "paper_code": "PROP",
+    "paper_name": "GPT-4o",
+    "model_name": "gpt-4o",
+    "family": "proprietary",
+    "default_base_url": "https://api.openai.com/v1",
+    "default_api_key_env": "OPENAI_API_KEY"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "MB1": {
+    "rounds": [
+      1,
+      2,
+      3
+    ],
+    "positives": 368,
+    "negatives": 3073949,
+    "negative_to_positive_ratio": 8353.122282608696
+  },
+  "MB2": {
+    "rounds": [
+      1,
+      2,
+      3
+    ],
+    "positives": 1057,
+    "negatives": 3388726,
+    "negative_to_positive_ratio": 3205.9848628193
+  }
+}

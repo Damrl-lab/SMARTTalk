@@ -1,0 +1,17 @@
+{
+  "n_examples_evaluated": 2,
+  "classification": {
+    "tp": 0,
+    "fp": 1,
+    "fn": 0,
+    "tn": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "ttf": {
+    "mse": 128.5,
+    "mae": 8.5,
+    "n": 2
+  }
+}

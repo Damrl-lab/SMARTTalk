@@ -1,0 +1,4 @@
+You are given prototype-based trend summaries for one SSD over a 30-day window. Use them to decide whether the drive is HEALTHY or AT_RISK, and only if AT_RISK, estimate time-to-failure as described.
+
+SMART prototype summary:
+{SMART_SUMMARY}

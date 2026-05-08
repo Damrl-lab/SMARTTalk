@@ -1,0 +1,19 @@
+dataset: MB1
+round: 1
+rounds: [1, 2, 3]
+window_size: 30
+patch_length: 5
+fail_horizon_days: 30
+healthy_per_failed: 23
+seed: 2026
+processed_root: data/splits
+artifacts_root: artifacts/checkpoints/by_round
+results_root: results
+dataset_by_model_root: data/raw/dataset_by_model
+failure_tag_path: data/raw/ssd_failure_tag.csv
+llm_backbone: OS3
+llm_model_name: Phi-4
+base_url: http://localhost:8000/v1
+api_key: EMPTY
+temperature: 0.0
+max_tokens: 512

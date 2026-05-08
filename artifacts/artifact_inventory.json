@@ -1,0 +1,438 @@
+[
+  {
+    "path": "artifacts/MANIFEST.md",
+    "size_bytes": 1436
+  },
+  {
+    "path": "artifacts/artifact_inventory.json",
+    "size_bytes": 13428
+  },
+  {
+    "path": "artifacts/cached_ablation_results/reviewer_results/ablation/ablation_curves.csv",
+    "size_bytes": 7850
+  },
+  {
+    "path": "artifacts/cached_ablation_results/reviewer_results/ablation/combined.png",
+    "size_bytes": 612433
+  },
+  {
+    "path": "artifacts/cached_ablation_results/reviewer_results/ablation/main.png",
+    "size_bytes": 612433
+  },
+  {
+    "path": "artifacts/cached_ablation_results/reviewer_results/ablation/metrics_mb1.png",
+    "size_bytes": 1129488
+  },
+  {
+    "path": "artifacts/cached_ablation_results/reviewer_results/ablation/metrics_mb2.png",
+    "size_bytes": 1169519
+  },
+  {
+    "path": "artifacts/cached_ablation_results/reviewer_results/audit.json",
+    "size_bytes": 1005
+  },
+  {
+    "path": "artifacts/cached_ablation_results/reviewer_results/confusion_matrices.csv",
+    "size_bytes": 4055
+  },
+  {
+    "path": "artifacts/cached_ablation_results/reviewer_results/status_metrics_with_fpr_fnr.csv",
+    "size_bytes": 7359
+  },
+  {
+    "path": "artifacts/cached_ablation_results/reviewer_results/status_test_supports.json",
+    "size_bytes": 332
+  },
+  {
+    "path": "artifacts/cached_ablation_results/reviewer_results/table5_status_with_fpr_fnr.csv",
+    "size_bytes": 1944
+  },
+  {
+    "path": "artifacts/cached_ablation_results/reviewer_results/table5_status_with_fpr_fnr_audit.json",
+    "size_bytes": 1005
+  },
+  {
+    "path": "artifacts/cached_ablation_results/reviewer_results/table5_status_with_fpr_fnr_details.csv",
+    "size_bytes": 8190
+  },
+  {
+    "path": "artifacts/cached_predictions/llm_eval_outputs/mb2_round1_llm_metrics.json",
+    "size_bytes": 226
+  },
+  {
+    "path": "artifacts/cached_predictions/llm_eval_outputs/mb2_round1_llm_predictions.jsonl",
+    "size_bytes": 2744
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round1/mb1_attr_autoencoder.pt",
+    "size_bytes": 101033
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round1/mb1_cross_autoencoder.pt",
+    "size_bytes": 1282235
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round1/mb1_prototypes.npz",
+    "size_bytes": 8256
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round1/mb1_prototypes_with_phrases.npz",
+    "size_bytes": 9819
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round1/mb1_scaler.npz",
+    "size_bytes": 1168
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round1/mb1_test_prototypes.npz",
+    "size_bytes": 3004828
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round1/mb1_test_summaries_round1.txt",
+    "size_bytes": 267849
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round1/mb1_vocab.json",
+    "size_bytes": 24461
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round2/mb1_attr_autoencoder.pt",
+    "size_bytes": 101033
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round2/mb1_cross_autoencoder.pt",
+    "size_bytes": 1282235
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round2/mb1_prototypes.npz",
+    "size_bytes": 8246
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round2/mb1_prototypes_with_phrases.npz",
+    "size_bytes": 9806
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round2/mb1_scaler.npz",
+    "size_bytes": 1168
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round2/mb1_test_prototypes.npz",
+    "size_bytes": 3255857
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round2/mb1_test_summaries_round2.txt",
+    "size_bytes": 651547
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round2/mb1_vocab.json",
+    "size_bytes": 25746
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round3/mb1_attr_autoencoder.pt",
+    "size_bytes": 101033
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round3/mb1_cross_autoencoder.pt",
+    "size_bytes": 1282235
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round3/mb1_prototypes.npz",
+    "size_bytes": 8264
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round3/mb1_prototypes_with_phrases.npz",
+    "size_bytes": 9831
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round3/mb1_scaler.npz",
+    "size_bytes": 1168
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round3/mb1_test_prototypes.npz",
+    "size_bytes": 4339873
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round3/mb1_test_summaries_round3.txt",
+    "size_bytes": 747670
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB1_round3/mb1_vocab.json",
+    "size_bytes": 25821
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round1/mb2_attr_autoencoder.pt",
+    "size_bytes": 101033
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round1/mb2_cross_autoencoder.pt",
+    "size_bytes": 1282235
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round1/mb2_eval_tp_details_Phi-4.csv",
+    "size_bytes": 3920
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round1/mb2_exp_Llama-3.1-8B-Instruct.csv",
+    "size_bytes": 36571
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round1/mb2_exp_rec_oracle_Llama-3.1-8B-Instruct.csv",
+    "size_bytes": 14688
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round1/mb2_perturb_eval_Llama-3.1-8B-Instruct.csv",
+    "size_bytes": 222474
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round1/mb2_perturb_eval_Qwen2.5-14B-Instruct.csv",
+    "size_bytes": 181335
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round1/mb2_prototypes.npz",
+    "size_bytes": 8265
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round1/mb2_prototypes_with_phrases.npz",
+    "size_bytes": 9846
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round1/mb2_scaler.npz",
+    "size_bytes": 1168
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round1/mb2_test_prototypes.npz",
+    "size_bytes": 3345803
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round1/mb2_test_summaries_round1.txt",
+    "size_bytes": 592585
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round1/mb2_vocab.json",
+    "size_bytes": 34365
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round2/mb2_attr_autoencoder.pt",
+    "size_bytes": 101033
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round2/mb2_cross_autoencoder.pt",
+    "size_bytes": 1282235
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round2/mb2_exp_Gemma-2-27B-it.csv",
+    "size_bytes": 166613
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round2/mb2_exp_Llama-3.1-8B-Instruct.csv",
+    "size_bytes": 151819
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round2/mb2_exp_Phi-4.csv",
+    "size_bytes": 102
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round2/mb2_exp_Qwen2.5-14B-Instruct.csv",
+    "size_bytes": 142649
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round2/mb2_exp_microsoft_phi-4.csv",
+    "size_bytes": 102
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round2/mb2_perturb_eval_Gemma-2-27B-it.csv",
+    "size_bytes": 109
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round2/mb2_perturb_eval_Llama-3.1-8B-Instruct.csv",
+    "size_bytes": 551832
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round2/mb2_perturb_eval_Phi-4.csv",
+    "size_bytes": 240710
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round2/mb2_perturb_eval_Qwen2.5-14B-Instruct.csv",
+    "size_bytes": 45923
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round2/mb2_prototypes.npz",
+    "size_bytes": 8257
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round2/mb2_prototypes_with_phrases.npz",
+    "size_bytes": 9788
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round2/mb2_scaler.npz",
+    "size_bytes": 1168
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round2/mb2_test_prototypes.npz",
+    "size_bytes": 3821249
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round2/mb2_test_summaries_round2.txt",
+    "size_bytes": 1787294
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round2/mb2_vocab.json",
+    "size_bytes": 35662
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round3/mb2_attr_autoencoder.pt",
+    "size_bytes": 101033
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round3/mb2_cross_autoencoder.pt",
+    "size_bytes": 1282235
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round3/mb2_perturb_eval_Llama-3.1-8B-Instruct.csv",
+    "size_bytes": 212802
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round3/mb2_prototypes.npz",
+    "size_bytes": 8240
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round3/mb2_prototypes_with_phrases.npz",
+    "size_bytes": 9741
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round3/mb2_scaler.npz",
+    "size_bytes": 1168
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round3/mb2_test_prototypes.npz",
+    "size_bytes": 3307324
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round3/mb2_test_summaries_round3.txt",
+    "size_bytes": 1600331
+  },
+  {
+    "path": "artifacts/checkpoints/by_round/MB2_round3/mb2_vocab.json",
+    "size_bytes": 43590
+  },
+  {
+    "path": "artifacts/pattern_memory/by_round/MB1_round1/mb1_prototypes.npz",
+    "size_bytes": 8256
+  },
+  {
+    "path": "artifacts/pattern_memory/by_round/MB1_round1/mb1_prototypes_with_phrases.npz",
+    "size_bytes": 9819
+  },
+  {
+    "path": "artifacts/pattern_memory/by_round/MB1_round1/mb1_test_prototypes.npz",
+    "size_bytes": 3004828
+  },
+  {
+    "path": "artifacts/pattern_memory/by_round/MB1_round2/mb1_prototypes.npz",
+    "size_bytes": 8246
+  },
+  {
+    "path": "artifacts/pattern_memory/by_round/MB1_round2/mb1_prototypes_with_phrases.npz",
+    "size_bytes": 9806
+  },
+  {
+    "path": "artifacts/pattern_memory/by_round/MB1_round2/mb1_test_prototypes.npz",
+    "size_bytes": 3255857
+  },
+  {
+    "path": "artifacts/pattern_memory/by_round/MB1_round3/mb1_prototypes.npz",
+    "size_bytes": 8264
+  },
+  {
+    "path": "artifacts/pattern_memory/by_round/MB1_round3/mb1_prototypes_with_phrases.npz",
+    "size_bytes": 9831
+  },
+  {
+    "path": "artifacts/pattern_memory/by_round/MB1_round3/mb1_test_prototypes.npz",
+    "size_bytes": 4339873
+  },
+  {
+    "path": "artifacts/pattern_memory/by_round/MB2_round1/mb2_prototypes.npz",
+    "size_bytes": 8265
+  },
+  {
+    "path": "artifacts/pattern_memory/by_round/MB2_round1/mb2_prototypes_with_phrases.npz",
+    "size_bytes": 9846
+  },
+  {
+    "path": "artifacts/pattern_memory/by_round/MB2_round1/mb2_test_prototypes.npz",
+    "size_bytes": 3345803
+  },
+  {
+    "path": "artifacts/pattern_memory/by_round/MB2_round2/mb2_prototypes.npz",
+    "size_bytes": 8257
+  },
+  {
+    "path": "artifacts/pattern_memory/by_round/MB2_round2/mb2_prototypes_with_phrases.npz",
+    "size_bytes": 9788
+  },
+  {
+    "path": "artifacts/pattern_memory/by_round/MB2_round2/mb2_test_prototypes.npz",
+    "size_bytes": 3821249
+  },
+  {
+    "path": "artifacts/pattern_memory/by_round/MB2_round3/mb2_prototypes.npz",
+    "size_bytes": 8240
+  },
+  {
+    "path": "artifacts/pattern_memory/by_round/MB2_round3/mb2_prototypes_with_phrases.npz",
+    "size_bytes": 9741
+  },
+  {
+    "path": "artifacts/pattern_memory/by_round/MB2_round3/mb2_test_prototypes.npz",
+    "size_bytes": 3307324
+  },
+  {
+    "path": "artifacts/phrase_dictionaries/by_round/MB1_round1/mb1_test_summaries_round1.txt",
+    "size_bytes": 267849
+  },
+  {
+    "path": "artifacts/phrase_dictionaries/by_round/MB1_round1/mb1_vocab.json",
+    "size_bytes": 24461
+  },
+  {
+    "path": "artifacts/phrase_dictionaries/by_round/MB1_round2/mb1_test_summaries_round2.txt",
+    "size_bytes": 651547
+  },
+  {
+    "path": "artifacts/phrase_dictionaries/by_round/MB1_round2/mb1_vocab.json",
+    "size_bytes": 25746
+  },
+  {
+    "path": "artifacts/phrase_dictionaries/by_round/MB1_round3/mb1_test_summaries_round3.txt",
+    "size_bytes": 747670
+  },
+  {
+    "path": "artifacts/phrase_dictionaries/by_round/MB1_round3/mb1_vocab.json",
+    "size_bytes": 25821
+  },
+  {
+    "path": "artifacts/phrase_dictionaries/by_round/MB2_round1/mb2_test_summaries_round1.txt",
+    "size_bytes": 592585
+  },
+  {
+    "path": "artifacts/phrase_dictionaries/by_round/MB2_round1/mb2_vocab.json",
+    "size_bytes": 34365
+  },
+  {
+    "path": "artifacts/phrase_dictionaries/by_round/MB2_round2/mb2_test_summaries_round2.txt",
+    "size_bytes": 1787294
+  },
+  {
+    "path": "artifacts/phrase_dictionaries/by_round/MB2_round2/mb2_vocab.json",
+    "size_bytes": 35662
+  },
+  {
+    "path": "artifacts/phrase_dictionaries/by_round/MB2_round3/mb2_test_summaries_round3.txt",
+    "size_bytes": 1600331
+  },
+  {
+    "path": "artifacts/phrase_dictionaries/by_round/MB2_round3/mb2_vocab.json",
+    "size_bytes": 43590
+  }
+]

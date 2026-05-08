@@ -1,0 +1,1351 @@
+idx,status_label,ttf_label_days,ttf_label_bucket,summary,explanation,recommendations_json,raw_output
+77810,FAILED,11.0,7-30,"Window index: 77810
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.76e+04, max=2.85e+04, mean=2.8e+04, last=2.85e+04, delta=840); raw_values=[27648.0, 27672.0, 27696.0, 27720.0, 27744.0, 27768.0, 27792.0, 27816.0, 27840.0, 27864.0, 27888.0, 27912.0, 27984.0, 28008.0, 28032.0, 28056.0, 28080.0, 28104.0, 28128.0, 28152.0, 28176.0, 28200.0, 28224.0, 28248.0, 28272.0, 28296.0, 28320.0, 28344.0, 28464.0, 28488.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The drive is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating ongoing data corruption and reallocation issues.","[""Replace the SSD immediately to prevent data loss."", ""Review and update the backup strategy for critical data stored on this drive.""]","{
+  ""explanation"": ""The drive is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating ongoing data corruption and reallocation issues."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review and update the backup strategy for critical data stored on this drive.""
+  ]
+}"
+77813,FAILED,8.0,7-30,"Window index: 77813
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.77e+04, max=2.86e+04, mean=2.81e+04, last=2.86e+04, delta=840); raw_values=[27720.0, 27744.0, 27768.0, 27792.0, 27816.0, 27840.0, 27864.0, 27888.0, 27912.0, 27984.0, 28008.0, 28032.0, 28056.0, 28080.0, 28104.0, 28128.0, 28152.0, 28176.0, 28200.0, 28224.0, 28248.0, 28272.0, 28296.0, 28320.0, 28344.0, 28464.0, 28488.0, 28512.0, 28536.0, 28560.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Review system logs for any recent heavy write operations that may have stressed the SSD.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review system logs for any recent heavy write operations that may have stressed the SSD.""
+  ]
+}"
+77818,FAILED,3.0,<7,"Window index: 77818
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.78e+04, max=2.87e+04, mean=2.83e+04, last=2.87e+04, delta=840); raw_values=[27840.0, 27864.0, 27888.0, 27912.0, 27984.0, 28008.0, 28032.0, 28056.0, 28080.0, 28104.0, 28128.0, 28152.0, 28176.0, 28200.0, 28224.0, 28248.0, 28272.0, 28296.0, 28320.0, 28344.0, 28464.0, 28488.0, 28512.0, 28536.0, 28560.0, 28584.0, 28608.0, 28632.0, 28656.0, 28680.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating ongoing data corruption and reallocation issues.","[""Replace the SSD immediately to prevent data loss."", ""Review and update the backup strategy to ensure data integrity.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating ongoing data corruption and reallocation issues."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review and update the backup strategy to ensure data integrity.""
+  ]
+}"
+77819,FAILED,2.0,<7,"Window index: 77819
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.79e+04, max=2.87e+04, mean=2.83e+04, last=2.87e+04, delta=840); raw_values=[27864.0, 27888.0, 27912.0, 27984.0, 28008.0, 28032.0, 28056.0, 28080.0, 28104.0, 28128.0, 28152.0, 28176.0, 28200.0, 28224.0, 28248.0, 28272.0, 28296.0, 28320.0, 28344.0, 28464.0, 28488.0, 28512.0, 28536.0, 28560.0, 28584.0, 28608.0, 28632.0, 28656.0, 28680.0, 28704.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Review and update backup strategies to ensure data integrity.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review and update backup strategies to ensure data integrity.""
+  ]
+}"
+138147,FAILED,26.0,7-30,"Window index: 138147
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.73e+04, max=2.81e+04, mean=2.76e+04, last=2.81e+04, delta=840); raw_values=[27255.0, 27279.0, 27303.0, 27327.0, 27351.0, 27375.0, 27399.0, 27423.0, 27447.0, 27471.0, 27495.0, 27519.0, 27591.0, 27615.0, 27639.0, 27663.0, 27687.0, 27711.0, 27735.0, 27759.0, 27783.0, 27807.0, 27831.0, 27855.0, 27879.0, 27903.0, 27927.0, 27951.0, 28071.0, 28095.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors, which signify imminent hardware failure.","[""Replace the SSD immediately to prevent data loss."", ""Review system logs for any recent performance degradation or error messages related to the failing SSD.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors, which signify imminent hardware failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review system logs for any recent performance degradation or error messages related to the failing SSD.""
+  ]
+}"
+138149,FAILED,24.0,7-30,"Window index: 138149
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.73e+04, max=2.81e+04, mean=2.77e+04, last=2.81e+04, delta=840); raw_values=[27303.0, 27327.0, 27351.0, 27375.0, 27399.0, 27423.0, 27447.0, 27471.0, 27495.0, 27519.0, 27591.0, 27615.0, 27639.0, 27663.0, 27687.0, 27711.0, 27735.0, 27759.0, 27783.0, 27807.0, 27831.0, 27855.0, 27879.0, 27903.0, 27927.0, 27951.0, 28071.0, 28095.0, 28119.0, 28143.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors over time.","[""Replace the SSD immediately to prevent data loss."", ""Analyze the SMART logs to identify any common causes among other drives.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors over time."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Analyze the SMART logs to identify any common causes among other drives.""
+  ]
+}"
+138163,FAILED,10.0,7-30,"Window index: 138163
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.77e+04, max=2.85e+04, mean=2.81e+04, last=2.85e+04, delta=793); raw_values=[27687.0, 27711.0, 27735.0, 27759.0, 27783.0, 27807.0, 27831.0, 27855.0, 27879.0, 27903.0, 27927.0, 27951.0, 28071.0, 28095.0, 28119.0, 28143.0, 28167.0, 28191.0, 28215.0, 28239.0, 28263.0, 28287.0, 28311.0, 28335.0, 28359.0, 28381.0, 28405.0, 28432.0, 28456.0, 28480.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors, which signify physical degradation of the storage media.","[""Replace the SSD immediately to prevent data loss."", ""Review the logs for any recent heavy write operations that may have contributed to the failure.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors, which signify physical degradation of the storage media."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review the logs for any recent heavy write operations that may have contributed to the failure.""
+  ]
+}"
+172179,FAILED,29.0,7-30,"Window index: 172179
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: days 0-5: frequent bursts across most of the patch; days 5-10: frequent bursts across most of the patch; days 10-15: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.72e+04, max=2.73e+04, mean=2.73e+04, last=2.73e+04, delta=94); raw_values=[27232.0, 27256.0, 27280.0, 27304.0, 27326.0]]; days 15-20: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.74e+04, max=2.74e+04, mean=2.74e+04, last=2.74e+04, delta=96); raw_values=[27350.0, 27374.0, 27398.0, 27422.0, 27446.0]]; days 20-25: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.75e+04, max=2.77e+04, mean=2.75e+04, last=2.77e+04, delta=192); raw_values=[27470.0, 27494.0, 27518.0, 27542.0, 27662.0]]; days 25-30: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.77e+04, max=2.78e+04, mean=2.77e+04, last=2.78e+04, delta=96); raw_values=[27686.0, 27710.0, 27734.0, 27758.0, 27782.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in reallocated sector count (r_5) and reported uncorrectable errors (r_187), indicating increasing numbers of bad sectors and uncorrectable read/write errors. Additionally, other attributes like current pending sector count (r_197) also show frequent bursts, suggesting ongoing issues with unrecoverable data.","[""Replace the SSD immediately to prevent data loss."", ""Review and possibly replace other SSDs in the same batch or from the same manufacturer.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in reallocated sector count (r_5) and reported uncorrectable errors (r_187), indicating increasing numbers of bad sectors and uncorrectable read/write errors. Additionally, other attributes like current pending sector count (r_197) also show frequent bursts, suggesting ongoing issues with unrecoverable data."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review and possibly replace other SSDs in the same batch or from the same manufacturer.""
+  ]
+}"
+172184,FAILED,24.0,7-30,"Window index: 172184
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: days 0-5: frequent bursts across most of the patch; days 5-10: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.72e+04, max=2.73e+04, mean=2.73e+04, last=2.73e+04, delta=94); raw_values=[27232.0, 27256.0, 27280.0, 27304.0, 27326.0]]; days 10-15: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.74e+04, max=2.74e+04, mean=2.74e+04, last=2.74e+04, delta=96); raw_values=[27350.0, 27374.0, 27398.0, 27422.0, 27446.0]]; days 15-20: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.75e+04, max=2.77e+04, mean=2.75e+04, last=2.77e+04, delta=192); raw_values=[27470.0, 27494.0, 27518.0, 27542.0, 27662.0]]; days 20-25: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.77e+04, max=2.78e+04, mean=2.77e+04, last=2.78e+04, delta=96); raw_values=[27686.0, 27710.0, 27734.0, 27758.0, 27782.0]]; days 25-30: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.78e+04, max=2.79e+04, mean=2.79e+04, last=2.79e+04, delta=96); raw_values=[27806.0, 27830.0, 27854.0, 27878.0, 27902.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating ongoing data corruption and reallocation issues.","[""Replace the SSD immediately to prevent data loss."", ""Review system logs for any recent changes or workloads that may have stressed the SSD.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating ongoing data corruption and reallocation issues."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review system logs for any recent changes or workloads that may have stressed the SSD.""
+  ]
+}"
+172190,FAILED,18.0,7-30,"Window index: 172190
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.73e+04, max=2.8e+04, mean=2.77e+04, last=2.8e+04, delta=791); raw_values=[27256.0, 27280.0, 27304.0, 27326.0, 27350.0, 27374.0, 27398.0, 27422.0, 27446.0, 27470.0, 27494.0, 27518.0, 27542.0, 27662.0, 27686.0, 27710.0, 27734.0, 27758.0, 27782.0, 27806.0, 27830.0, 27854.0, 27878.0, 27902.0, 27926.0, 27950.0, 27973.0, 27997.0, 28023.0, 28047.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Review system logs for any recent changes or heavy usage that may have contributed to the failure.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review system logs for any recent changes or heavy usage that may have contributed to the failure.""
+  ]
+}"
+222985,FAILED,24.0,7-30,"Window index: 222985
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: days 0-5: frequent bursts across most of the patch; days 5-10: frequent bursts across most of the patch; days 10-15: frequent bursts across most of the patch; days 15-20: frequent bursts across most of the patch; days 20-25: frequent bursts across most of the patch; days 25-30: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.73e+04, max=2.74e+04, mean=2.73e+04, last=2.74e+04, delta=96); raw_values=[27261.0, 27285.0, 27309.0, 27333.0, 27357.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating ongoing data corruption and reallocation issues.","[""Replace the SSD immediately to prevent data loss."", ""Review the server logs for any recent spikes in read/write errors to identify potential workload issues.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating ongoing data corruption and reallocation issues."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review the server logs for any recent spikes in read/write errors to identify potential workload issues.""
+  ]
+}"
+233663,FAILED,23.0,7-30,"Window index: 233663
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: days 0-5: frequent bursts across most of the patch; days 5-10: frequent bursts across most of the patch; days 10-15: frequent bursts across most of the patch; days 15-20: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.72e+04, max=2.73e+04, mean=2.73e+04, last=2.73e+04, delta=96); raw_values=[27205.0, 27229.0, 27253.0, 27277.0, 27301.0]]; days 20-25: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.73e+04, max=2.74e+04, mean=2.74e+04, last=2.74e+04, delta=96); raw_values=[27325.0, 27349.0, 27373.0, 27373.0, 27421.0]]; days 25-30: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.74e+04, max=2.75e+04, mean=2.75e+04, last=2.75e+04, delta=96); raw_values=[27445.0, 27469.0, 27493.0, 27517.0, 27541.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_9 (power-on hours), and r_187 (reported uncorrectable errors), indicating increasing numbers of reallocated sectors and uncorrectable errors over time.","[""Replace the SSD immediately to prevent data loss."", ""Review and possibly update the firmware of the remaining SSDs in the cluster.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_9 (power-on hours), and r_187 (reported uncorrectable errors), indicating increasing numbers of reallocated sectors and uncorrectable errors over time."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review and possibly update the firmware of the remaining SSDs in the cluster.""
+  ]
+}"
+277626,FAILED,5.0,<7,"Window index: 277626
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) over the past 30 days, indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Review system logs for any recent changes or heavy workloads that may have contributed to the drive's failure.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) over the past 30 days, indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review system logs for any recent changes or heavy workloads that may have contributed to the drive's failure.""
+  ]
+}"
+302400,FAILED,10.0,7-30,"Window index: 302400
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.73e+04, max=2.81e+04, mean=2.77e+04, last=2.81e+04, delta=768); raw_values=[27348.0, 27372.0, 27396.0, 27420.0, 27444.0, 27468.0, 27492.0, 27516.0, 27540.0, 27564.0, 27588.0, 27612.0, 27636.0, 27660.0, 27708.0, 27732.0, 27756.0, 27780.0, 27804.0, 27828.0, 27852.0, 27924.0, 27948.0, 27972.0, 27996.0, 28020.0, 28044.0, 28068.0, 28092.0, 28116.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: days 0-5: frequent bursts across most of the patch; days 5-10: frequent bursts across most of the patch; days 10-15: frequent bursts across most of the patch [NOVEL; raw_stats(min=656, max=662, mean=659, last=662, delta=6); raw_values=[656.0, 657.0, 658.0, 660.0, 662.0]]; days 15-20: frequent bursts across most of the patch; days 20-25: frequent bursts across most of the patch; days 25-30: frequent bursts across most of the patch
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Review the logs for any recent heavy usage or unusual activity that may have caused the failure.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review the logs for any recent heavy usage or unusual activity that may have caused the failure.""
+  ]
+}"
+302405,FAILED,4.0,<7,"Window index: 302405
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.75e+04, max=2.83e+04, mean=2.79e+04, last=2.83e+04, delta=792); raw_values=[27468.0, 27492.0, 27516.0, 27540.0, 27564.0, 27588.0, 27612.0, 27636.0, 27660.0, 27708.0, 27732.0, 27756.0, 27780.0, 27804.0, 27828.0, 27852.0, 27924.0, 27948.0, 27972.0, 27996.0, 28020.0, 28044.0, 28068.0, 28092.0, 28116.0, 28164.0, 28188.0, 28212.0, 28236.0, 28260.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: days 0-5: frequent bursts across most of the patch; days 5-10: frequent bursts across most of the patch [NOVEL; raw_stats(min=656, max=662, mean=659, last=662, delta=6); raw_values=[656.0, 657.0, 658.0, 660.0, 662.0]]; days 10-15: frequent bursts across most of the patch; days 15-20: frequent bursts across most of the patch; days 20-25: frequent bursts across most of the patch; days 25-30: frequent bursts across most of the patch
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count). These bursts indicate ongoing data corruption and imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Review and update the backup strategy to ensure data integrity.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count). These bursts indicate ongoing data corruption and imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review and update the backup strategy to ensure data integrity.""
+  ]
+}"
+336883,FAILED,27.0,7-30,"Window index: 336883
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: days 0-5: frequent bursts across most of the patch; days 5-10: frequent bursts across most of the patch; days 10-15: frequent bursts across most of the patch; days 15-20: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.72e+04, max=2.73e+04, mean=2.73e+04, last=2.73e+04, delta=94); raw_values=[27230.0, 27254.0, 27278.0, 27302.0, 27324.0]]; days 20-25: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.73e+04, max=2.74e+04, mean=2.74e+04, last=2.74e+04, delta=96); raw_values=[27348.0, 27372.0, 27396.0, 27420.0, 27444.0]]; days 25-30: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.75e+04, max=2.77e+04, mean=2.75e+04, last=2.77e+04, delta=192); raw_values=[27468.0, 27492.0, 27516.0, 27540.0, 27660.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: days 0-5: frequent bursts across most of the patch [NOVEL; raw_stats(min=6.81e+11, max=6.83e+11, mean=6.82e+11, last=6.83e+11, delta=1.52e+09); raw_values=[681154445312.0, 681502965760.0, 681895985152.0, 682211409920.0, 682675470336.0]]; days 5-10: frequent bursts across most of the patch [NOVEL; raw_stats(min=6.83e+11, max=6.84e+11, mean=6.84e+11, last=6.84e+11, delta=1.48e+09); raw_values=[682993582080.0, 683345772544.0, 683735318528.0, 684071780352.0, 684473974784.0]]; days 10-15: frequent bursts across most of the patch; days 15-20: frequent bursts across most of the patch; days 20-25: frequent bursts across most of the patch; days 25-30: frequent bursts across most of the patch
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_9 (power-on hours), and r_187 (reported uncorrectable errors) over the entire 30-day period, indicating ongoing data corruption and reallocation issues.","[""Replace the SSD immediately to prevent data loss."", ""Review and possibly update the backup strategy for critical data stored on this drive.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_9 (power-on hours), and r_187 (reported uncorrectable errors) over the entire 30-day period, indicating ongoing data corruption and reallocation issues."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review and possibly update the backup strategy for critical data stored on this drive.""
+  ]
+}"
+336895,FAILED,15.0,7-30,"Window index: 336895
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: days 0-5: frequent bursts across most of the patch; days 5-10: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.73e+04, max=2.74e+04, mean=2.73e+04, last=2.74e+04, delta=94); raw_values=[27278.0, 27302.0, 27324.0, 27348.0, 27372.0]]; days 10-15: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.74e+04, max=2.75e+04, mean=2.74e+04, last=2.75e+04, delta=96); raw_values=[27396.0, 27420.0, 27444.0, 27468.0, 27492.0]]; days 15-20: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.75e+04, max=2.77e+04, mean=2.76e+04, last=2.77e+04, delta=192); raw_values=[27516.0, 27540.0, 27660.0, 27684.0, 27708.0]]; days 20-25: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.77e+04, max=2.78e+04, mean=2.78e+04, last=2.78e+04, delta=96); raw_values=[27732.0, 27756.0, 27780.0, 27804.0, 27828.0]]; days 25-30: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.79e+04, max=2.79e+04, mean=2.79e+04, last=2.79e+04, delta=96); raw_values=[27852.0, 27876.0, 27900.0, 27924.0, 27948.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in reallocated sector count (r_5), reported uncorrectable errors (r_187), and current pending sector count (r_197) across all 30 days, indicating increasing numbers of bad sectors and uncorrectable read/write errors.","[""Replace the SSD immediately to prevent data loss."", ""Review and possibly replace other SSDs in the same batch or from the same manufacturer.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in reallocated sector count (r_5), reported uncorrectable errors (r_187), and current pending sector count (r_197) across all 30 days, indicating increasing numbers of bad sectors and uncorrectable read/write errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review and possibly replace other SSDs in the same batch or from the same manufacturer.""
+  ]
+}"
+336896,FAILED,14.0,7-30,"Window index: 336896
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.72e+04, max=2.8e+04, mean=2.76e+04, last=2.8e+04, delta=796); raw_values=[27182.0, 27206.0, 27230.0, 27254.0, 27278.0, 27302.0, 27324.0, 27348.0, 27372.0, 27396.0, 27420.0, 27444.0, 27468.0, 27492.0, 27516.0, 27540.0, 27660.0, 27684.0, 27708.0, 27732.0, 27756.0, 27780.0, 27804.0, 27828.0, 27852.0, 27876.0, 27900.0, 27924.0, 27948.0, 27978.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Review system logs for any recent changes or heavy workloads that may have contributed to the failure.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review system logs for any recent changes or heavy workloads that may have contributed to the failure.""
+  ]
+}"
+336900,FAILED,10.0,7-30,"Window index: 336900
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.73e+04, max=2.81e+04, mean=2.77e+04, last=2.81e+04, delta=791); raw_values=[27278.0, 27302.0, 27324.0, 27348.0, 27372.0, 27396.0, 27420.0, 27444.0, 27468.0, 27492.0, 27516.0, 27540.0, 27660.0, 27684.0, 27708.0, 27732.0, 27756.0, 27780.0, 27804.0, 27828.0, 27852.0, 27876.0, 27900.0, 27924.0, 27948.0, 27978.0, 28002.0, 28021.0, 28045.0, 28069.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Review the logs for any recent heavy usage or unusual activity that may have contributed to the failure.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review the logs for any recent heavy usage or unusual activity that may have contributed to the failure.""
+  ]
+}"
+406464,FAILED,5.0,<7,"Window index: 406464
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: days 0-5: frequent bursts across most of the patch; days 5-10: frequent bursts across most of the patch; days 10-15: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.72e+04, max=2.73e+04, mean=2.72e+04, last=2.73e+04, delta=96); raw_values=[27174.0, 27198.0, 27222.0, 27246.0, 27270.0]]; days 15-20: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.73e+04, max=2.74e+04, mean=2.74e+04, last=2.74e+04, delta=144); raw_values=[27294.0, 27318.0, 27390.0, 27414.0, 27438.0]]; days 20-25: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.75e+04, max=2.76e+04, mean=2.75e+04, last=2.76e+04, delta=96); raw_values=[27462.0, 27486.0, 27510.0, 27534.0, 27558.0]]; days 25-30: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.76e+04, max=2.77e+04, mean=2.76e+04, last=2.77e+04, delta=96); raw_values=[27582.0, 27606.0, 27630.0, 27654.0, 27678.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Review system logs for any recent heavy usage or unusual activity that may have contributed to the failure.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review system logs for any recent heavy usage or unusual activity that may have contributed to the failure.""
+  ]
+}"
+428741,FAILED,16.0,7-30,"Window index: 428741
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: days 0-5: frequent bursts across most of the patch; days 5-10: frequent bursts across most of the patch; days 10-15: frequent bursts across most of the patch; days 15-20: frequent bursts across most of the patch; days 20-25: frequent bursts across most of the patch; days 25-30: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.72e+04, max=2.74e+04, mean=2.73e+04, last=2.74e+04, delta=192); raw_values=[27172.0, 27196.0, 27220.0, 27340.0, 27364.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in reallocated sector counts (r_5), reported uncorrectable errors (r_187), and current pending sector counts (r_197), indicating ongoing data corruption and wear issues.","[""Replace the SSD immediately to prevent data loss."", ""Review the workload on the SSD to identify and mitigate stressors causing excessive wear.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in reallocated sector counts (r_5), reported uncorrectable errors (r_187), and current pending sector counts (r_197), indicating ongoing data corruption and wear issues."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review the workload on the SSD to identify and mitigate stressors causing excessive wear.""
+  ]
+}"
+428745,FAILED,12.0,7-30,"Window index: 428745
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: days 0-5: frequent bursts across most of the patch; days 5-10: frequent bursts across most of the patch; days 10-15: frequent bursts across most of the patch; days 15-20: frequent bursts across most of the patch; days 20-25: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.71e+04, max=2.73e+04, mean=2.72e+04, last=2.73e+04, delta=192); raw_values=[27148.0, 27172.0, 27196.0, 27220.0, 27340.0]]; days 25-30: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.74e+04, max=2.75e+04, mean=2.74e+04, last=2.75e+04, delta=96); raw_values=[27364.0, 27388.0, 27412.0, 27436.0, 27460.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_9 (power-on hours), and r_187 (reported uncorrectable errors), indicating increasing reallocation activity and uncorrectable read errors, which are strong indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Review the logs for any recent heavy usage or power events that may have contributed to the failure.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_9 (power-on hours), and r_187 (reported uncorrectable errors), indicating increasing reallocation activity and uncorrectable read errors, which are strong indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review the logs for any recent heavy usage or power events that may have contributed to the failure.""
+  ]
+}"
+428748,FAILED,9.0,7-30,"Window index: 428748
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: days 0-5: frequent bursts across most of the patch; days 5-10: frequent bursts across most of the patch; days 10-15: frequent bursts across most of the patch; days 15-20: frequent bursts across most of the patch; days 20-25: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.72e+04, max=2.74e+04, mean=2.73e+04, last=2.74e+04, delta=192); raw_values=[27220.0, 27340.0, 27364.0, 27388.0, 27412.0]]; days 25-30: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.74e+04, max=2.75e+04, mean=2.75e+04, last=2.75e+04, delta=96); raw_values=[27436.0, 27460.0, 27484.0, 27508.0, 27532.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The drive is failing due to frequent bursts in SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242, indicating increasing reallocated sectors, uncorrectable errors, and pending sectors.","[""Replace the SSD immediately to prevent data loss."", ""Analyze the SMART logs to identify any common operations leading to these failures.""]","{
+  ""explanation"": ""The drive is failing due to frequent bursts in SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242, indicating increasing reallocated sectors, uncorrectable errors, and pending sectors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Analyze the SMART logs to identify any common operations leading to these failures.""
+  ]
+}"
+454706,FAILED,13.0,7-30,"Window index: 454706
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: days 0-5: frequent bursts across most of the patch; days 5-10: frequent bursts across most of the patch; days 10-15: frequent bursts across most of the patch; days 15-20: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.72e+04, max=2.73e+04, mean=2.73e+04, last=2.73e+04, delta=96); raw_values=[27209.0, 27233.0, 27257.0, 27281.0, 27305.0]]; days 20-25: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.73e+04, max=2.74e+04, mean=2.74e+04, last=2.74e+04, delta=96); raw_values=[27329.0, 27353.0, 27377.0, 27401.0, 27425.0]]; days 25-30: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.74e+04, max=2.76e+04, mean=2.75e+04, last=2.76e+04, delta=192); raw_values=[27449.0, 27473.0, 27497.0, 27521.0, 27641.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: days 0-5: frequent bursts across most of the patch; days 5-10: frequent bursts across most of the patch; days 10-15: frequent bursts across most of the patch; days 15-20: frequent bursts across most of the patch [NOVEL; raw_stats(min=1.01e+12, max=1.02e+12, mean=1.01e+12, last=1.02e+12, delta=6.47e+09); raw_values=[1009994891264.0, 1011435110400.0, 1013025669120.0, 1014673440768.0, 1016469848064.0]]; days 20-25: frequent bursts across most of the patch; days 25-30: frequent bursts across most of the patch
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_9 (power-on hours), and r_187 (reported uncorrectable errors). These bursts indicate ongoing reallocation of bad sectors and increasing uncorrectable errors, signaling imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Review and possibly update the backup strategy for critical data.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_9 (power-on hours), and r_187 (reported uncorrectable errors). These bursts indicate ongoing reallocation of bad sectors and increasing uncorrectable errors, signaling imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review and possibly update the backup strategy for critical data.""
+  ]
+}"
+454713,FAILED,6.0,<7,"Window index: 454713
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: days 0-5: frequent bursts across most of the patch; days 5-10: frequent bursts across most of the patch; days 10-15: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.73e+04, max=2.74e+04, mean=2.73e+04, last=2.74e+04, delta=96); raw_values=[27257.0, 27281.0, 27305.0, 27329.0, 27353.0]]; days 15-20: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.74e+04, max=2.75e+04, mean=2.74e+04, last=2.75e+04, delta=96); raw_values=[27377.0, 27401.0, 27425.0, 27449.0, 27473.0]]; days 20-25: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.75e+04, max=2.77e+04, mean=2.76e+04, last=2.77e+04, delta=192); raw_values=[27497.0, 27521.0, 27641.0, 27665.0, 27689.0]]; days 25-30: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.77e+04, max=2.78e+04, mean=2.78e+04, last=2.78e+04, delta=96); raw_values=[27713.0, 27737.0, 27761.0, 27785.0, 27809.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_9 (power-on hours), and r_187 (reported uncorrectable errors). These bursts indicate increasing numbers of reallocated sectors and uncorrectable errors, signaling imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Review system logs for any recent heavy usage or power events that may have contributed to the failure.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_9 (power-on hours), and r_187 (reported uncorrectable errors). These bursts indicate increasing numbers of reallocated sectors and uncorrectable errors, signaling imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review system logs for any recent heavy usage or power events that may have contributed to the failure.""
+  ]
+}"
+502014,FAILED,23.0,7-30,"Window index: 502014
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.77e+04, max=2.85e+04, mean=2.81e+04, last=2.85e+04, delta=795); raw_values=[27731.0, 27755.0, 27779.0, 27803.0, 27827.0, 27851.0, 27875.0, 27899.0, 27923.0, 27947.0, 27971.0, 27995.0, 28019.0, 28043.0, 28163.0, 28187.0, 28211.0, 28235.0, 28259.0, 28283.0, 28307.0, 28331.0, 28355.0, 28379.0, 28403.0, 28427.0, 28451.0, 28478.0, 28502.0, 28526.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Review and update the backup strategy to ensure data integrity.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review and update the backup strategy to ensure data integrity.""
+  ]
+}"
+642944,FAILED,29.0,7-30,"Window index: 642944
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.85e+04, max=2.94e+04, mean=2.89e+04, last=2.94e+04, delta=864); raw_values=[28519.0, 28543.0, 28567.0, 28591.0, 28615.0, 28639.0, 28711.0, 28735.0, 28759.0, 28783.0, 28807.0, 28855.0, 28879.0, 28903.0, 28927.0, 28951.0, 28975.0, 28999.0, 29023.0, 29047.0, 29071.0, 29191.0, 29215.0, 29239.0, 29263.0, 29287.0, 29311.0, 29335.0, 29359.0, 29383.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable read errors.","[""Replace the SSD immediately to prevent data loss."", ""Review the logs for any recent heavy usage or unusual activity that may have triggered these failures.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable read errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review the logs for any recent heavy usage or unusual activity that may have triggered these failures.""
+  ]
+}"
+642947,FAILED,26.0,7-30,"Window index: 642947
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.86e+04, max=2.95e+04, mean=2.9e+04, last=2.95e+04, delta=864); raw_values=[28591.0, 28615.0, 28639.0, 28711.0, 28735.0, 28759.0, 28783.0, 28807.0, 28855.0, 28879.0, 28903.0, 28927.0, 28951.0, 28975.0, 28999.0, 29023.0, 29047.0, 29071.0, 29191.0, 29215.0, 29239.0, 29263.0, 29287.0, 29311.0, 29335.0, 29359.0, 29383.0, 29407.0, 29431.0, 29455.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Review system logs for any recent events that may have caused increased write operations or stress on the SSD.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review system logs for any recent events that may have caused increased write operations or stress on the SSD.""
+  ]
+}"
+653796,FAILED,18.0,7-30,"Window index: 653796
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) over the past 30 days, indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Review system logs for any recent changes or workloads that may have stressed the SSD.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) over the past 30 days, indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review system logs for any recent changes or workloads that may have stressed the SSD.""
+  ]
+}"
+693021,FAILED,30.0,7-30,"Window index: 693021
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.78e+04, max=2.87e+04, mean=2.82e+04, last=2.87e+04, delta=864); raw_values=[27793.0, 27817.0, 27841.0, 27865.0, 27937.0, 27961.0, 27985.0, 28009.0, 28033.0, 28057.0, 28081.0, 28105.0, 28153.0, 28177.0, 28201.0, 28225.0, 28249.0, 28273.0, 28297.0, 28417.0, 28441.0, 28465.0, 28489.0, 28513.0, 28537.0, 28561.0, 28585.0, 28609.0, 28633.0, 28657.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors, which signify imminent data corruption and hardware degradation.","[""Replace the SSD immediately to prevent data loss."", ""Review and update backup strategies to ensure data integrity.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors, which signify imminent data corruption and hardware degradation."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review and update backup strategies to ensure data integrity.""
+  ]
+}"
+693026,FAILED,25.0,7-30,"Window index: 693026
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.8e+04, max=2.88e+04, mean=2.84e+04, last=2.88e+04, delta=819); raw_values=[27961.0, 27985.0, 28009.0, 28033.0, 28057.0, 28081.0, 28105.0, 28153.0, 28177.0, 28201.0, 28225.0, 28249.0, 28273.0, 28297.0, 28417.0, 28441.0, 28465.0, 28489.0, 28513.0, 28537.0, 28561.0, 28585.0, 28609.0, 28633.0, 28657.0, 28681.0, 28705.0, 28735.0, 28759.0, 28780.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Analyze the SMART logs to identify any common causes among other drives.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Analyze the SMART logs to identify any common causes among other drives.""
+  ]
+}"
+693027,FAILED,24.0,7-30,"Window index: 693027
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.8e+04, max=2.88e+04, mean=2.84e+04, last=2.88e+04, delta=819); raw_values=[27985.0, 28009.0, 28033.0, 28057.0, 28081.0, 28105.0, 28153.0, 28177.0, 28201.0, 28225.0, 28249.0, 28273.0, 28297.0, 28417.0, 28441.0, 28465.0, 28489.0, 28513.0, 28537.0, 28561.0, 28585.0, 28609.0, 28633.0, 28657.0, 28681.0, 28705.0, 28735.0, 28759.0, 28780.0, 28804.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Review system logs for any recent heavy usage or unusual activity that may have contributed to the failure.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review system logs for any recent heavy usage or unusual activity that may have contributed to the failure.""
+  ]
+}"
+699410,FAILED,22.0,7-30,"Window index: 699410
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) over the past 30 days, indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Review system logs for any recent heavy usage or unusual activity that may have contributed to the drive's failure.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) over the past 30 days, indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review system logs for any recent heavy usage or unusual activity that may have contributed to the drive's failure.""
+  ]
+}"
+699413,FAILED,19.0,7-30,"Window index: 699413
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated and uncorrectable sectors, which signify imminent data corruption and hardware degradation.","[""Replace the SSD immediately to prevent data loss."", ""Review and update backup procedures to ensure data integrity.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated and uncorrectable sectors, which signify imminent data corruption and hardware degradation."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review and update backup procedures to ensure data integrity.""
+  ]
+}"
+699416,FAILED,12.0,7-30,"Window index: 699416
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) over the past 30 days, indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Review system logs for any recent heavy usage or unusual activity that may have contributed to the failure.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) over the past 30 days, indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review system logs for any recent heavy usage or unusual activity that may have contributed to the failure.""
+  ]
+}"
+757886,FAILED,3.0,<7,"Window index: 757886
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.72e+04, max=2.8e+04, mean=2.76e+04, last=2.8e+04, delta=744); raw_values=[27208.0, 27232.0, 27256.0, 27280.0, 27304.0, 27328.0, 27352.0, 27376.0, 27400.0, 27424.0, 27448.0, 27472.0, 27496.0, 27520.0, 27544.0, 27568.0, 27592.0, 27616.0, 27640.0, 27664.0, 27736.0, 27760.0, 27784.0, 27808.0, 27832.0, 27856.0, 27880.0, 27904.0, 27928.0, 27952.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Review the logs for any recent heavy usage or unusual operations that may have triggered the failure.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review the logs for any recent heavy usage or unusual operations that may have triggered the failure.""
+  ]
+}"
+771303,FAILED,5.0,<7,"Window index: 771303
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.77e+04, max=2.84e+04, mean=2.8e+04, last=2.84e+04, delta=744); raw_values=[27665.0, 27689.0, 27713.0, 27737.0, 27761.0, 27785.0, 27809.0, 27833.0, 27857.0, 27881.0, 27905.0, 27929.0, 27953.0, 27977.0, 28001.0, 28025.0, 28049.0, 28073.0, 28097.0, 28121.0, 28193.0, 28217.0, 28241.0, 28265.0, 28289.0, 28313.0, 28337.0, 28361.0, 28385.0, 28409.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Review the logs for any recent heavy write operations that may have contributed to the failure.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review the logs for any recent heavy write operations that may have contributed to the failure.""
+  ]
+}"
+771305,FAILED,3.0,<7,"Window index: 771305
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.77e+04, max=2.85e+04, mean=2.81e+04, last=2.85e+04, delta=744); raw_values=[27713.0, 27737.0, 27761.0, 27785.0, 27809.0, 27833.0, 27857.0, 27881.0, 27905.0, 27929.0, 27953.0, 27977.0, 28001.0, 28025.0, 28049.0, 28073.0, 28097.0, 28121.0, 28193.0, 28217.0, 28241.0, 28265.0, 28289.0, 28313.0, 28337.0, 28361.0, 28385.0, 28409.0, 28433.0, 28457.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Review and update the backup strategy for critical data stored on this SSD.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review and update the backup strategy for critical data stored on this SSD.""
+  ]
+}"
+796083,FAILED,14.0,7-30,"Window index: 796083
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.76e+04, max=2.85e+04, mean=2.8e+04, last=2.85e+04, delta=840); raw_values=[27647.0, 27671.0, 27695.0, 27719.0, 27743.0, 27767.0, 27791.0, 27815.0, 27839.0, 27911.0, 27935.0, 27959.0, 27983.0, 28007.0, 28031.0, 28055.0, 28079.0, 28103.0, 28127.0, 28151.0, 28175.0, 28199.0, 28223.0, 28247.0, 28271.0, 28391.0, 28415.0, 28439.0, 28463.0, 28487.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Analyze the SMART logs to identify any common causes leading to the failure.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Analyze the SMART logs to identify any common causes leading to the failure.""
+  ]
+}"
+796084,FAILED,13.0,7-30,"Window index: 796084
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.77e+04, max=2.85e+04, mean=2.81e+04, last=2.85e+04, delta=840); raw_values=[27671.0, 27695.0, 27719.0, 27743.0, 27767.0, 27791.0, 27815.0, 27839.0, 27911.0, 27935.0, 27959.0, 27983.0, 28007.0, 28031.0, 28055.0, 28079.0, 28103.0, 28127.0, 28151.0, 28175.0, 28199.0, 28223.0, 28247.0, 28271.0, 28391.0, 28415.0, 28439.0, 28463.0, 28487.0, 28511.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable read errors.","[""Replace the SSD immediately to prevent data loss."", ""Review and update the backup strategy to ensure data integrity.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable read errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review and update the backup strategy to ensure data integrity.""
+  ]
+}"
+796087,FAILED,10.0,7-30,"Window index: 796087
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.77e+04, max=2.86e+04, mean=2.82e+04, last=2.86e+04, delta=840); raw_values=[27743.0, 27767.0, 27791.0, 27815.0, 27839.0, 27911.0, 27935.0, 27959.0, 27983.0, 28007.0, 28031.0, 28055.0, 28079.0, 28103.0, 28127.0, 28151.0, 28175.0, 28199.0, 28223.0, 28247.0, 28271.0, 28391.0, 28415.0, 28439.0, 28463.0, 28487.0, 28511.0, 28535.0, 28559.0, 28583.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors, which signify imminent hardware failure.","[""Replace the SSD immediately to prevent data loss."", ""Analyze the system logs to identify any patterns leading to these failures.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors, which signify imminent hardware failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Analyze the system logs to identify any patterns leading to these failures.""
+  ]
+}"
+897200,FAILED,30.0,7-30,"Window index: 897200
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.86e+04, max=2.95e+04, mean=2.9e+04, last=2.95e+04, delta=840); raw_values=[28614.0, 28638.0, 28662.0, 28686.0, 28758.0, 28782.0, 28806.0, 28830.0, 28854.0, 28878.0, 28902.0, 28926.0, 28950.0, 28974.0, 28998.0, 29022.0, 29046.0, 29070.0, 29094.0, 29118.0, 29238.0, 29262.0, 29286.0, 29310.0, 29334.0, 29358.0, 29382.0, 29406.0, 29430.0, 29454.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors, which signify imminent hardware failure.","[""Replace the SSD immediately to prevent data loss."", ""Analyze the SMART logs to identify any common causes among other drives.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors, which signify imminent hardware failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Analyze the SMART logs to identify any common causes among other drives.""
+  ]
+}"
+901002,FAILED,23.0,7-30,"Window index: 901002
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=3.51e+04, max=3.58e+04, mean=3.55e+04, last=3.58e+04, delta=744); raw_values=[35089.0, 35113.0, 35137.0, 35161.0, 35185.0, 35209.0, 35233.0, 35257.0, 35281.0, 35305.0, 35329.0, 35353.0, 35377.0, 35401.0, 35425.0, 35449.0, 35521.0, 35545.0, 35569.0, 35593.0, 35617.0, 35641.0, 35665.0, 35689.0, 35713.0, 35737.0, 35761.0, 35785.0, 35809.0, 35833.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Analyze the logs and SMART data to identify any common causes among other drives.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Analyze the logs and SMART data to identify any common causes among other drives.""
+  ]
+}"
+901014,FAILED,7.0,7-30,"Window index: 901014
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=3.54e+04, max=3.62e+04, mean=3.58e+04, last=3.62e+04, delta=840); raw_values=[35377.0, 35401.0, 35425.0, 35449.0, 35521.0, 35545.0, 35569.0, 35593.0, 35617.0, 35641.0, 35665.0, 35689.0, 35713.0, 35737.0, 35761.0, 35785.0, 35809.0, 35833.0, 35857.0, 35881.0, 36001.0, 36025.0, 36049.0, 36073.0, 36097.0, 36121.0, 36145.0, 36169.0, 36193.0, 36217.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Review system logs for any recent heavy usage or unusual activity that may have contributed to the failure.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review system logs for any recent heavy usage or unusual activity that may have contributed to the failure.""
+  ]
+}"
+915072,FAILED,30.0,7-30,"Window index: 915072
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: days 0-5: frequent bursts across most of the patch; days 5-10: frequent bursts across most of the patch; days 10-15: frequent bursts across most of the patch; days 15-20: frequent bursts across most of the patch; days 20-25: frequent bursts across most of the patch; days 25-30: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.72e+04, max=2.73e+04, mean=2.72e+04, last=2.73e+04, delta=96); raw_values=[27189.0, 27213.0, 27237.0, 27261.0, 27285.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating ongoing data corruption and reallocation issues.","[""Replace the SSD immediately to prevent data loss."", ""Review and possibly update the RAID configuration to ensure redundancy.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating ongoing data corruption and reallocation issues."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review and possibly update the RAID configuration to ensure redundancy.""
+  ]
+}"
+915078,FAILED,20.0,7-30,"Window index: 915078
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: days 0-5: frequent bursts across most of the patch; days 5-10: frequent bursts across most of the patch; days 10-15: frequent bursts across most of the patch; days 15-20: frequent bursts across most of the patch; days 20-25: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.72e+04, max=2.73e+04, mean=2.73e+04, last=2.73e+04, delta=96); raw_values=[27213.0, 27237.0, 27261.0, 27285.0, 27309.0]]; days 25-30: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.73e+04, max=2.75e+04, mean=2.75e+04, last=2.75e+04, delta=192); raw_values=[27333.0, 27453.0, 27477.0, 27501.0, 27525.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in several critical SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors, which are strong indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Analyze the SMART logs to identify any common usage patterns that may have contributed to the failure.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in several critical SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors, which are strong indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Analyze the SMART logs to identify any common usage patterns that may have contributed to the failure.""
+  ]
+}"
+915083,FAILED,15.0,7-30,"Window index: 915083
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: days 0-5: frequent bursts across most of the patch; days 5-10: frequent bursts across most of the patch; days 10-15: frequent bursts across most of the patch; days 15-20: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.72e+04, max=2.73e+04, mean=2.73e+04, last=2.73e+04, delta=96); raw_values=[27213.0, 27237.0, 27261.0, 27285.0, 27309.0]]; days 20-25: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.73e+04, max=2.75e+04, mean=2.75e+04, last=2.75e+04, delta=192); raw_values=[27333.0, 27453.0, 27477.0, 27501.0, 27525.0]]; days 25-30: frequent bursts across most of the patch [NOVEL; raw_stats(min=2.75e+04, max=2.76e+04, mean=2.76e+04, last=2.76e+04, delta=96); raw_values=[27549.0, 27573.0, 27597.0, 27621.0, 27645.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in several SMART attributes indicating increasing numbers of reallocated sectors (r_5), uncorrectable errors (r_187), and current pending sectors (r_197). These spikes suggest ongoing data corruption and wear-out issues.","[""Replace the SSD immediately to prevent data loss."", ""Review and possibly update the RAID configuration to ensure redundancy.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in several SMART attributes indicating increasing numbers of reallocated sectors (r_5), uncorrectable errors (r_187), and current pending sectors (r_197). These spikes suggest ongoing data corruption and wear-out issues."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review and possibly update the RAID configuration to ensure redundancy.""
+  ]
+}"
+943657,FAILED,17.0,7-30,"Window index: 943657
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.75e+04, max=2.82e+04, mean=2.78e+04, last=2.82e+04, delta=744); raw_values=[27473.0, 27497.0, 27521.0, 27545.0, 27569.0, 27593.0, 27617.0, 27641.0, 27665.0, 27689.0, 27713.0, 27737.0, 27761.0, 27785.0, 27809.0, 27833.0, 27857.0, 27881.0, 27905.0, 27977.0, 28001.0, 28025.0, 28049.0, 28073.0, 28097.0, 28121.0, 28145.0, 28169.0, 28193.0, 28217.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Analyze the SMART logs to identify any common causes among other drives.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Analyze the SMART logs to identify any common causes among other drives.""
+  ]
+}"
+943661,FAILED,13.0,7-30,"Window index: 943661
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window [NOVEL; raw_stats(min=2.76e+04, max=2.83e+04, mean=2.79e+04, last=2.83e+04, delta=744); raw_values=[27569.0, 27593.0, 27617.0, 27641.0, 27665.0, 27689.0, 27713.0, 27737.0, 27761.0, 27785.0, 27809.0, 27833.0, 27857.0, 27881.0, 27905.0, 27977.0, 28001.0, 28025.0, 28049.0, 28073.0, 28097.0, 28121.0, 28145.0, 28169.0, 28193.0, 28217.0, 28241.0, 28265.0, 28289.0, 28313.0]]
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors, which signify imminent hardware failure.","[""Replace the SSD immediately to prevent data loss."", ""Analyze the SMART logs to identify any commonalities with other failed drives for preventive maintenance.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count), indicating increasing numbers of reallocated sectors and uncorrectable errors, which signify imminent hardware failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Analyze the SMART logs to identify any commonalities with other failed drives for preventive maintenance.""
+  ]
+}"
+1123246,FAILED,6.0,<7,"Window index: 1123246
+
+Attribute-level patterns (per SMART attribute):
+- r_5: frequent bursts across most of the patch across all 30 days of the window
+- r_9: frequent bursts across most of the patch across all 30 days of the window
+- r_12: frequent bursts across most of the patch across all 30 days of the window
+- r_177: frequent bursts across most of the patch across all 30 days of the window
+- r_180: frequent bursts across most of the patch across all 30 days of the window
+- r_181: frequent bursts across most of the patch across all 30 days of the window
+- r_182: frequent bursts across most of the patch across all 30 days of the window
+- r_183: frequent bursts across most of the patch across all 30 days of the window
+- r_184: frequent bursts across most of the patch across all 30 days of the window
+- r_187: frequent bursts across most of the patch across all 30 days of the window
+- r_195: frequent bursts across most of the patch across all 30 days of the window
+- r_197: frequent bursts across most of the patch across all 30 days of the window
+- r_199: frequent bursts across most of the patch across all 30 days of the window
+- r_241: frequent bursts across most of the patch across all 30 days of the window
+- r_242: frequent bursts across most of the patch across all 30 days of the window
+
+Cross-attribute patterns over the whole feature set:
+- a mix of stable, trending, and spiky attributes across all 30 days of the window","The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) over the past 30 days, indicating increasing numbers of reallocated sectors and uncorrectable errors.","[""Replace the SSD immediately to prevent data loss."", ""Review system logs for any recent changes or heavy workloads that may have contributed to the failure.""]","{
+  ""explanation"": ""The SSD is failing due to frequent bursts in multiple SMART attributes such as r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) over the past 30 days, indicating increasing numbers of reallocated sectors and uncorrectable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review system logs for any recent changes or heavy workloads that may have contributed to the failure.""
+  ]
+}"

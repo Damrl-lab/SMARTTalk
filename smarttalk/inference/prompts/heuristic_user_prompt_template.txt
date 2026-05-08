@@ -1,0 +1,4 @@
+You are given coarse heuristic trend descriptions for SMART attributes over a 30-day window for one SSD. Use only these heuristic phrases to decide whether the drive is HEALTHY or AT_RISK, and only if AT_RISK, estimate time-to-failure as described.
+
+Heuristic SMART summary:
+{SMART_SUMMARY}

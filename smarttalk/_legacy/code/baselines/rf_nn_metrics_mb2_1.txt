@@ -1,0 +1,11 @@
+Random Forest - Validation (unbalanced):
+precision=0.0074, recall=0.6116, f1=0.0146
+
+Random Forest - Test (balanced 1:1):
+precision=0.7568, recall=0.1677, f1=0.2745
+
+Neural Network - Validation (unbalanced):
+precision=0.0015, recall=0.2686, f1=0.0030
+
+Neural Network - Test (balanced 1:1):
+precision=0.7925, recall=0.2515, f1=0.3818

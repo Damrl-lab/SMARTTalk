@@ -1,0 +1,9 @@
+study: window
+datasets: [MB1, MB2]
+rounds: [1, 2, 3]
+window_values: [10, 20, 30, 40, 50]
+patch_values: [5]
+backbones: [OS3, PROP]
+device: cuda:0
+processed_root: data/splits
+artifacts_root: artifacts/checkpoints/by_round

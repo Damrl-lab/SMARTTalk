@@ -1,0 +1,1206 @@
+{
+  "meta": {
+    "patch_len_attr": 5,
+    "patch_len_cross": 5,
+    "feature_names": [
+      "r_5",
+      "r_9",
+      "r_12",
+      "r_177",
+      "r_180",
+      "r_181",
+      "r_182",
+      "r_183",
+      "r_184",
+      "r_187",
+      "r_195",
+      "r_197",
+      "r_199",
+      "r_241",
+      "r_242"
+    ],
+    "attr_threshold": 1.5440067052841187,
+    "cross_threshold": 147.9680938720703
+  },
+  "attr": {
+    "0": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 1041459033.6,
+        "level_std": 3875776.874857148,
+        "delta": 11010688.0,
+        "amp": 11010688.0,
+        "max_step": 2870144.0,
+        "mean_abs_step": 2752672.0,
+        "step_std": 100001.6895857265,
+        "pos_max_step": 0.75
+      }
+    },
+    "1": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 14275883008.0,
+        "level_std": 28891116.57542411,
+        "delta": 81794048.0,
+        "amp": 81794048.0,
+        "max_step": 21224448.0,
+        "mean_abs_step": 20448512.0,
+        "step_std": 660185.1869165197,
+        "pos_max_step": 0.75
+      }
+    },
+    "2": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 186967349657.6,
+        "level_std": 410030704.68074805,
+        "delta": 1160626176.0,
+        "amp": 1160626176.0,
+        "max_step": 292126720.0,
+        "mean_abs_step": 290156544.0,
+        "step_std": 1625255.4318284865,
+        "pos_max_step": 0.75
+      }
+    },
+    "3": {
+      "label": "LOW_STABLE",
+      "phrase": "roughly constant over the patch",
+      "num_patches": 384,
+      "stats": {
+        "L": 5,
+        "level_mean": 31334.0,
+        "level_std": 0.0,
+        "delta": 0.0,
+        "amp": 0.0,
+        "max_step": 0.0,
+        "mean_abs_step": 0.0,
+        "step_std": 0.0,
+        "pos_max_step": 0.0
+      }
+    },
+    "4": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 146247290060.8,
+        "level_std": 257031290.1682496,
+        "delta": 726138880.0,
+        "amp": 726138880.0,
+        "max_step": 185417728.0,
+        "mean_abs_step": 181534720.0,
+        "step_std": 3637266.4504036545,
+        "pos_max_step": 0.0
+      }
+    },
+    "5": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 280726464102.4,
+        "level_std": 757828708.9082987,
+        "delta": 2142142464.0,
+        "amp": 2142142464.0,
+        "max_step": 538116096.0,
+        "mean_abs_step": 535535616.0,
+        "step_std": 2118847.774790818,
+        "pos_max_step": 0.5
+      }
+    },
+    "6": {
+      "label": "FAST_RISE",
+      "phrase": "rapidly increasing over the patch",
+      "num_patches": 25,
+      "stats": {
+        "L": 5,
+        "level_mean": 221763.6,
+        "level_std": 734.7698575170493,
+        "delta": 2048.28125,
+        "amp": 2048.28125,
+        "max_step": 729.3125,
+        "mean_abs_step": 512.0703125,
+        "step_std": 157.333548615734,
+        "pos_max_step": 0.25
+      }
+    },
+    "7": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 87934004428.8,
+        "level_std": 201489354.44736424,
+        "delta": 570023936.0,
+        "amp": 570023936.0,
+        "max_step": 143581184.0,
+        "mean_abs_step": 142505984.0,
+        "step_std": 945960.9798971625,
+        "pos_max_step": 0.75
+      }
+    },
+    "8": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 489381901107.2,
+        "level_std": 1119935309.7130532,
+        "delta": 3170992128.0,
+        "amp": 3170992128.0,
+        "max_step": 800653312.0,
+        "mean_abs_step": 792748032.0,
+        "step_std": 4989102.867214506,
+        "pos_max_step": 0.0
+      }
+    },
+    "9": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 56,
+      "stats": {
+        "L": 5,
+        "level_mean": 1311675881881.6,
+        "level_std": 8201829939.137639,
+        "delta": 23202234368.0,
+        "amp": 23202234368.0,
+        "max_step": 5810552832.0,
+        "mean_abs_step": 5800558592.0,
+        "step_std": 6157158.645021906,
+        "pos_max_step": 0.0
+      }
+    },
+    "10": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 1368116608.0,
+        "level_std": 5439893.670414965,
+        "delta": 15462144.0,
+        "amp": 15462144.0,
+        "max_step": 4052608.0,
+        "mean_abs_step": 3865536.0,
+        "step_std": 118424.57690868057,
+        "pos_max_step": 0.0
+      }
+    },
+    "11": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 44737025638.4,
+        "level_std": 147807213.4516112,
+        "delta": 418877440.0,
+        "amp": 418877440.0,
+        "max_step": 107659264.0,
+        "mean_abs_step": 104719360.0,
+        "step_std": 1705270.554299229,
+        "pos_max_step": 0.0
+      }
+    },
+    "12": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 393640961638.4,
+        "level_std": 811519643.099962,
+        "delta": 2296479744.0,
+        "amp": 2296479744.0,
+        "max_step": 576552960.0,
+        "mean_abs_step": 574119936.0,
+        "step_std": 3082489.6961981882,
+        "pos_max_step": 0.0
+      }
+    },
+    "13": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 140350750720.0,
+        "level_std": 301309509.1136192,
+        "delta": 851591168.0,
+        "amp": 851591168.0,
+        "max_step": 214106112.0,
+        "mean_abs_step": 212897792.0,
+        "step_std": 981972.7540008429,
+        "pos_max_step": 0.25
+      }
+    },
+    "14": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 21493,
+      "stats": {
+        "L": 5,
+        "level_mean": 1315537289216.0,
+        "level_std": 3247482360.084209,
+        "delta": 9184870400.0,
+        "amp": 9184870400.0,
+        "max_step": 2300051456.0,
+        "mean_abs_step": 2296217600.0,
+        "step_std": 3786795.750964131,
+        "pos_max_step": 0.0
+      }
+    },
+    "15": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 8370670080.0,
+        "level_std": 30728346.737653583,
+        "delta": 87334912.0,
+        "amp": 87334912.0,
+        "max_step": 24204800.0,
+        "mean_abs_step": 21833728.0,
+        "step_std": 1629263.2438301675,
+        "pos_max_step": 0.75
+      }
+    }
+  },
+  "cross": {
+    "0": {
+      "label": "MIXED_PATTERN",
+      "phrase": "a mix of stable, trending, and spiky attributes",
+      "num_patches": 20000,
+      "stats": {
+        "num_patches": 20000,
+        "role_counts": {
+          "stable": 2,
+          "trend": 11,
+          "spiky": 2,
+          "noisy": 0
+        },
+        "group_counts": {
+          "error": {
+            "stable": 0,
+            "trend": 0,
+            "spiky": 0,
+            "noisy": 0
+          },
+          "wear": {
+            "stable": 0,
+            "trend": 0,
+            "spiky": 0,
+            "noisy": 0
+          },
+          "workload": {
+            "stable": 0,
+            "trend": 0,
+            "spiky": 0,
+            "noisy": 0
+          },
+          "other": {
+            "stable": 2,
+            "trend": 11,
+            "spiky": 2,
+            "noisy": 0
+          }
+        },
+        "per_feature": [
+          {
+            "feature": "r_5",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 61.02385940551758,
+              "level_std": 0.10425155116719723,
+              "delta": 0.29615020751953125,
+              "amp": 0.29615020751953125,
+              "max_step": 0.08690261840820312,
+              "mean_abs_step": 0.07403755187988281,
+              "step_std": 0.007979985852590698,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_9",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 20223.048046875,
+              "level_std": 36.57790379395015,
+              "delta": 103.44140625,
+              "amp": 103.44140625,
+              "max_step": 25.935546875,
+              "mean_abs_step": 25.8603515625,
+              "step_std": 0.07591478047154565,
+              "pos_max_step": 0.75
+            }
+          },
+          {
+            "feature": "r_12",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 37.83580017089844,
+              "level_std": 0.0073517512361600396,
+              "delta": 0.020099639892578125,
+              "amp": 0.020099639892578125,
+              "max_step": 0.00620269775390625,
+              "mean_abs_step": 0.005024909973144531,
+              "step_std": 0.0011860193026090868,
+              "pos_max_step": 0.25
+            }
+          },
+          {
+            "feature": "r_177",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 1790.2635009765625,
+              "level_std": 4.265349208453871,
+              "delta": 12.058349609375,
+              "amp": 12.058349609375,
+              "max_step": 3.026611328125,
+              "mean_abs_step": 3.01458740234375,
+              "step_std": 0.013148083369834751,
+              "pos_max_step": 0.5
+            }
+          },
+          {
+            "feature": "r_180",
+            "label": "FAST_DECAY",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 15249.1681640625,
+              "level_std": 0.10379605293781045,
+              "delta": -0.294921875,
+              "amp": 0.294921875,
+              "max_step": 0.083984375,
+              "mean_abs_step": 0.07373046875,
+              "step_std": 0.006272086220051333,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_181",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 58.56436996459961,
+              "level_std": 0.09869824676877327,
+              "delta": 0.2803497314453125,
+              "amp": 0.2803497314453125,
+              "max_step": 0.08339691162109375,
+              "mean_abs_step": 0.07008743286132812,
+              "step_std": 0.00832237081423744,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_182",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.039790000021457675,
+              "level_std": 0.004793892327422817,
+              "delta": 0.013500001281499863,
+              "amp": 0.013500001281499863,
+              "max_step": 0.003849998116493225,
+              "mean_abs_step": 0.0033750003203749657,
+              "step_std": 0.0003749983385217296,
+              "pos_max_step": 0.75
+            }
+          },
+          {
+            "feature": "r_183",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 61.02385940551758,
+              "level_std": 0.10425155116719723,
+              "delta": 0.29615020751953125,
+              "amp": 0.29615020751953125,
+              "max_step": 0.08690261840820312,
+              "mean_abs_step": 0.07403755187988281,
+              "step_std": 0.007979985852590698,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_184",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_187",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.13632000386714935,
+              "level_std": 6.000399589538574e-05,
+              "delta": 0.00015000998973846436,
+              "amp": 0.00015000998973846436,
+              "max_step": 0.00015000998973846436,
+              "mean_abs_step": 3.750249743461609e-05,
+              "step_std": 6.495623096747654e-05,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_195",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.13632000386714935,
+              "level_std": 6.000399589538574e-05,
+              "delta": 0.00015000998973846436,
+              "amp": 0.00015000998973846436,
+              "max_step": 0.00015000998973846436,
+              "mean_abs_step": 3.750249743461609e-05,
+              "step_std": 6.495623096747654e-05,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_197",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_199",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 1606.0444580078124,
+              "level_std": 0.00047841596538733945,
+              "delta": 0.001220703125,
+              "amp": 0.001220703125,
+              "max_step": 0.00048828125,
+              "mean_abs_step": 0.00030517578125,
+              "step_std": 0.00018310546875,
+              "pos_max_step": 0.25
+            }
+          },
+          {
+            "feature": "r_241",
+            "label": "HIGH_RATE_BURSTS",
+            "role": "spiky",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 2753240970035.2,
+              "level_std": 6119824771.980811,
+              "delta": 17303076864.0,
+              "amp": 17303076864.0,
+              "max_step": 4364959744.0,
+              "mean_abs_step": 4325769216.0,
+              "step_std": 35650861.16914294,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_242",
+            "label": "HIGH_RATE_BURSTS",
+            "role": "spiky",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 1019523445555.2,
+              "level_std": 2653171228.80681,
+              "delta": 7506427904.0,
+              "amp": 7506427904.0,
+              "max_step": 1886781440.0,
+              "mean_abs_step": 1876606976.0,
+              "step_std": 8968665.052607104,
+              "pos_max_step": 0.0
+            }
+          }
+        ]
+      }
+    },
+    "1": {
+      "label": "UNUSED_PROTO",
+      "phrase": "prototype rarely activated in training windows",
+      "num_patches": 0,
+      "stats": {}
+    },
+    "2": {
+      "label": "UNUSED_PROTO",
+      "phrase": "prototype rarely activated in training windows",
+      "num_patches": 0,
+      "stats": {}
+    },
+    "3": {
+      "label": "UNUSED_PROTO",
+      "phrase": "prototype rarely activated in training windows",
+      "num_patches": 0,
+      "stats": {}
+    },
+    "4": {
+      "label": "MIXED_PATTERN",
+      "phrase": "a mix of stable, trending, and spiky attributes",
+      "num_patches": 20000,
+      "stats": {
+        "num_patches": 20000,
+        "role_counts": {
+          "stable": 5,
+          "trend": 8,
+          "spiky": 2,
+          "noisy": 0
+        },
+        "group_counts": {
+          "error": {
+            "stable": 0,
+            "trend": 0,
+            "spiky": 0,
+            "noisy": 0
+          },
+          "wear": {
+            "stable": 0,
+            "trend": 0,
+            "spiky": 0,
+            "noisy": 0
+          },
+          "workload": {
+            "stable": 0,
+            "trend": 0,
+            "spiky": 0,
+            "noisy": 0
+          },
+          "other": {
+            "stable": 5,
+            "trend": 8,
+            "spiky": 2,
+            "noisy": 0
+          }
+        },
+        "per_feature": [
+          {
+            "feature": "r_5",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.121390001475811,
+              "level_std": 0.020277708553550006,
+              "delta": 0.053550004959106445,
+              "amp": 0.053550004959106445,
+              "max_step": 0.021949999034404755,
+              "mean_abs_step": 0.013387501239776611,
+              "step_std": 0.009184047736885421,
+              "pos_max_step": 0.25
+            }
+          },
+          {
+            "feature": "r_9",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 19340.8296875,
+              "level_std": 36.915180154211235,
+              "delta": 104.318359375,
+              "amp": 104.318359375,
+              "max_step": 26.208984375,
+              "mean_abs_step": 26.07958984375,
+              "step_std": 0.11886314222238739,
+              "pos_max_step": 0.25
+            }
+          },
+          {
+            "feature": "r_12",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 26.15607032775879,
+              "level_std": 0.003240681400412939,
+              "delta": 0.008899688720703125,
+              "amp": 0.008899688720703125,
+              "max_step": 0.00334930419921875,
+              "mean_abs_step": 0.0022249221801757812,
+              "step_std": 0.0006974906905843606,
+              "pos_max_step": 0.5
+            }
+          },
+          {
+            "feature": "r_177",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 308.8016052246094,
+              "level_std": 0.8554025138835684,
+              "delta": 2.417205810546875,
+              "amp": 2.417205810546875,
+              "max_step": 0.611968994140625,
+              "mean_abs_step": 0.6043014526367188,
+              "step_std": 0.004909413121009885,
+              "pos_max_step": 0.5
+            }
+          },
+          {
+            "feature": "r_180",
+            "label": "FAST_DECAY",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 15309.2744140625,
+              "level_std": 0.01906674197166528,
+              "delta": -0.05078125,
+              "amp": 0.05078125,
+              "max_step": 0.0224609375,
+              "mean_abs_step": 0.0126953125,
+              "step_std": 0.008652365794272143,
+              "pos_max_step": 0.75
+            }
+          },
+          {
+            "feature": "r_181",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.11943999826908111,
+              "level_std": 0.020277706947893506,
+              "delta": 0.05354999750852585,
+              "amp": 0.05354999750852585,
+              "max_step": 0.021949999034404755,
+              "mean_abs_step": 0.013387499377131462,
+              "step_std": 0.009184043566542328,
+              "pos_max_step": 0.25
+            }
+          },
+          {
+            "feature": "r_182",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.0016499999910593033,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_183",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.121390001475811,
+              "level_std": 0.020277708553550006,
+              "delta": 0.053550004959106445,
+              "amp": 0.053550004959106445,
+              "max_step": 0.021949999034404755,
+              "mean_abs_step": 0.013387501239776611,
+              "step_std": 0.009184047736885421,
+              "pos_max_step": 0.25
+            }
+          },
+          {
+            "feature": "r_184",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_187",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.0010999999940395355,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_195",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.0010999999940395355,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_197",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_199",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 5.540139961242676,
+              "level_std": 0.0072560794444154345,
+              "delta": 0.02155017852783203,
+              "amp": 0.02155017852783203,
+              "max_step": 0.00820016860961914,
+              "mean_abs_step": 0.005387544631958008,
+              "step_std": 0.0018669502136812433,
+              "pos_max_step": 0.75
+            }
+          },
+          {
+            "feature": "r_241",
+            "label": "HIGH_RATE_BURSTS",
+            "role": "spiky",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 555717440307.2,
+              "level_std": 1324455399.3461587,
+              "delta": 3742433280.0,
+              "amp": 3742433280.0,
+              "max_step": 943390720.0,
+              "mean_abs_step": 935608320.0,
+              "step_std": 5128453.718561181,
+              "pos_max_step": 0.25
+            }
+          },
+          {
+            "feature": "r_242",
+            "label": "HIGH_RATE_BURSTS",
+            "role": "spiky",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 346821820416.0,
+              "level_std": 851520032.3942336,
+              "delta": 2404909056.0,
+              "amp": 2404909056.0,
+              "max_step": 609615872.0,
+              "mean_abs_step": 601227264.0,
+              "step_std": 5239807.099472269,
+              "pos_max_step": 0.25
+            }
+          }
+        ]
+      }
+    },
+    "5": {
+      "label": "UNUSED_PROTO",
+      "phrase": "prototype rarely activated in training windows",
+      "num_patches": 0,
+      "stats": {}
+    },
+    "6": {
+      "label": "UNUSED_PROTO",
+      "phrase": "prototype rarely activated in training windows",
+      "num_patches": 0,
+      "stats": {}
+    },
+    "7": {
+      "label": "MIXED_PATTERN",
+      "phrase": "a mix of stable, trending, and spiky attributes",
+      "num_patches": 20000,
+      "stats": {
+        "num_patches": 20000,
+        "role_counts": {
+          "stable": 2,
+          "trend": 11,
+          "spiky": 2,
+          "noisy": 0
+        },
+        "group_counts": {
+          "error": {
+            "stable": 0,
+            "trend": 0,
+            "spiky": 0,
+            "noisy": 0
+          },
+          "wear": {
+            "stable": 0,
+            "trend": 0,
+            "spiky": 0,
+            "noisy": 0
+          },
+          "workload": {
+            "stable": 0,
+            "trend": 0,
+            "spiky": 0,
+            "noisy": 0
+          },
+          "other": {
+            "stable": 2,
+            "trend": 11,
+            "spiky": 2,
+            "noisy": 0
+          }
+        },
+        "per_feature": [
+          {
+            "feature": "r_5",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 505.601513671875,
+              "level_std": 0.4576517716420162,
+              "delta": 1.305084228515625,
+              "amp": 1.305084228515625,
+              "max_step": 0.352752685546875,
+              "mean_abs_step": 0.32627105712890625,
+              "step_std": 0.0179607987304137,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_9",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 20833.19609375,
+              "level_std": 37.01296045492961,
+              "delta": 104.76171875,
+              "amp": 104.76171875,
+              "max_step": 26.37109375,
+              "mean_abs_step": 26.1904296875,
+              "step_std": 0.1305711903690647,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_12",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 27.23389015197754,
+              "level_std": 0.007341955325808474,
+              "delta": 0.020648956298828125,
+              "amp": 0.020648956298828125,
+              "max_step": 0.00569915771484375,
+              "mean_abs_step": 0.005162239074707031,
+              "step_std": 0.0004997207918032776,
+              "pos_max_step": 0.75
+            }
+          },
+          {
+            "feature": "r_177",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 1867.6926025390626,
+              "level_std": 2.93493354100688,
+              "delta": 8.294677734375,
+              "amp": 8.294677734375,
+              "max_step": 2.0870361328125,
+              "mean_abs_step": 2.07366943359375,
+              "step_std": 0.017584375753584038,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_180",
+            "label": "FAST_DECAY",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 14801.58828125,
+              "level_std": 0.45371711716895735,
+              "delta": -1.2900390625,
+              "amp": 1.2900390625,
+              "max_step": 0.35546875,
+              "mean_abs_step": 0.322509765625,
+              "step_std": 0.024901146953471613,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_181",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 493.6213012695313,
+              "level_std": 0.4377337748230485,
+              "delta": 1.247894287109375,
+              "amp": 1.247894287109375,
+              "max_step": 0.342041015625,
+              "mean_abs_step": 0.31197357177734375,
+              "step_std": 0.019481946884426476,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_182",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.006870000064373017,
+              "level_std": 0.003157309066384969,
+              "delta": 0.008950000163167715,
+              "amp": 0.008950000163167715,
+              "max_step": 0.006650000344961882,
+              "mean_abs_step": 0.0022375000407919288,
+              "step_std": 0.0025584115452745217,
+              "pos_max_step": 0.75
+            }
+          },
+          {
+            "feature": "r_183",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 505.601513671875,
+              "level_std": 0.4576517716420162,
+              "delta": 1.305084228515625,
+              "amp": 1.305084228515625,
+              "max_step": 0.352752685546875,
+              "mean_abs_step": 0.32627105712890625,
+              "step_std": 0.0179607987304137,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_184",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_187",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 16.173999404907228,
+              "level_std": 0.0002448144197880526,
+              "delta": 0.000499725341796875,
+              "amp": 0.000499725341796875,
+              "max_step": 0.000499725341796875,
+              "mean_abs_step": 0.00012493133544921875,
+              "step_std": 0.00021638742045547763,
+              "pos_max_step": 0.5
+            }
+          },
+          {
+            "feature": "r_195",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 16.173999404907228,
+              "level_std": 0.0002448144197880526,
+              "delta": 0.000499725341796875,
+              "amp": 0.000499725341796875,
+              "max_step": 0.000499725341796875,
+              "mean_abs_step": 0.00012493133544921875,
+              "step_std": 0.00021638742045547763,
+              "pos_max_step": 0.5
+            }
+          },
+          {
+            "feature": "r_197",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_199",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 21.29009017944336,
+              "level_std": 0.00017402463290684854,
+              "delta": 0.000499725341796875,
+              "amp": 0.000499725341796875,
+              "max_step": 0.0002002716064453125,
+              "mean_abs_step": 0.00012493133544921875,
+              "step_std": 5.587750272861577e-05,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_241",
+            "label": "HIGH_RATE_BURSTS",
+            "role": "spiky",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 2928068893081.6,
+              "level_std": 3203702146.4313006,
+              "delta": 9052356608.0,
+              "amp": 9052356608.0,
+              "max_step": 2286682112.0,
+              "mean_abs_step": 2263089152.0,
+              "step_std": 27518253.467332408,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_242",
+            "label": "HIGH_RATE_BURSTS",
+            "role": "spiky",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 761608942387.2,
+              "level_std": 2380800468.449027,
+              "delta": 6740180992.0,
+              "amp": 6740180992.0,
+              "max_step": 1697579008.0,
+              "mean_abs_step": 1685045248.0,
+              "step_std": 8946729.196654608,
+              "pos_max_step": 0.0
+            }
+          }
+        ]
+      }
+    }
+  }
+}

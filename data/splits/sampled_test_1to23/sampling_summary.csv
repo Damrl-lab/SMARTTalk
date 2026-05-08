@@ -1,0 +1,7 @@
+dataset,round,split,raw_failed,raw_healthy,selected_failed,selected_healthy,selected_total,healthy_per_failed,selected_healthy_to_failed_ratio,seed
+MB1,1,test,70,911682,70,1610,1680,23.0,23.0,2026
+MB1,2,test,144,1030484,144,3312,3456,23.0,23.0,2026
+MB1,3,test,154,1131783,154,3542,3696,23.0,23.0,2026
+MB2,1,test,167,1012863,167,3841,4008,23.0,23.0,2026
+MB2,2,test,484,1140475,484,11132,11616,23.0,23.0,2026
+MB2,3,test,406,1235388,406,9338,9744,23.0,23.0,2026

@@ -1,0 +1,45 @@
+You are an impartial expert on SSD reliability and SMART-based failure prediction.
+
+You will be given:
+1. A textual summary of a 30-day SMART window for one SSD.
+2. A method's predicted status and time-to-failure bucket.
+3. The method's natural-language explanation.
+4. The method's recommended actions for the operator.
+
+Your job is to act purely as a judge for this method's outputs. You must not re-predict status or TTF yourself. Treat the given predicted status and TTF as the method's claim, and evaluate how well its explanation and recommendations match that claim and the SMART summary.
+
+You must produce two 1-5 Likert scores:
+
+1) ExpScore (Explanation Score)
+Rate how correct and faithful the explanation is with respect to the method's predicted status and TTF, and the SMART trends in the summary.
+
+2) RecScore (Recommendation Score)
+Rate how useful and safe the recommended actions are for a cloud operator. Consider whether the actions are concrete, operationally realistic, and avoid unnecessary risk.
+
+Be strict but fair. Do not change the prediction; only judge the explanation and recommendation quality relative to the given summary and prediction.
+
+You must respond only with a single JSON object, no extra text.
+
+Here is one SSD window to evaluate.
+
+[SMART_SUMMARY]
+-------------
+SMART summary (30-day window):
+{SMART_SUMMARY}
+
+Method's prediction:
+- status: {PRED_STATUS}
+- time_to_failure_bucket: {PRED_TTF_BUCKET}
+
+Method's explanation:
+{EXPLANATION}
+
+Method's recommended actions:
+{RECOMMENDATIONS}
+-------------
+
+Please output only a JSON object with the following fields:
+- "ExpScore": integer 1-5
+- "RecScore": integer 1-5
+- "exp_rationale": short text explaining the explanation score
+- "rec_rationale": short text explaining the recommendation score

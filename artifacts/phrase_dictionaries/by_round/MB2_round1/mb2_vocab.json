@@ -1,0 +1,1206 @@
+{
+  "meta": {
+    "patch_len_attr": 5,
+    "patch_len_cross": 5,
+    "feature_names": [
+      "r_5",
+      "r_9",
+      "r_12",
+      "r_177",
+      "r_180",
+      "r_181",
+      "r_182",
+      "r_183",
+      "r_184",
+      "r_187",
+      "r_195",
+      "r_197",
+      "r_199",
+      "r_241",
+      "r_242"
+    ],
+    "attr_threshold": 1.393409013748169,
+    "cross_threshold": 22.721210479736328
+  },
+  "attr": {
+    "0": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 1517647104.0,
+        "level_std": 5249389.073843623,
+        "delta": 14898688.0,
+        "amp": 14898688.0,
+        "max_step": 4219648.0,
+        "mean_abs_step": 3724672.0,
+        "step_std": 312004.2075613725,
+        "pos_max_step": 0.75
+      }
+    },
+    "1": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 15719268556.8,
+        "level_std": 29734746.775776237,
+        "delta": 84434944.0,
+        "amp": 84434944.0,
+        "max_step": 22798336.0,
+        "mean_abs_step": 21108736.0,
+        "step_std": 1088240.553171954,
+        "pos_max_step": 0.0
+      }
+    },
+    "2": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 194337259520.0,
+        "level_std": 412427119.892596,
+        "delta": 1166065664.0,
+        "amp": 1166065664.0,
+        "max_step": 293175296.0,
+        "mean_abs_step": 291516416.0,
+        "step_std": 1733430.877878896,
+        "pos_max_step": 0.0
+      }
+    },
+    "3": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 312082353356.8,
+        "level_std": 792896196.7068363,
+        "delta": 2241200128.0,
+        "amp": 2241200128.0,
+        "max_step": 566919168.0,
+        "mean_abs_step": 560300032.0,
+        "step_std": 4733756.96418479,
+        "pos_max_step": 0.25
+      }
+    },
+    "4": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 132820095795.2,
+        "level_std": 247743929.11815435,
+        "delta": 700563456.0,
+        "amp": 700563456.0,
+        "max_step": 176750592.0,
+        "mean_abs_step": 175140864.0,
+        "step_std": 1587785.2237226544,
+        "pos_max_step": 0.25
+      }
+    },
+    "5": {
+      "label": "FAST_RISE",
+      "phrase": "rapidly increasing over the patch",
+      "num_patches": 157,
+      "stats": {
+        "L": 5,
+        "level_mean": 154344.628125,
+        "level_std": 55.17073234090019,
+        "delta": 156.609375,
+        "amp": 156.609375,
+        "max_step": 57.375,
+        "mean_abs_step": 39.15234375,
+        "step_std": 16.005718639748878,
+        "pos_max_step": 0.0
+      }
+    },
+    "6": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 56083275776.0,
+        "level_std": 178524184.2555358,
+        "delta": 505126912.0,
+        "amp": 505126912.0,
+        "max_step": 127709184.0,
+        "mean_abs_step": 126281728.0,
+        "step_std": 966940.1616232516,
+        "pos_max_step": 0.0
+      }
+    },
+    "7": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 94689379942.4,
+        "level_std": 222294913.14830515,
+        "delta": 629555200.0,
+        "amp": 629555200.0,
+        "max_step": 162226176.0,
+        "mean_abs_step": 157388800.0,
+        "step_std": 2951147.3920168746,
+        "pos_max_step": 0.0
+      }
+    },
+    "8": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 62,
+      "stats": {
+        "L": 5,
+        "level_mean": 1359673583206.4,
+        "level_std": 6928709122.183199,
+        "delta": 19812450304.0,
+        "amp": 19812450304.0,
+        "max_step": 5799936000.0,
+        "mean_abs_step": 4953112576.0,
+        "step_std": 489196178.33212143,
+        "pos_max_step": 0.0
+      }
+    },
+    "9": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 376156481126.4,
+        "level_std": 795213540.554319,
+        "delta": 2247819264.0,
+        "amp": 2247819264.0,
+        "max_step": 566591488.0,
+        "mean_abs_step": 561954816.0,
+        "step_std": 4858760.765660314,
+        "pos_max_step": 0.0
+      }
+    },
+    "10": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 140671929548.8,
+        "level_std": 297194031.46191645,
+        "delta": 840941568.0,
+        "amp": 840941568.0,
+        "max_step": 213352448.0,
+        "mean_abs_step": 210235392.0,
+        "step_std": 2324692.0079528815,
+        "pos_max_step": 0.0
+      }
+    },
+    "11": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 36784,
+      "stats": {
+        "L": 5,
+        "level_mean": 1496498910003.2,
+        "level_std": 3165190237.982569,
+        "delta": 8954970112.0,
+        "amp": 8954970112.0,
+        "max_step": 2265579520.0,
+        "mean_abs_step": 2238742528.0,
+        "step_std": 18189605.050839778,
+        "pos_max_step": 0.0
+      }
+    },
+    "12": {
+      "label": "LOW_STABLE",
+      "phrase": "roughly constant over the patch",
+      "num_patches": 444,
+      "stats": {
+        "L": 5,
+        "level_mean": 31334.0,
+        "level_std": 0.0,
+        "delta": 0.0,
+        "amp": 0.0,
+        "max_step": 0.0,
+        "mean_abs_step": 0.0,
+        "step_std": 0.0,
+        "pos_max_step": 0.0
+      }
+    },
+    "13": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 6,
+      "stats": {
+        "L": 5,
+        "level_mean": 13894578444697.6,
+        "level_std": 115496033391.3978,
+        "delta": 326669172736.0,
+        "amp": 326669172736.0,
+        "max_step": 81720770560.0,
+        "mean_abs_step": 81667293184.0,
+        "step_std": 42418755.03660408,
+        "pos_max_step": 0.25
+      }
+    },
+    "14": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 25590,
+      "stats": {
+        "L": 5,
+        "level_mean": 1088278508339.2,
+        "level_std": 2045184235.5420227,
+        "delta": 5780078592.0,
+        "amp": 5780078592.0,
+        "max_step": 1467023360.0,
+        "mean_abs_step": 1445019648.0,
+        "step_std": 18704896.04905154,
+        "pos_max_step": 0.25
+      }
+    },
+    "15": {
+      "label": "HIGH_RATE_BURSTS",
+      "phrase": "frequent bursts across most of the patch",
+      "num_patches": 50000,
+      "stats": {
+        "L": 5,
+        "level_mean": 512423945830.4,
+        "level_std": 1164332572.755733,
+        "delta": 3295543296.0,
+        "amp": 3295543296.0,
+        "max_step": 829751296.0,
+        "mean_abs_step": 823885824.0,
+        "step_std": 3634959.424152077,
+        "pos_max_step": 0.0
+      }
+    }
+  },
+  "cross": {
+    "0": {
+      "label": "MIXED_PATTERN",
+      "phrase": "a mix of stable, trending, and spiky attributes",
+      "num_patches": 20000,
+      "stats": {
+        "num_patches": 20000,
+        "role_counts": {
+          "stable": 5,
+          "trend": 8,
+          "spiky": 2,
+          "noisy": 0
+        },
+        "group_counts": {
+          "error": {
+            "stable": 0,
+            "trend": 0,
+            "spiky": 0,
+            "noisy": 0
+          },
+          "wear": {
+            "stable": 0,
+            "trend": 0,
+            "spiky": 0,
+            "noisy": 0
+          },
+          "workload": {
+            "stable": 0,
+            "trend": 0,
+            "spiky": 0,
+            "noisy": 0
+          },
+          "other": {
+            "stable": 5,
+            "trend": 8,
+            "spiky": 2,
+            "noisy": 0
+          }
+        },
+        "per_feature": [
+          {
+            "feature": "r_5",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 2.0801599979400636,
+              "level_std": 0.016319942474365235,
+              "delta": 0.040799856185913086,
+              "amp": 0.040799856185913086,
+              "max_step": 0.040799856185913086,
+              "mean_abs_step": 0.010199964046478271,
+              "step_std": 0.017666855963876203,
+              "pos_max_step": 0.75
+            }
+          },
+          {
+            "feature": "r_9",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 19716.23125,
+              "level_std": 36.883815642138245,
+              "delta": 104.384765625,
+              "amp": 104.384765625,
+              "max_step": 26.48828125,
+              "mean_abs_step": 26.09619140625,
+              "step_std": 0.25076700805913965,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_12",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 26.0837703704834,
+              "level_std": 0.004035679892911794,
+              "delta": 0.011751174926757812,
+              "amp": 0.011751174926757812,
+              "max_step": 0.004550933837890625,
+              "mean_abs_step": 0.002937793731689453,
+              "step_std": 0.001031538309718974,
+              "pos_max_step": 0.75
+            }
+          },
+          {
+            "feature": "r_177",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 329.81483154296876,
+              "level_std": 0.8862801875940692,
+              "delta": 2.508331298828125,
+              "amp": 2.508331298828125,
+              "max_step": 0.6309814453125,
+              "mean_abs_step": 0.6270828247070312,
+              "step_std": 0.003110725988131639,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_180",
+            "label": "FAST_DECAY",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 15307.72421875,
+              "level_std": 0.016406249999999997,
+              "delta": -0.041015625,
+              "amp": 0.041015625,
+              "max_step": 0.041015625,
+              "mean_abs_step": 0.01025390625,
+              "step_std": 0.01776028660104806,
+              "pos_max_step": 0.75
+            }
+          },
+          {
+            "feature": "r_181",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 2.024560070037842,
+              "level_std": 0.016319942474365235,
+              "delta": 0.040799856185913086,
+              "amp": 0.040799856185913086,
+              "max_step": 0.040799856185913086,
+              "mean_abs_step": 0.010199964046478271,
+              "step_std": 0.017666855963876203,
+              "pos_max_step": 0.75
+            }
+          },
+          {
+            "feature": "r_182",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.0026000000070780516,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_183",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 2.0801599979400636,
+              "level_std": 0.016319942474365235,
+              "delta": 0.040799856185913086,
+              "amp": 0.040799856185913086,
+              "max_step": 0.040799856185913086,
+              "mean_abs_step": 0.010199964046478271,
+              "step_std": 0.017666855963876203,
+              "pos_max_step": 0.75
+            }
+          },
+          {
+            "feature": "r_184",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_187",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.00279999990016222,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_195",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.00279999990016222,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_197",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_199",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 8.240040016174316,
+              "level_std": 0.007351829678602577,
+              "delta": 0.021249771118164062,
+              "amp": 0.021249771118164062,
+              "max_step": 0.0062503814697265625,
+              "mean_abs_step": 0.005312442779541016,
+              "step_std": 0.000799898419035752,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_241",
+            "label": "HIGH_RATE_BURSTS",
+            "role": "spiky",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 589225027174.4,
+              "level_std": 1370831581.1554163,
+              "delta": 3875995648.0,
+              "amp": 3875995648.0,
+              "max_step": 975175680.0,
+              "mean_abs_step": 968998912.0,
+              "step_std": 3625087.274601813,
+              "pos_max_step": 0.5
+            }
+          },
+          {
+            "feature": "r_242",
+            "label": "HIGH_RATE_BURSTS",
+            "role": "spiky",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 359784723251.2,
+              "level_std": 881687038.1544161,
+              "delta": 2491252736.0,
+              "amp": 2491252736.0,
+              "max_step": 627671040.0,
+              "mean_abs_step": 622813184.0,
+              "step_std": 4127882.06367963,
+              "pos_max_step": 0.25
+            }
+          }
+        ]
+      }
+    },
+    "1": {
+      "label": "UNUSED_PROTO",
+      "phrase": "prototype rarely activated in training windows",
+      "num_patches": 0,
+      "stats": {}
+    },
+    "2": {
+      "label": "MULTI_ATTR_TRENDS",
+      "phrase": "several attributes show gradual trends but no sharp bursts",
+      "num_patches": 23,
+      "stats": {
+        "num_patches": 23,
+        "role_counts": {
+          "stable": 11,
+          "trend": 4,
+          "spiky": 0,
+          "noisy": 0
+        },
+        "group_counts": {
+          "error": {
+            "stable": 0,
+            "trend": 0,
+            "spiky": 0,
+            "noisy": 0
+          },
+          "wear": {
+            "stable": 0,
+            "trend": 0,
+            "spiky": 0,
+            "noisy": 0
+          },
+          "workload": {
+            "stable": 0,
+            "trend": 0,
+            "spiky": 0,
+            "noisy": 0
+          },
+          "other": {
+            "stable": 11,
+            "trend": 4,
+            "spiky": 0,
+            "noisy": 0
+          }
+        },
+        "per_feature": [
+          {
+            "feature": "r_5",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 2251.799951171875,
+              "level_std": 4.284950874852688,
+              "delta": 12.174072265625,
+              "amp": 12.174072265625,
+              "max_step": 3.478271484375,
+              "mean_abs_step": 3.04351806640625,
+              "step_std": 0.37903165708292463,
+              "pos_max_step": 0.25
+            }
+          },
+          {
+            "feature": "r_9",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 12358.348046875,
+              "level_std": 33.830522052368856,
+              "delta": 95.7392578125,
+              "amp": 95.7392578125,
+              "max_step": 24.0,
+              "mean_abs_step": 23.934814453125,
+              "step_std": 0.06518646125295016,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_12",
+            "label": "LOW_STABLE",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 13.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_177",
+            "label": "LOW_STABLE",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 50.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_180",
+            "label": "FAST_DECAY",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 13097.2,
+              "level_std": 4.284892222808408,
+              "delta": -12.173828125,
+              "amp": 12.173828125,
+              "max_step": 3.478515625,
+              "mean_abs_step": 3.04345703125,
+              "step_std": 0.3791858388783576,
+              "pos_max_step": 0.25
+            }
+          },
+          {
+            "feature": "r_181",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_182",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_183",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 2251.799951171875,
+              "level_std": 4.284950874852688,
+              "delta": 12.174072265625,
+              "amp": 12.174072265625,
+              "max_step": 3.478271484375,
+              "mean_abs_step": 3.04351806640625,
+              "step_std": 0.37903165708292463,
+              "pos_max_step": 0.25
+            }
+          },
+          {
+            "feature": "r_184",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_187",
+            "label": "LOW_STABLE",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 11.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_195",
+            "label": "LOW_STABLE",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 11.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_197",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_199",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_241",
+            "label": "LOW_STABLE",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 130680266752.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_242",
+            "label": "LOW_STABLE",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 118943113216.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          }
+        ]
+      }
+    },
+    "3": {
+      "label": "UNUSED_PROTO",
+      "phrase": "prototype rarely activated in training windows",
+      "num_patches": 0,
+      "stats": {}
+    },
+    "4": {
+      "label": "UNUSED_PROTO",
+      "phrase": "prototype rarely activated in training windows",
+      "num_patches": 0,
+      "stats": {}
+    },
+    "5": {
+      "label": "MIXED_PATTERN",
+      "phrase": "a mix of stable, trending, and spiky attributes",
+      "num_patches": 20000,
+      "stats": {
+        "num_patches": 20000,
+        "role_counts": {
+          "stable": 6,
+          "trend": 7,
+          "spiky": 2,
+          "noisy": 0
+        },
+        "group_counts": {
+          "error": {
+            "stable": 0,
+            "trend": 0,
+            "spiky": 0,
+            "noisy": 0
+          },
+          "wear": {
+            "stable": 0,
+            "trend": 0,
+            "spiky": 0,
+            "noisy": 0
+          },
+          "workload": {
+            "stable": 0,
+            "trend": 0,
+            "spiky": 0,
+            "noisy": 0
+          },
+          "other": {
+            "stable": 6,
+            "trend": 7,
+            "spiky": 2,
+            "noisy": 0
+          }
+        },
+        "per_feature": [
+          {
+            "feature": "r_5",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 7.66156005859375,
+              "level_std": 0.014023456206548322,
+              "delta": 0.040400028228759766,
+              "amp": 0.040400028228759766,
+              "max_step": 0.012249946594238281,
+              "mean_abs_step": 0.010100007057189941,
+              "step_std": 0.0015240148011432305,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_9",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 22838.72734375,
+              "level_std": 36.80882124286327,
+              "delta": 104.033203125,
+              "amp": 104.033203125,
+              "max_step": 26.12890625,
+              "mean_abs_step": 26.00830078125,
+              "step_std": 0.10058475234435289,
+              "pos_max_step": 0.5
+            }
+          },
+          {
+            "feature": "r_12",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 129.9436798095703,
+              "level_std": 0.010806976355889853,
+              "delta": 0.0298919677734375,
+              "amp": 0.0298919677734375,
+              "max_step": 0.009002685546875,
+              "mean_abs_step": 0.007472991943359375,
+              "step_std": 0.0010177380675006336,
+              "pos_max_step": 0.25
+            }
+          },
+          {
+            "feature": "r_177",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 3834.91904296875,
+              "level_std": 6.333599043049053,
+              "delta": 17.906982421875,
+              "amp": 17.906982421875,
+              "max_step": 4.5,
+              "mean_abs_step": 4.47674560546875,
+              "step_std": 0.024365414788872074,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_180",
+            "label": "FAST_DECAY",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 15302.58984375,
+              "level_std": 0.014325875641322068,
+              "delta": -0.0419921875,
+              "amp": 0.0419921875,
+              "max_step": 0.0166015625,
+              "mean_abs_step": 0.010498046875,
+              "step_std": 0.00386791492132687,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_181",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.3874000012874603,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_182",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_183",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 7.66156005859375,
+              "level_std": 0.014023456206548322,
+              "delta": 0.040400028228759766,
+              "amp": 0.040400028228759766,
+              "max_step": 0.012249946594238281,
+              "mean_abs_step": 0.010100007057189941,
+              "step_std": 0.0015240148011432305,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_184",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_187",
+            "label": "LOW_STABLE",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 47.06975173950195,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_195",
+            "label": "LOW_STABLE",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 47.06975173950195,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_197",
+            "label": "ZERO_OR_NEAR_ZERO",
+            "role": "stable",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 0.0,
+              "level_std": 0.0,
+              "delta": 0.0,
+              "amp": 0.0,
+              "max_step": 0.0,
+              "mean_abs_step": 0.0,
+              "step_std": 0.0,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_199",
+            "label": "FAST_RISE",
+            "role": "trend",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 1.0719799757003785,
+              "level_std": 0.0009977865686152322,
+              "delta": 0.00279998779296875,
+              "amp": 0.00279998779296875,
+              "max_step": 0.000800013542175293,
+              "mean_abs_step": 0.0006999969482421875,
+              "step_std": 7.908891778795985e-05,
+              "pos_max_step": 0.5
+            }
+          },
+          {
+            "feature": "r_241",
+            "label": "HIGH_RATE_BURSTS",
+            "role": "spiky",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 6751858668339.2,
+              "level_std": 9258475974.639698,
+              "delta": 26187661312.0,
+              "amp": 26187661312.0,
+              "max_step": 6605504512.0,
+              "mean_abs_step": 6546915328.0,
+              "step_std": 48395751.31893195,
+              "pos_max_step": 0.0
+            }
+          },
+          {
+            "feature": "r_242",
+            "label": "HIGH_RATE_BURSTS",
+            "role": "spiky",
+            "group": "other",
+            "stats": {
+              "L": 5,
+              "level_mean": 1166575036006.4,
+              "level_std": 3101264160.6116858,
+              "delta": 8774352896.0,
+              "amp": 8774352896.0,
+              "max_step": 2218524672.0,
+              "mean_abs_step": 2193588224.0,
+              "step_std": 15948660.584173957,
+              "pos_max_step": 0.0
+            }
+          }
+        ]
+      }
+    },
+    "6": {
+      "label": "UNUSED_PROTO",
+      "phrase": "prototype rarely activated in training windows",
+      "num_patches": 0,
+      "stats": {}
+    },
+    "7": {
+      "label": "UNUSED_PROTO",
+      "phrase": "prototype rarely activated in training windows",
+      "num_patches": 0,
+      "stats": {}
+    }
+  }
+}

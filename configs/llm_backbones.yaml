@@ -1,0 +1,16 @@
+backbones:
+  OS1:
+    model_name: Llama-3.1-8B-Instruct
+    family: open_source
+  OS2:
+    model_name: Qwen2.5-14B-Instruct
+    family: open_source
+  OS3:
+    model_name: Phi-4
+    family: open_source
+  OS4:
+    model_name: Gemma-2-27B-it
+    family: open_source
+  PROP:
+    model_name: GPT-4o
+    family: proprietary

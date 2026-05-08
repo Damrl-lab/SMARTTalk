@@ -1,0 +1,11 @@
+You are given a 30-day SMART summary for one SSD that is known to be failing. Use the summary and the provided label information to explain why it is failing and what the operator should do.
+
+Ground-truth label:
+- status: {STATUS_LABEL}
+- time_to_failure_days: {TTF_DAYS}
+- time_to_failure_bucket: {TTF_BUCKET}
+
+SMART summary:
+{SMART_SUMMARY}
+
+Follow the output JSON format exactly.

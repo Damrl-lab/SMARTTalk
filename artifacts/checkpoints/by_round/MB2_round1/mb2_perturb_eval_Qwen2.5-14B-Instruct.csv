@@ -1,0 +1,1121 @@
+idx,attr,direction,concern_level,explanation,recommendations_json,raw_output,attr_mentioned,act_dir_correct
+122337,NONE,original,SERIOUS,"The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts across most of the 30-day window, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. The increasing trend in r_9 suggests growing wear and potential failure within the next 7 days.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of the data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts across most of the 30-day window, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. The increasing trend in r_9 suggests growing wear and potential failure within the next 7 days."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of the data on the SSD before replacement.""
+  ]
+}",,
+122337,r_5,risk_up,SERIOUS,"The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts across most of the 30-day window, indicating increasing reallocated sectors, reported uncorrectable errors, and other signs of drive degradation. The rapid increase in these values suggests imminent failure within the next 7 days.","[""Replace the SSD immediately to prevent data loss."", ""Backup critical data from the failing SSD as soon as possible.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts across most of the 30-day window, indicating increasing reallocated sectors, reported uncorrectable errors, and other signs of drive degradation. The rapid increase in these values suggests imminent failure within the next 7 days."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Backup critical data from the failing SSD as soon as possible.""
+  ]
+}",1,1
+122337,r_5,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating increasing errors and potential wear. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) show frequent bursts, which are critical indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of the data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating increasing errors and potential wear. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) show frequent bursts, which are critical indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of the data on the SSD before replacement.""
+  ]
+}",,1
+122337,r_187,risk_up,SERIOUS,"The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts across most of the 30-day window, indicating increasing reallocated sectors, reported uncorrectable errors, and other signs of drive instability. The rapid increase in r_9 suggests significant wear and potential imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts across most of the 30-day window, indicating increasing reallocated sectors, reported uncorrectable errors, and other signs of drive instability. The rapid increase in r_9 suggests significant wear and potential imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",1,1
+122337,r_187,risk_down,SERIOUS,"The drive shows frequent bursts in several SMART attributes over the entire 30-day period, indicating a high level of reallocated sectors (r_5), uncorrectable errors (r_187), and other error-related metrics (r_177, r_180, r_181, r_182, r_183, r_184, r_195, r_197, r_199, r_241, r_242). These attributes suggest significant wear and increasing errors, which are consistent with the drive's impending failure within 7 days.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The drive shows frequent bursts in several SMART attributes over the entire 30-day period, indicating a high level of reallocated sectors (r_5), uncorrectable errors (r_187), and other error-related metrics (r_177, r_180, r_181, r_182, r_183, r_184, r_195, r_197, r_199, r_241, r_242). These attributes suggest significant wear and increasing errors, which are consistent with the drive's impending failure within 7 days."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",,1
+122337,r_197,risk_up,SERIOUS,"The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts across most of the 30-day window, indicating increasing errors and potential wear. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of the data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts across most of the 30-day window, indicating increasing errors and potential wear. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of the data on the SSD before replacement.""
+  ]
+}",1,1
+122337,r_197,risk_down,SERIOUS,"The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts across most of the 30-day window, indicating a high number of reallocated sectors, reported uncorrectable errors, and other critical issues. The increasing trend in r_9 suggests growing wear and potential imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts across most of the 30-day window, indicating a high number of reallocated sectors, reported uncorrectable errors, and other critical issues. The increasing trend in r_9 suggests growing wear and potential imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",,1
+148963,NONE,original,SERIOUS,"The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts across the entire 30-day period. These bursts indicate increasing reallocated sectors, uncorrectable errors, and other signs of drive degradation, which are critical indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of the data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts across the entire 30-day period. These bursts indicate increasing reallocated sectors, uncorrectable errors, and other signs of drive degradation, which are critical indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of the data on the SSD before replacement.""
+  ]
+}",,
+148963,r_5,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing errors, which are strong indicators of imminent hardware failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing errors, which are strong indicators of imminent hardware failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",1,1
+148963,r_5,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing errors, which are strong indicators of imminent hardware failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing errors, which are strong indicators of imminent hardware failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",,1
+148963,r_187,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high likelihood of imminent failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing errors, which are critical indicators of drive degradation.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high likelihood of imminent failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing errors, which are critical indicators of drive degradation."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",1,1
+148963,r_187,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing errors, which are critical signs of impending hardware failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing errors, which are critical signs of impending hardware failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",,1
+148963,r_197,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high number of reallocated sectors, uncorrectable errors, and other signs of disk degradation. The NOVEL pattern in r_9 suggests unusual activity, further increasing the risk.","[""Replace the SSD immediately to prevent data loss."", ""Review backup procedures to ensure data integrity.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high number of reallocated sectors, uncorrectable errors, and other signs of disk degradation. The NOVEL pattern in r_9 suggests unusual activity, further increasing the risk."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review backup procedures to ensure data integrity.""
+  ]
+}",1,1
+148963,r_197,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high rate of reallocated sectors, uncorrectable errors, and other signs of hardware degradation. The NOVEL increase in r_9 suggests unusual activity that could indicate further issues.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high rate of reallocated sectors, uncorrectable errors, and other signs of hardware degradation. The NOVEL increase in r_9 suggests unusual activity that could indicate further issues."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",,1
+153253,NONE,original,SERIOUS,"The SSD shows frequent bursts in several SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (program failure count), r_180 (erase failure count), r_181 (wear leveling count), r_182 (uncorrectable sector count), r_183 (uncorrectable sector count), r_184 (uncorrectable sector count), r_187 (reported uncorrectable errors), r_195 (host read life left), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (host write life left), and r_242 (unified erase cycle count) all exhibit frequent bursts across the entire 30-day period. These trends suggest significant wear, error correction failures, and reallocation activity, which are strong indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in several SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (program failure count), r_180 (erase failure count), r_181 (wear leveling count), r_182 (uncorrectable sector count), r_183 (uncorrectable sector count), r_184 (uncorrectable sector count), r_187 (reported uncorrectable errors), r_195 (host read life left), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (host write life left), and r_242 (unified erase cycle count) all exhibit frequent bursts across the entire 30-day period. These trends suggest significant wear, error correction failures, and reallocation activity, which are strong indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",,
+153253,r_5,risk_up,SERIOUS,"The SSD shows frequent bursts in several SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (wear leveling count), r_183 (unstable NAND block count), r_184 (read disturbance count), r_187 (uncorrectable sector count), r_195 (total LBAs written), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (host write 32MiB block count), and r_242 (host read 32MiB block count) all exhibit frequent bursts across the entire 30-day period. This indicates a high rate of reallocated sectors, uncorrectable errors, and other critical failures.","[""Replace the SSD immediately as it is showing signs of imminent failure."", ""Backup all critical data from the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in several SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (wear leveling count), r_183 (unstable NAND block count), r_184 (read disturbance count), r_187 (uncorrectable sector count), r_195 (total LBAs written), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (host write 32MiB block count), and r_242 (host read 32MiB block count) all exhibit frequent bursts across the entire 30-day period. This indicates a high rate of reallocated sectors, uncorrectable errors, and other critical failures."",
+  ""recommendations"": [
+    ""Replace the SSD immediately as it is showing signs of imminent failure."",
+    ""Backup all critical data from the SSD before replacement.""
+  ]
+}",1,1
+153253,r_5,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (program failure count), r_180 (erase failure count), r_181 (wear leveling count), r_182 (uncorrectable sector count), r_183 (uncorrectable sector count), r_184 (uncorrected error count), r_187 (reported uncorrectable errors), r_195 (host read failure count), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (host write failure count), and r_242 (unverified sector count) all exhibit frequent bursts throughout the 30-day period. These trends suggest significant increases in reallocated sectors, uncorrectable errors, and other critical failures, indicating imminent hardware failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (program failure count), r_180 (erase failure count), r_181 (wear leveling count), r_182 (uncorrectable sector count), r_183 (uncorrectable sector count), r_184 (uncorrected error count), r_187 (reported uncorrectable errors), r_195 (host read failure count), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (host write failure count), and r_242 (unverified sector count) all exhibit frequent bursts throughout the 30-day period. These trends suggest significant increases in reallocated sectors, uncorrectable errors, and other critical failures, indicating imminent hardware failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",,1
+153253,r_187,risk_up,SERIOUS,"The SSD shows frequent bursts in several SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (Wear-Leveling Count), r_183 (Uncorrectable Sector Count), r_184 (Under Provisioning Status), r_187 (reported uncorrectable errors), r_195 (Program Fail Count), r_197 (current pending sector count), r_199 (Uncorrectable Sector Count - Critical), r_241 (Uncorrectable Sector Count - Info), and r_242 (Uncorrectable Sector Count - Critical) all exhibit frequent bursts over the entire 30-day period. These trends suggest significant increases in reallocated sectors, uncorrectable errors, and other critical failures, indicating imminent hardware failure.","[""Immediately back up all critical data on this SSD."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in several SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (Wear-Leveling Count), r_183 (Uncorrectable Sector Count), r_184 (Under Provisioning Status), r_187 (reported uncorrectable errors), r_195 (Program Fail Count), r_197 (current pending sector count), r_199 (Uncorrectable Sector Count - Critical), r_241 (Uncorrectable Sector Count - Info), and r_242 (Uncorrectable Sector Count - Critical) all exhibit frequent bursts over the entire 30-day period. These trends suggest significant increases in reallocated sectors, uncorrectable errors, and other critical failures, indicating imminent hardware failure."",
+  ""recommendations"": [
+    ""Immediately back up all critical data on this SSD."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",1,1
+153253,r_187,risk_down,SERIOUS,"The SSD shows frequent bursts in several SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (Wear-Leveling Count), r_183 (Used Reserved Block Count Total), r_184 (Unused Reserved Block Count Total), r_187 (reported uncorrectable errors), r_195 (Program Fail Count), r_197 (current pending sector count), r_199 (Uncorrectable Sector Count), r_241 (Uncorrectable Sector Count LBA Error Rate), and r_242 (Uncorrectable Sector Count LBA Error Rate) all exhibit frequent bursts over the entire 30-day period. These trends suggest significant wear, error accumulation, and reallocation activity, which are strong indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in several SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (Wear-Leveling Count), r_183 (Used Reserved Block Count Total), r_184 (Unused Reserved Block Count Total), r_187 (reported uncorrectable errors), r_195 (Program Fail Count), r_197 (current pending sector count), r_199 (Uncorrectable Sector Count), r_241 (Uncorrectable Sector Count LBA Error Rate), and r_242 (Uncorrectable Sector Count LBA Error Rate) all exhibit frequent bursts over the entire 30-day period. These trends suggest significant wear, error accumulation, and reallocation activity, which are strong indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",,1
+153253,r_197,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes over the entire 30-day period, indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (Wear-Leveling Count), r_183 (Uncorrectable Sector Count), r_184 (Under Provisioning Status), r_187 (reported uncorrectable errors), r_195 (Program Fail Count), r_197 (current pending sector count), r_199 (Uncorrectable Sector Count - Critical), r_241 (Uncorrectable Sector Count - Info), and r_242 (Uncorrectable Sector Count - Critical) all exhibit frequent bursts. These trends suggest significant wear, error correction failures, and reallocation activity, which are strong indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes over the entire 30-day period, indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (Wear-Leveling Count), r_183 (Uncorrectable Sector Count), r_184 (Under Provisioning Status), r_187 (reported uncorrectable errors), r_195 (Program Fail Count), r_197 (current pending sector count), r_199 (Uncorrectable Sector Count - Critical), r_241 (Uncorrectable Sector Count - Info), and r_242 (Uncorrectable Sector Count - Critical) all exhibit frequent bursts. These trends suggest significant wear, error correction failures, and reallocation activity, which are strong indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",1,1
+153253,r_197,risk_down,SERIOUS,"The SSD shows frequent bursts in several SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (program failure count), r_180 (erase failure count), r_181 (wear leveling count), r_182 (uncorrectable sector count), r_183 (uncorrectable sector count), r_184 (uncorrected error count), r_187 (reported uncorrectable errors), r_195 (host read life left), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (host write life left), and r_242 (unavailable residual sectors) all exhibit frequent bursts over the entire 30-day period. These trends suggest significant increases in reallocated sectors, uncorrectable errors, and wear, which are critical indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in several SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (program failure count), r_180 (erase failure count), r_181 (wear leveling count), r_182 (uncorrectable sector count), r_183 (uncorrectable sector count), r_184 (uncorrected error count), r_187 (reported uncorrectable errors), r_195 (host read life left), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (host write life left), and r_242 (unavailable residual sectors) all exhibit frequent bursts over the entire 30-day period. These trends suggest significant increases in reallocated sectors, uncorrectable errors, and wear, which are critical indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",,1
+153254,NONE,original,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes over the entire 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program fail count), r_181 (erase fail count), r_182 (WWN endurance life left), r_183 (unstable blocks for P/E cycles), r_184 (over provisioning threshold), r_187 (reported uncorrectable errors), r_195 (average erase count), r_197 (current pending sector count), r_199 (uncorrectable sectors), r_241 (host write 32MiB block error rate), and r_242 (host read 32MiB block error rate) all exhibit frequent bursts, suggesting increasing errors and wear.","[""Replace the SSD immediately to prevent data loss."", ""Analyze the system logs to identify any potential causes of excessive writes or reads.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes over the entire 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program fail count), r_181 (erase fail count), r_182 (WWN endurance life left), r_183 (unstable blocks for P/E cycles), r_184 (over provisioning threshold), r_187 (reported uncorrectable errors), r_195 (average erase count), r_197 (current pending sector count), r_199 (uncorrectable sectors), r_241 (host write 32MiB block error rate), and r_242 (host read 32MiB block error rate) all exhibit frequent bursts, suggesting increasing errors and wear."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Analyze the system logs to identify any potential causes of excessive writes or reads.""
+  ]
+}",,
+153254,r_5,risk_up,SERIOUS,"The SSD shows frequent bursts in several SMART attributes over the entire 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program fail count), r_181 (erase fail count), r_182 (WWN (bad block) count), r_183 (uncorrectable sector count), r_184 (unstable reserve block count), r_187 (reported uncorrectable errors), r_195 (total LBAs written), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (host write 32MiB block count), and r_242 (host read 32MiB block count) all exhibit frequent bursts, which suggest increasing errors and wear on the drive.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in several SMART attributes over the entire 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program fail count), r_181 (erase fail count), r_182 (WWN (bad block) count), r_183 (uncorrectable sector count), r_184 (unstable reserve block count), r_187 (reported uncorrectable errors), r_195 (total LBAs written), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (host write 32MiB block count), and r_242 (host read 32MiB block count) all exhibit frequent bursts, which suggest increasing errors and wear on the drive."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",1,1
+153254,r_5,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating increasing reallocated sectors (r_5), uncorrectable errors (r_187), and other signs of hardware degradation. The continuous increase in these error counts suggests imminent failure within the next 10 days.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating increasing reallocated sectors (r_5), uncorrectable errors (r_187), and other signs of hardware degradation. The continuous increase in these error counts suggests imminent failure within the next 10 days."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",,1
+153254,r_187,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high rate of reallocated sectors (r_5), uncorrectable errors (r_187), and other signs of increasing wear and failure. The attribute r_9 also exhibits frequent bursts throughout the monitoring period, suggesting ongoing issues with the drive's health.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high rate of reallocated sectors (r_5), uncorrectable errors (r_187), and other signs of increasing wear and failure. The attribute r_9 also exhibits frequent bursts throughout the monitoring period, suggesting ongoing issues with the drive's health."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",1,1
+153254,r_187,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating increasing reallocated sectors (r_5), uncorrectable errors (r_187), and other signs of wear and failure. The increasing values in r_9 also suggest growing issues with the drive's health.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating increasing reallocated sectors (r_5), uncorrectable errors (r_187), and other signs of wear and failure. The increasing values in r_9 also suggest growing issues with the drive's health."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",,1
+153254,r_197,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes over the entire 30-day period, indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (wear leveling inactive block count), r_183 (unstable NAND block count), r_184 (read disturb retry count), r_187 (reported uncorrectable errors), r_195 (program fail count), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (host write 32MiB block count), and r_242 (host read 32MiB block count) all exhibit frequent bursts, suggesting increasing errors and wear. The rapid increase in reallocated sectors and uncorrectable errors is particularly alarming.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes over the entire 30-day period, indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (wear leveling inactive block count), r_183 (unstable NAND block count), r_184 (read disturb retry count), r_187 (reported uncorrectable errors), r_195 (program fail count), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (host write 32MiB block count), and r_242 (host read 32MiB block count) all exhibit frequent bursts, suggesting increasing errors and wear. The rapid increase in reallocated sectors and uncorrectable errors is particularly alarming."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",1,1
+153254,r_197,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (Wear-Leveling Count), r_183 (Uncorrectable Sector Count), r_184 (Under Provisioning Status), r_187 (reported uncorrectable errors), r_195 (Total LBAs Written), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (host write 32MiB block count), and r_242 (host read 32MiB block count) all exhibit frequent bursts across the entire 30-day period. This indicates a high rate of reallocated sectors, uncorrectable errors, and other critical failures.","[""Replace the SSD immediately as it is showing signs of imminent failure."", ""Backup all critical data from the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (Wear-Leveling Count), r_183 (Uncorrectable Sector Count), r_184 (Under Provisioning Status), r_187 (reported uncorrectable errors), r_195 (Total LBAs Written), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (host write 32MiB block count), and r_242 (host read 32MiB block count) all exhibit frequent bursts across the entire 30-day period. This indicates a high rate of reallocated sectors, uncorrectable errors, and other critical failures."",
+  ""recommendations"": [
+    ""Replace the SSD immediately as it is showing signs of imminent failure."",
+    ""Backup all critical data from the SSD before replacement.""
+  ]
+}",,1
+153259,NONE,original,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (program failure count), r_180 (erase failure count), r_181 (wear leveling count), r_182 (uncorrectable sector count), r_183 (uncorrectable sector count), r_184 (uncorrected command error count), r_187 (reported uncorrectable errors), r_195 (total host writes), r_197 (current pending sector count), r_199 (uncorrected command error count), r_241 (host write 32MiB block count), and r_242 (host read 32MiB block count) all exhibit frequent bursts throughout the 30-day period. These trends suggest significant wear and increasing unrecoverable errors.","[""Immediately replace the SSD as it is showing signs of imminent failure."", ""Perform a data backup from the failing SSD to prevent potential data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (program failure count), r_180 (erase failure count), r_181 (wear leveling count), r_182 (uncorrectable sector count), r_183 (uncorrectable sector count), r_184 (uncorrected command error count), r_187 (reported uncorrectable errors), r_195 (total host writes), r_197 (current pending sector count), r_199 (uncorrected command error count), r_241 (host write 32MiB block count), and r_242 (host read 32MiB block count) all exhibit frequent bursts throughout the 30-day period. These trends suggest significant wear and increasing unrecoverable errors."",
+  ""recommendations"": [
+    ""Immediately replace the SSD as it is showing signs of imminent failure."",
+    ""Perform a data backup from the failing SSD to prevent potential data loss.""
+  ]
+}",,
+153259,r_5,risk_up,SERIOUS,"The drive shows frequent bursts in multiple SMART attributes over the entire 30-day period, indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (program failure count), r_180 (erase failure count), r_181 (wear leveling count), r_182 (uncorrectable sector count), r_183 (uncorrectable sector count), r_184 (uncorrected command error count), r_187 (reported uncorrectable errors), r_195 (host write protection count), r_197 (current pending sector count), r_199 (uncorrected command error count), r_241 (host read failure count), and r_242 (host write failure count) all exhibit frequent bursts. These trends suggest imminent failure.","[""Immediately back up critical data from the drive."", ""Replace the SSD as soon as possible.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The drive shows frequent bursts in multiple SMART attributes over the entire 30-day period, indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (program failure count), r_180 (erase failure count), r_181 (wear leveling count), r_182 (uncorrectable sector count), r_183 (uncorrectable sector count), r_184 (uncorrected command error count), r_187 (reported uncorrectable errors), r_195 (host write protection count), r_197 (current pending sector count), r_199 (uncorrected command error count), r_241 (host read failure count), and r_242 (host write failure count) all exhibit frequent bursts. These trends suggest imminent failure."",
+  ""recommendations"": [
+    ""Immediately back up critical data from the drive."",
+    ""Replace the SSD as soon as possible.""
+  ]
+}",1,1
+153259,r_5,risk_down,SERIOUS,"The SSD shows frequent bursts in several SMART attributes over the entire 30-day period, indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (program failure count), r_180 (erase failure count), r_181 (wear leveling count), r_182 (uncorrectable sector count), r_183 (uncorrectable sector count), r_184 (uncorrected command error count), r_187 (reported uncorrectable errors), r_195 (host write 32MiB block count), r_197 (current pending sector count), r_199 (uncorrected command error count), r_241 (host read 32MiB block count), and r_242 (host write 32MiB block count) all exhibit frequent bursts. These trends suggest significant wear, increasing errors, and imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in several SMART attributes over the entire 30-day period, indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (program failure count), r_180 (erase failure count), r_181 (wear leveling count), r_182 (uncorrectable sector count), r_183 (uncorrectable sector count), r_184 (uncorrected command error count), r_187 (reported uncorrectable errors), r_195 (host write 32MiB block count), r_197 (current pending sector count), r_199 (uncorrected command error count), r_241 (host read 32MiB block count), and r_242 (host write 32MiB block count) all exhibit frequent bursts. These trends suggest significant wear, increasing errors, and imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",,1
+153259,r_187,risk_up,SERIOUS,"The drive shows frequent bursts in several SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (offline uncleared error count), r_183 (uncorrectable sector count), r_184 (unstable reserve count), r_187 (reported uncorrectable errors), r_195 (high temperature), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (critical composite attribute), and r_242 (wear indicator) all exhibit frequent bursts over the entire 30-day period. These trends suggest significant wear, errors, and instability.","[""Replace the SSD immediately due to critical SMART attribute failures."", ""Review system logs for any recent performance degradation or data corruption incidents.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The drive shows frequent bursts in several SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (offline uncleared error count), r_183 (uncorrectable sector count), r_184 (unstable reserve count), r_187 (reported uncorrectable errors), r_195 (high temperature), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (critical composite attribute), and r_242 (wear indicator) all exhibit frequent bursts over the entire 30-day period. These trends suggest significant wear, errors, and instability."",
+  ""recommendations"": [
+    ""Replace the SSD immediately due to critical SMART attribute failures."",
+    ""Review system logs for any recent performance degradation or data corruption incidents.""
+  ]
+}",1,1
+153259,r_187,risk_down,SERIOUS,"The drive shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) indicate a high number of reallocated sectors and uncorrectable errors, which are critical signs of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The drive shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) indicate a high number of reallocated sectors and uncorrectable errors, which are critical signs of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",,1
+153259,r_197,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period, indicating a high rate of reallocated sectors (r_5), uncorrectable errors (r_187), and other signs of imminent failure. The increasing trend in r_9 also suggests growing wear and potential unrecoverable errors.","[""Immediately back up critical data from the SSD."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period, indicating a high rate of reallocated sectors (r_5), uncorrectable errors (r_187), and other signs of imminent failure. The increasing trend in r_9 also suggests growing wear and potential unrecoverable errors."",
+  ""recommendations"": [
+    ""Immediately back up critical data from the SSD."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",1,1
+153259,r_197,risk_down,SERIOUS,"The drive shows frequent bursts in multiple SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (wear leveling count), r_183 (unstable NAND block count), r_184 (read error rate), r_187 (reported uncorrectable errors), r_195 (host read retry count), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (under voltage count), and r_242 (temperature sensor 2). These attributes indicate increasing errors, wear, and instability.","[""Replace the SSD immediately as it is showing critical signs of failure."", ""Backup all data from the failing SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The drive shows frequent bursts in multiple SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (wear leveling count), r_183 (unstable NAND block count), r_184 (read error rate), r_187 (reported uncorrectable errors), r_195 (host read retry count), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (under voltage count), and r_242 (temperature sensor 2). These attributes indicate increasing errors, wear, and instability."",
+  ""recommendations"": [
+    ""Replace the SSD immediately as it is showing critical signs of failure."",
+    ""Backup all data from the failing SSD before replacement.""
+  ]
+}",,1
+265848,NONE,original,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes over the entire 30-day period, indicating a high risk of failure. Specifically, attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 exhibit abnormal behavior, with r_9 showing a notable increase in values. These trends suggest increasing errors and potential wear, which are critical signs of impending failure.","[""Replace the SSD immediately to prevent data loss."", ""Review backup procedures to ensure data integrity.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes over the entire 30-day period, indicating a high risk of failure. Specifically, attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 exhibit abnormal behavior, with r_9 showing a notable increase in values. These trends suggest increasing errors and potential wear, which are critical signs of impending failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review backup procedures to ensure data integrity.""
+  ]
+}",,
+265848,r_5,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating increasing errors and potential wear. The presence of reallocated sectors (r_5) and reported uncorrectable errors (r_187) are particularly concerning as they suggest data integrity issues.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating increasing errors and potential wear. The presence of reallocated sectors (r_5) and reported uncorrectable errors (r_187) are particularly concerning as they suggest data integrity issues."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",1,1
+265848,r_5,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes over the past 30 days, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (program fail count), r_180 (erase fail count), r_181 (wear leveling count), r_182 (uncorrectable sector count), r_183 (uncorrectable sector count for ECC), r_184 (off-line uncorrectable sector count), r_187 (reported uncorrectable errors), r_195 (host write 32MiB block error rate), r_197 (current pending sector count), r_199 (uncorrectable sector count for host writes), r_241 (total LBAs written), and r_242 (total LBAs read) all exhibit frequent bursts, suggesting increasing errors and wear.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes over the past 30 days, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (program fail count), r_180 (erase fail count), r_181 (wear leveling count), r_182 (uncorrectable sector count), r_183 (uncorrectable sector count for ECC), r_184 (off-line uncorrectable sector count), r_187 (reported uncorrectable errors), r_195 (host write 32MiB block error rate), r_197 (current pending sector count), r_199 (uncorrectable sector count for host writes), r_241 (total LBAs written), and r_242 (total LBAs read) all exhibit frequent bursts, suggesting increasing errors and wear."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",,1
+265848,r_187,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption, respectively.","[""Replace the SSD immediately to prevent potential data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption, respectively."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent potential data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",1,1
+265848,r_187,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing errors, which are critical signs of imminent hardware failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing errors, which are critical signs of imminent hardware failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",,1
+265848,r_197,risk_up,SERIOUS,"The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts across the entire 30-day period, indicating a high number of reallocated sectors, uncorrectable errors, and other critical issues. These trends suggest significant wear and increasing errors, which are strong indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts across the entire 30-day period, indicating a high number of reallocated sectors, uncorrectable errors, and other critical issues. These trends suggest significant wear and increasing errors, which are strong indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",1,1
+265848,r_197,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing errors, which are critical signs of impending failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing errors, which are critical signs of impending failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",,1
+265854,NONE,original,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of imminent failure. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest ongoing data corruption and unrecoverable errors.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of imminent failure. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest ongoing data corruption and unrecoverable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",,
+265854,r_5,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other signs of imminent failure. The ground truth confirms the drive has failed within 5 days, highlighting the severity of these trends.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other signs of imminent failure. The ground truth confirms the drive has failed within 5 days, highlighting the severity of these trends."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",1,1
+265854,r_5,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of imminent failure. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest ongoing data corruption and hardware degradation.","[""Immediately back up critical data from the SSD."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of imminent failure. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest ongoing data corruption and hardware degradation."",
+  ""recommendations"": [
+    ""Immediately back up critical data from the SSD."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",,1
+265854,r_187,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other signs of imminent failure. The ground truth confirms the drive has failed within 5 days, highlighting the severity of these trends.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other signs of imminent failure. The ground truth confirms the drive has failed within 5 days, highlighting the severity of these trends."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",1,1
+265854,r_187,risk_down,SERIOUS,"The drive shows frequent bursts in multiple SMART attributes over the past 30 days, indicating severe issues. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show significant increases, which are critical indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The drive shows frequent bursts in multiple SMART attributes over the past 30 days, indicating severe issues. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show significant increases, which are critical indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",,1
+265854,r_197,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of imminent failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing error rates, which are critical indicators of hardware degradation.","[""Immediately back up all critical data on this SSD."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of imminent failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing error rates, which are critical indicators of hardware degradation."",
+  ""recommendations"": [
+    ""Immediately back up all critical data on this SSD."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",1,1
+265854,r_197,risk_down,SERIOUS,"The drive shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. The ground truth confirms the drive has failed within the next 5 days, emphasizing the severity.","[""Immediately replace the SSD as it is at high risk of imminent failure."", ""Backup all critical data from the failing SSD to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The drive shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. The ground truth confirms the drive has failed within the next 5 days, emphasizing the severity."",
+  ""recommendations"": [
+    ""Immediately replace the SSD as it is at high risk of imminent failure."",
+    ""Backup all critical data from the failing SSD to prevent data loss.""
+  ]
+}",,1
+299110,NONE,original,SERIOUS,"The drive shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) indicate increasing reallocation and uncorrectable errors, which are strong indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The drive shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) indicate increasing reallocation and uncorrectable errors, which are strong indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",,
+299110,r_5,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high rate of reallocated sectors, uncorrectable errors, and other signs of hardware degradation. Attribute r_9 also exhibits a consistent increase, suggesting ongoing wear and potential failure within the next 7 days.","[""Replace the SSD immediately to prevent data loss."", ""Backup critical data stored on this drive as soon as possible.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high rate of reallocated sectors, uncorrectable errors, and other signs of hardware degradation. Attribute r_9 also exhibits a consistent increase, suggesting ongoing wear and potential failure within the next 7 days."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Backup critical data stored on this drive as soon as possible.""
+  ]
+}",1,1
+299110,r_5,risk_down,SERIOUS,"The drive shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high rate of reallocated sectors, uncorrectable errors, and other signs of hardware degradation. The increasing trend in r_9 suggests growing wear and potential imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The drive shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high rate of reallocated sectors, uncorrectable errors, and other signs of hardware degradation. The increasing trend in r_9 suggests growing wear and potential imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data on the SSD before replacement.""
+  ]
+}",,1
+299110,r_187,risk_up,SERIOUS,"The drive shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption.","[""Replace the SSD immediately to prevent potential data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The drive shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent potential data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",1,1
+299110,r_187,risk_down,SERIOUS,"The drive shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating increasing reallocated sectors, uncorrectable errors, and other signs of hardware degradation. The presence of frequent bursts in r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) is particularly alarming as these directly indicate data corruption and imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data from the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The drive shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating increasing reallocated sectors, uncorrectable errors, and other signs of hardware degradation. The presence of frequent bursts in r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) is particularly alarming as these directly indicate data corruption and imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data from the SSD before replacement.""
+  ]
+}",,1
+299110,r_197,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. The increasing trend in r_9 suggests growing wear and potential imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. The increasing trend in r_9 suggests growing wear and potential imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",1,1
+299110,r_197,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high risk of failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high risk of failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",,1
+299112,NONE,original,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (Wear-Leveling Count), r_183 (Uncorrectable Sector Count), r_184 (Under Provisioning Status), r_187 (reported uncorrectable errors), r_195 (Program Fail Count), r_197 (current pending sector count), r_199 (Uncorrectable Sector Count - Critical), r_241 (Uncorrectable Sector Count - Info), and r_242 (Uncorrectable Sector Count - Critical) show frequent bursts across all 30 days. These trends suggest significant wear and increasing errors, which are critical signs of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Backup all critical data from the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (Wear-Leveling Count), r_183 (Uncorrectable Sector Count), r_184 (Under Provisioning Status), r_187 (reported uncorrectable errors), r_195 (Program Fail Count), r_197 (current pending sector count), r_199 (Uncorrectable Sector Count - Critical), r_241 (Uncorrectable Sector Count - Info), and r_242 (Uncorrectable Sector Count - Critical) show frequent bursts across all 30 days. These trends suggest significant wear and increasing errors, which are critical signs of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Backup all critical data from the SSD before replacement.""
+  ]
+}",,
+299112,r_5,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (offline uncleared error count), r_183 (uncorrectable sector count), r_184 (unstable reserve block count), r_187 (reported uncorrectable errors), r_195 (total LBAs written), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (host write 32MiB block count), and r_242 (host read 32MiB block count) all exhibit frequent bursts. These trends suggest significant wear, increasing errors, and imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (offline uncleared error count), r_183 (uncorrectable sector count), r_184 (unstable reserve block count), r_187 (reported uncorrectable errors), r_195 (total LBAs written), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (host write 32MiB block count), and r_242 (host read 32MiB block count) all exhibit frequent bursts. These trends suggest significant wear, increasing errors, and imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",1,1
+299112,r_5,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high number of reallocated sectors, uncorrectable errors, and other signs of imminent failure. The increasing values in r_9 suggest growing wear and tear on the drive.","[""Replace the SSD immediately to prevent data loss."", ""Backup critical data from the failing drive.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high number of reallocated sectors, uncorrectable errors, and other signs of imminent failure. The increasing values in r_9 suggest growing wear and tear on the drive."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Backup critical data from the failing drive.""
+  ]
+}",,1
+299112,r_187,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (Wear-Leveling Count), r_183 (Uncorrectable Sector Count), r_184 (Under Provisioning Status), r_187 (reported uncorrectable errors), r_195 (Program Fail Count), r_197 (current pending sector count), r_199 (Uncorrectable Sector Count - critical), r_241 (Uncorrectable Sector Count - critical), and r_242 (Uncorrectable Sector Count - critical) all exhibit frequent bursts across the entire 30-day period. These trends suggest significant wear and increasing unrecoverable errors.","[""Replace the SSD immediately due to imminent failure."", ""Backup all critical data from the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (Wear-Leveling Count), r_183 (Uncorrectable Sector Count), r_184 (Under Provisioning Status), r_187 (reported uncorrectable errors), r_195 (Program Fail Count), r_197 (current pending sector count), r_199 (Uncorrectable Sector Count - critical), r_241 (Uncorrectable Sector Count - critical), and r_242 (Uncorrectable Sector Count - critical) all exhibit frequent bursts across the entire 30-day period. These trends suggest significant wear and increasing unrecoverable errors."",
+  ""recommendations"": [
+    ""Replace the SSD immediately due to imminent failure."",
+    ""Backup all critical data from the SSD before replacement.""
+  ]
+}",1,1
+299112,r_187,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (program failure count), r_180 (erase failure count), r_181 (wear leveling count), r_182 (uncorrectable sector count), r_183 (uncorrectable sector count), r_184 (uncorrectable sector count), r_187 (reported uncorrectable errors), r_195 (total LBAs written), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (host write 32MiB block count), and r_242 (host read 32MiB block count) all exhibit frequent bursts. These trends suggest significant wear and increasing errors, which are critical signs of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of the data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (program failure count), r_180 (erase failure count), r_181 (wear leveling count), r_182 (uncorrectable sector count), r_183 (uncorrectable sector count), r_184 (uncorrectable sector count), r_187 (reported uncorrectable errors), r_195 (total LBAs written), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (host write 32MiB block count), and r_242 (host read 32MiB block count) all exhibit frequent bursts. These trends suggest significant wear and increasing errors, which are critical signs of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of the data on the SSD before replacement.""
+  ]
+}",,1
+299112,r_197,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (Wear-Leveling Count), r_183 (Uncorrectable Sector Count), r_184 (Under Provisioning Status), r_187 (reported uncorrectable errors), r_195 (Program Fail Count), r_197 (current pending sector count), r_199 (Uncorrectable Sector Count - old), r_241 (Uncorrectable Sector Count - new), and r_242 (Uncorrectable Sector Count - critical). These attributes indicate increasing errors, wear, and reallocation activity, which are strong indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Backup all critical data from the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (Wear-Leveling Count), r_183 (Uncorrectable Sector Count), r_184 (Under Provisioning Status), r_187 (reported uncorrectable errors), r_195 (Program Fail Count), r_197 (current pending sector count), r_199 (Uncorrectable Sector Count - old), r_241 (Uncorrectable Sector Count - new), and r_242 (Uncorrectable Sector Count - critical). These attributes indicate increasing errors, wear, and reallocation activity, which are strong indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Backup all critical data from the SSD before replacement.""
+  ]
+}",1,1
+299112,r_197,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (worst ecc life left), r_183 (uncorrectable sectors), r_184 (unstable reserve regions), r_187 (reported uncorrectable errors), r_195 (total LBAs written), r_197 (current pending sector count), r_199 (uncorrectable sectors during power on reset), r_241 (host write 32MiB block count), and r_242 (host read 32MiB block count) all exhibit frequent bursts. These trends suggest significant wear, error correction failures, and reallocation activity, which are critical indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes indicating severe issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (worst ecc life left), r_183 (uncorrectable sectors), r_184 (unstable reserve regions), r_187 (reported uncorrectable errors), r_195 (total LBAs written), r_197 (current pending sector count), r_199 (uncorrectable sectors during power on reset), r_241 (host write 32MiB block count), and r_242 (host read 32MiB block count) all exhibit frequent bursts. These trends suggest significant wear, error correction failures, and reallocation activity, which are critical indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",,1
+469909,NONE,original,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high rate of reallocated sectors and uncorrectable errors. The increasing trend in r_9 suggests growing wear and potential failure within the next month.","[""Replace the SSD immediately to prevent data loss."", ""Review backup procedures to ensure data integrity.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high rate of reallocated sectors and uncorrectable errors. The increasing trend in r_9 suggests growing wear and potential failure within the next month."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review backup procedures to ensure data integrity.""
+  ]
+}",,
+469909,r_5,risk_up,SERIOUS,"The SMART attributes r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (offline uncleared error count), r_183 (uncorrectable sector count), r_184 (under voltage count), r_187 (reported uncorrectable errors), r_195 (soft ECC correction count), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (host write 32MiB block count), and r_242 (host read 32MiB block count) show frequent bursts across most of the patch throughout the 30-day window. This indicates a high level of errors and wear, which is consistent with the drive being in a failed state within 25 days.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SMART attributes r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (offline uncleared error count), r_183 (uncorrectable sector count), r_184 (under voltage count), r_187 (reported uncorrectable errors), r_195 (soft ECC correction count), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (host write 32MiB block count), and r_242 (host read 32MiB block count) show frequent bursts across most of the patch throughout the 30-day window. This indicates a high level of errors and wear, which is consistent with the drive being in a failed state within 25 days."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",1,1
+469909,r_5,risk_down,SERIOUS,"The SSD shows frequent bursts in several critical SMART attributes over the entire 30-day period, indicating severe issues. Specifically, r_5 (reallocated sector count) and r_9 (power-on hours) exhibit frequent bursts, suggesting ongoing reallocation of sectors and potential wear. Additionally, other attributes like r_187 (reported uncorrectable errors) and r_197 (current pending sector count) also show frequent bursts, indicating increasing uncorrectable errors and pending sector issues.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in several critical SMART attributes over the entire 30-day period, indicating severe issues. Specifically, r_5 (reallocated sector count) and r_9 (power-on hours) exhibit frequent bursts, suggesting ongoing reallocation of sectors and potential wear. Additionally, other attributes like r_187 (reported uncorrectable errors) and r_197 (current pending sector count) also show frequent bursts, indicating increasing uncorrectable errors and pending sector issues."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",,1
+469909,r_187,risk_up,SERIOUS,"The SMART attributes r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (offline uncleared error count), r_183 (uncorrectable sector count), r_184 (under voltage count), r_187 (reported uncorrectable errors), r_195 (host read failure count), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (unstable reserve block count), and r_242 (spare in-system block count) show frequent bursts and increasing trends over the entire 30-day period. This indicates significant wear and increasing errors, which are strong indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SMART attributes r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (offline uncleared error count), r_183 (uncorrectable sector count), r_184 (under voltage count), r_187 (reported uncorrectable errors), r_195 (host read failure count), r_197 (current pending sector count), r_199 (uncorrectable sector count), r_241 (unstable reserve block count), and r_242 (spare in-system block count) show frequent bursts and increasing trends over the entire 30-day period. This indicates significant wear and increasing errors, which are strong indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",1,1
+469909,r_187,risk_down,SERIOUS,"The SMART attributes r_5 (reallocated sector count), r_9 (power-on hours), and multiple others (r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts indicating increasing errors and wear. The continuous increase in reallocated sectors (r_5) and reported uncorrectable errors (r_187) are critical signs of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of the data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SMART attributes r_5 (reallocated sector count), r_9 (power-on hours), and multiple others (r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts indicating increasing errors and wear. The continuous increase in reallocated sectors (r_5) and reported uncorrectable errors (r_187) are critical signs of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of the data on the SSD before replacement.""
+  ]
+}",,1
+469909,r_197,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high rate of reallocated sectors and uncorrectable errors. The continuous increase in r_9 suggests growing wear and potential failure within the next 25 days.","[""Replace the SSD immediately to prevent data loss."", ""Review system logs for any recent performance degradation or errors that may indicate issues beyond just SMART metrics.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high rate of reallocated sectors and uncorrectable errors. The continuous increase in r_9 suggests growing wear and potential failure within the next 25 days."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Review system logs for any recent performance degradation or errors that may indicate issues beyond just SMART metrics.""
+  ]
+}",1,1
+469909,r_197,risk_down,SERIOUS,"The SMART attributes r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (offline uncleared error count), r_183 (uncorrectable sector count), r_184 (uncorrectable sector per erase count), r_187 (reported uncorrectable errors), r_195 (total LBAs written), r_197 (current pending sector count), r_199 (uncorrectable sector per program count), r_241 (host write 32MiB block count), and r_242 (host read 32MiB block count) show frequent bursts across the entire 30-day period. These bursts indicate increasing errors and wear, which are strong indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SMART attributes r_5 (reallocated sector count), r_9 (power-on hours), r_12 (power cycle count), r_177 (wear leveling count), r_180 (program failure count), r_181 (erase failure count), r_182 (offline uncleared error count), r_183 (uncorrectable sector count), r_184 (uncorrectable sector per erase count), r_187 (reported uncorrectable errors), r_195 (total LBAs written), r_197 (current pending sector count), r_199 (uncorrectable sector per program count), r_241 (host write 32MiB block count), and r_242 (host read 32MiB block count) show frequent bursts across the entire 30-day period. These bursts indicate increasing errors and wear, which are strong indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",,1
+469925,NONE,original,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of imminent failure. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest ongoing data corruption and unrecoverable errors.","[""Immediately back up critical data from the SSD."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of imminent failure. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest ongoing data corruption and unrecoverable errors."",
+  ""recommendations"": [
+    ""Immediately back up critical data from the SSD."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",,
+469925,r_5,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high likelihood of imminent failure. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest ongoing data corruption and unrecoverable errors.","[""Immediately back up critical data from the SSD."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high likelihood of imminent failure. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest ongoing data corruption and unrecoverable errors."",
+  ""recommendations"": [
+    ""Immediately back up critical data from the SSD."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",1,1
+469925,r_5,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high likelihood of imminent failure. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest ongoing data corruption and unrecoverable errors.","[""Immediately back up critical data from the SSD."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high likelihood of imminent failure. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest ongoing data corruption and unrecoverable errors."",
+  ""recommendations"": [
+    ""Immediately back up critical data from the SSD."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",,1
+469925,r_187,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of imminent failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of imminent failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",1,1
+469925,r_187,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of imminent failure. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest ongoing data corruption and unrecoverable errors.","[""Immediately back up critical data from the SSD."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of imminent failure. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest ongoing data corruption and unrecoverable errors."",
+  ""recommendations"": [
+    ""Immediately back up critical data from the SSD."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",,1
+469925,r_197,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. The ground truth confirms the drive is failing within 2 days, emphasizing the urgency.","[""Immediately replace the SSD to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. The ground truth confirms the drive is failing within 2 days, emphasizing the urgency."",
+  ""recommendations"": [
+    ""Immediately replace the SSD to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",1,1
+469925,r_197,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. The ground truth confirms the drive is failing within 2 days, highlighting the urgency.","[""Immediately replace the SSD as it is critically failing."", ""Backup all critical data from the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. The ground truth confirms the drive is failing within 2 days, highlighting the urgency."",
+  ""recommendations"": [
+    ""Immediately replace the SSD as it is critically failing."",
+    ""Backup all critical data from the SSD before replacement.""
+  ]
+}",,1
+500647,NONE,original,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating increasing errors and potential wear. The presence of reallocated sectors (r_5) and reported uncorrectable errors (r_187) are particularly concerning as they suggest data integrity issues.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating increasing errors and potential wear. The presence of reallocated sectors (r_5) and reported uncorrectable errors (r_187) are particularly concerning as they suggest data integrity issues."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",,
+500647,r_5,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption.","[""Replace the SSD immediately to prevent potential data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent potential data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",1,1
+500647,r_5,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating increasing errors and potential wear. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating increasing errors and potential wear. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",,1
+500647,r_187,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating increasing errors and potential wear. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating increasing errors and potential wear. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",1,1
+500647,r_187,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high likelihood of imminent failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high likelihood of imminent failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",,1
+500647,r_197,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption.","[""Replace the SSD immediately to prevent potential data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent potential data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",1,1
+500647,r_197,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption.","[""Replace the SSD immediately to prevent potential data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent potential data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",,1
+614921,NONE,original,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing error rates, which are critical indicators of imminent hardware failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing error rates, which are critical indicators of imminent hardware failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",,
+614921,r_5,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating increasing errors and potential wear. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating increasing errors and potential wear. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",1,1
+614921,r_5,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing errors, which are strong indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data stored on this drive.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing errors, which are strong indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data stored on this drive.""
+  ]
+}",,1
+614921,r_187,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating increasing errors and potential wear. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data stored on this drive.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating increasing errors and potential wear. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data stored on this drive.""
+  ]
+}",1,1
+614921,r_187,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption.","[""Replace the SSD immediately to prevent potential data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent potential data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",,1
+614921,r_197,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating increasing errors and potential wear. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before the replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating increasing errors and potential wear. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before the replacement.""
+  ]
+}",1,1
+614921,r_197,risk_down,SERIOUS,"The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts over the entire 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. These trends suggest significant wear and potential imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts over the entire 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. These trends suggest significant wear and potential imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",,1
+614927,NONE,original,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption.","[""Replace the SSD immediately to prevent potential data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent potential data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",,
+614927,r_5,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high number of reallocated sectors, uncorrectable errors, and other critical issues. The increasing trend in r_9 suggests growing wear and potential imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating a high number of reallocated sectors, uncorrectable errors, and other critical issues. The increasing trend in r_9 suggests growing wear and potential imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",1,1
+614927,r_5,risk_down,SERIOUS,"The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts of activity across the entire 30-day period. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) indicate increasing errors and wear, which are critical signs of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts of activity across the entire 30-day period. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) indicate increasing errors and wear, which are critical signs of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",,1
+614927,r_187,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing errors, which are critical signs of impending failure.","[""Replace the SSD immediately to prevent data loss."", ""Backup any critical data from the SSD before it fails.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing errors, which are critical signs of impending failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Backup any critical data from the SSD before it fails.""
+  ]
+}",1,1
+614927,r_187,risk_down,SERIOUS,"The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts of activity over the entire 30-day period. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) indicate increasing errors and wear, which are critical signs of impending failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts of activity over the entire 30-day period. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) indicate increasing errors and wear, which are critical signs of impending failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",,1
+614927,r_197,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high likelihood of imminent failure. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest ongoing data corruption and wear issues.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high likelihood of imminent failure. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest ongoing data corruption and wear issues."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",1,1
+614927,r_197,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating increasing reallocated sectors, uncorrectable errors, and other signs of hardware degradation. The high frequency of these errors suggests imminent failure within the next 7-30 days.","[""Immediately back up critical data from the SSD."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) indicating increasing reallocated sectors, uncorrectable errors, and other signs of hardware degradation. The high frequency of these errors suggests imminent failure within the next 7-30 days."",
+  ""recommendations"": [
+    ""Immediately back up critical data from the SSD."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",,1
+614930,NONE,original,SERIOUS,"The drive shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. The NOVEL pattern in r_9 suggests unusual activity that could indicate impending failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of the data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The drive shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. The NOVEL pattern in r_9 suggests unusual activity that could indicate impending failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of the data before replacement.""
+  ]
+}",,
+614930,r_5,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. The rapid increase in r_9 suggests significant wear and potential imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. The rapid increase in r_9 suggests significant wear and potential imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",1,1
+614930,r_5,risk_down,SERIOUS,"The drive shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. The NOVEL pattern in r_9 also suggests unusual behavior. These trends strongly indicate imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the drive.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The drive shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. The NOVEL pattern in r_9 also suggests unusual behavior. These trends strongly indicate imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the drive.""
+  ]
+}",,1
+614930,r_187,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period. These bursts indicate increasing errors and potential wear, particularly with r_9 showing a notable increase in values. The drive is labeled as FAILED with less than 7 days until failure, indicating imminent issues.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period. These bursts indicate increasing errors and potential wear, particularly with r_9 showing a notable increase in values. The drive is labeled as FAILED with less than 7 days until failure, indicating imminent issues."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",1,1
+614930,r_187,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of imminent failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption.","[""Immediately back up all critical data on the SSD."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of imminent failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption."",
+  ""recommendations"": [
+    ""Immediately back up all critical data on the SSD."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",,1
+614930,r_197,risk_up,SERIOUS,"The drive shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. The NOVEL pattern in r_9 suggests unusual activity, further raising concerns about imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The drive shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. The NOVEL pattern in r_9 suggests unusual activity, further raising concerns about imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",1,1
+614930,r_197,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high likelihood of imminent failure. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest ongoing data corruption and wear.","[""Immediately back up critical data from the SSD."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high likelihood of imminent failure. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest ongoing data corruption and wear."",
+  ""recommendations"": [
+    ""Immediately back up critical data from the SSD."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",,1
+797058,NONE,original,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period, indicating a high level of reallocated sectors, uncorrectable errors, and other critical issues. The presence of these frequent bursts suggests significant wear and potential data corruption risks.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period, indicating a high level of reallocated sectors, uncorrectable errors, and other critical issues. The presence of these frequent bursts suggests significant wear and potential data corruption risks."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data before replacement.""
+  ]
+}",,
+797058,r_5,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating increasing errors and potential wear. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating increasing errors and potential wear. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",1,1
+797058,r_5,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing errors, which are critical indicators of imminent hardware failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing errors, which are critical indicators of imminent hardware failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",,1
+797058,r_187,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating increasing errors and potential wear. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating increasing errors and potential wear. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",1,1
+797058,r_187,risk_down,SERIOUS,"The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts over the entire 30-day period, indicating a high number of reallocated sectors, uncorrectable errors, and other critical issues. The increasing trend in r_9 suggests growing wear and potential failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts over the entire 30-day period, indicating a high number of reallocated sectors, uncorrectable errors, and other critical issues. The increasing trend in r_9 suggests growing wear and potential failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",,1
+797058,r_197,risk_up,SERIOUS,"The SMART summary shows frequent bursts in multiple attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high level of errors and potential wear. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) show increasing trends, which are critical indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of the data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SMART summary shows frequent bursts in multiple attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high level of errors and potential wear. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) show increasing trends, which are critical indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of the data on the SSD before replacement.""
+  ]
+}",1,1
+797058,r_197,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating increasing errors and potential wear. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating increasing errors and potential wear. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",,1
+797063,NONE,original,SERIOUS,"The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts across the entire 30-day period, indicating a high number of reallocated sectors, reported uncorrectable errors, and other critical issues. This pattern suggests significant hardware degradation and imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts across the entire 30-day period, indicating a high number of reallocated sectors, reported uncorrectable errors, and other critical issues. This pattern suggests significant hardware degradation and imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",,
+797063,r_5,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption, respectively.","[""Replace the SSD immediately to prevent potential data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high risk of failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation and data corruption, respectively."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent potential data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",1,1
+797063,r_5,risk_down,SERIOUS,"The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts over the entire 30-day period, indicating a high number of reallocated sectors, uncorrectable errors, and other signs of increasing wear and failure. The ground truth confirms the drive has failed within the next 7 days, making this a critical situation.","[""Immediately back up all critical data on the drive."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SMART attributes r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, and r_242 show frequent bursts over the entire 30-day period, indicating a high number of reallocated sectors, uncorrectable errors, and other signs of increasing wear and failure. The ground truth confirms the drive has failed within the next 7 days, making this a critical situation."",
+  ""recommendations"": [
+    ""Immediately back up all critical data on the drive."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",,1
+797063,r_187,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of imminent failure. The presence of reallocated sectors (r_5) and reported uncorrectable errors (r_187) are particularly concerning as they suggest data corruption and hardware degradation.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of imminent failure. The presence of reallocated sectors (r_5) and reported uncorrectable errors (r_187) are particularly concerning as they suggest data corruption and hardware degradation."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",1,1
+797063,r_187,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period, indicating a high risk of imminent failure. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest ongoing data corruption and wear issues.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period, indicating a high risk of imminent failure. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest ongoing data corruption and wear issues."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",,1
+797063,r_197,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes over the past 30 days, indicating significant issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) exhibit abnormal behavior, suggesting increasing reallocations, uncorrectable errors, and pending sectors. These trends indicate severe wear and potential imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes over the past 30 days, indicating significant issues. Specifically, r_5 (reallocated sector count), r_9 (power-on hours), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) exhibit abnormal behavior, suggesting increasing reallocations, uncorrectable errors, and pending sectors. These trends indicate severe wear and potential imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",1,1
+797063,r_197,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high likelihood of imminent failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high likelihood of imminent failure. Specifically, r_5 (reallocated sector count) and r_187 (reported uncorrectable errors) are critical indicators of physical disk degradation."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",,1
+825230,NONE,original,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating increasing reallocated sectors, uncorrectable errors, and other signs of imminent failure. The presence of these frequent bursts suggests significant wear and potential data corruption risks.","[""Immediately back up critical data from this SSD."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating increasing reallocated sectors, uncorrectable errors, and other signs of imminent failure. The presence of these frequent bursts suggests significant wear and potential data corruption risks."",
+  ""recommendations"": [
+    ""Immediately back up critical data from this SSD."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",,
+825230,r_5,risk_up,SERIOUS,"Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high level of reallocated sectors, uncorrectable errors, and other critical issues. These trends suggest imminent failure within 15 days.","[""Immediately back up critical data on this SSD."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high level of reallocated sectors, uncorrectable errors, and other critical issues. These trends suggest imminent failure within 15 days."",
+  ""recommendations"": [
+    ""Immediately back up critical data on this SSD."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",1,1
+825230,r_5,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of imminent failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing error rates, which are critical indicators of hardware degradation.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of imminent failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing error rates, which are critical indicators of hardware degradation."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",,1
+825230,r_187,risk_up,SERIOUS,"Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high number of reallocated sectors, uncorrectable errors, and other critical issues. This pattern suggests significant wear and increasing unrecoverable errors, which are strong indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high number of reallocated sectors, uncorrectable errors, and other critical issues. This pattern suggests significant wear and increasing unrecoverable errors, which are strong indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",1,1
+825230,r_187,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of failure within the next 15 days. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest ongoing data corruption and imminent hardware failure.","[""Replace the SSD immediately to prevent potential data loss."", ""Backup critical data from the SSD before it fails.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of failure within the next 15 days. The presence of reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197) are particularly concerning as they suggest ongoing data corruption and imminent hardware failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent potential data loss."",
+    ""Backup critical data from the SSD before it fails.""
+  ]
+}",,1
+825230,r_197,risk_up,SERIOUS,"Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high number of reallocated sectors, uncorrectable errors, and other critical issues. This pattern suggests significant wear and increasing unrecoverable errors, which are strong indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high number of reallocated sectors, uncorrectable errors, and other critical issues. This pattern suggests significant wear and increasing unrecoverable errors, which are strong indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",1,1
+825230,r_197,risk_down,SERIOUS,"Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. These trends suggest imminent failure within the next 15 days.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. These trends suggest imminent failure within the next 15 days."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",,1
+825232,NONE,original,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period. These bursts indicate increasing reallocated sectors, uncorrectable errors, and other signs of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the entire 30-day period. These bursts indicate increasing reallocated sectors, uncorrectable errors, and other signs of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",,
+825232,r_5,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high likelihood of imminent failure. Attributes like r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) are particularly concerning as they suggest increasing errors and wear.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high likelihood of imminent failure. Attributes like r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) are particularly concerning as they suggest increasing errors and wear."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",1,1
+825232,r_5,risk_down,SERIOUS,"Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high number of reallocated sectors, uncorrectable errors, and other critical issues. These trends suggest imminent failure within 13 days.","[""Immediately back up all critical data on this SSD."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high number of reallocated sectors, uncorrectable errors, and other critical issues. These trends suggest imminent failure within 13 days."",
+  ""recommendations"": [
+    ""Immediately back up all critical data on this SSD."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",,1
+825232,r_187,risk_up,SERIOUS,"Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high number of reallocated sectors, uncorrectable errors, and other critical issues. These trends suggest imminent failure within 13 days.","[""Immediately back up all critical data on this SSD."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high number of reallocated sectors, uncorrectable errors, and other critical issues. These trends suggest imminent failure within 13 days."",
+  ""recommendations"": [
+    ""Immediately back up all critical data on this SSD."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",1,1
+825232,r_187,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high likelihood of imminent failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) are critical indicators of physical degradation and data corruption.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the 30-day period, indicating a high likelihood of imminent failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) are critical indicators of physical degradation and data corruption."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",,1
+825232,r_197,risk_up,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high likelihood of imminent failure. These bursts suggest increasing reallocated sectors, uncorrectable errors, and other signs of hardware degradation.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of critical data before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high likelihood of imminent failure. These bursts suggest increasing reallocated sectors, uncorrectable errors, and other signs of hardware degradation."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of critical data before replacement.""
+  ]
+}",1,1
+825232,r_197,risk_down,SERIOUS,"Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. This pattern suggests significant hardware degradation and imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD before replacement.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. This pattern suggests significant hardware degradation and imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD before replacement.""
+  ]
+}",,1
+825235,NONE,original,SERIOUS,"Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. These trends suggest imminent failure within the next 10 days.","[""Immediately back up all critical data on this SSD."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. These trends suggest imminent failure within the next 10 days."",
+  ""recommendations"": [
+    ""Immediately back up all critical data on this SSD."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",,
+825235,r_5,risk_up,SERIOUS,"Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high number of reallocated sectors, uncorrectable errors, and other critical issues. This pattern suggests significant hardware degradation and imminent failure.","[""Immediately back up all critical data on this SSD."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high number of reallocated sectors, uncorrectable errors, and other critical issues. This pattern suggests significant hardware degradation and imminent failure."",
+  ""recommendations"": [
+    ""Immediately back up all critical data on this SSD."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",1,1
+825235,r_5,risk_down,SERIOUS,"Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high level of errors and potential hardware issues. These include reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197), which are critical indicators of imminent failure.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high level of errors and potential hardware issues. These include reallocated sectors (r_5), reported uncorrectable errors (r_187), and current pending sectors (r_197), which are critical indicators of imminent failure."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",,1
+825235,r_187,risk_up,SERIOUS,"The drive shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. These trends suggest imminent failure within the next 10 days.","[""Immediately back up all critical data on this drive."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The drive shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high rate of reallocated sectors, uncorrectable errors, and other critical issues. These trends suggest imminent failure within the next 10 days."",
+  ""recommendations"": [
+    ""Immediately back up all critical data on this drive."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",1,1
+825235,r_187,risk_down,SERIOUS,"Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high level of reallocated sectors, uncorrectable errors, and other critical issues. These trends suggest imminent failure within the next 10 days.","[""Immediately back up all critical data on this SSD."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high level of reallocated sectors, uncorrectable errors, and other critical issues. These trends suggest imminent failure within the next 10 days."",
+  ""recommendations"": [
+    ""Immediately back up all critical data on this SSD."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",,1
+825235,r_197,risk_up,SERIOUS,"Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high number of reallocated sectors, uncorrectable errors, and other critical issues. This pattern suggests severe hardware degradation and imminent failure.","[""Immediately back up all critical data on this SSD."", ""Replace the SSD as soon as possible to prevent data loss.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""Multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) show frequent bursts over the entire 30-day period, indicating a high number of reallocated sectors, uncorrectable errors, and other critical issues. This pattern suggests severe hardware degradation and imminent failure."",
+  ""recommendations"": [
+    ""Immediately back up all critical data on this SSD."",
+    ""Replace the SSD as soon as possible to prevent data loss.""
+  ]
+}",1,1
+825235,r_197,risk_down,SERIOUS,"The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of imminent failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing errors, which are critical signs of hardware degradation.","[""Replace the SSD immediately to prevent data loss."", ""Perform a full backup of all critical data on the SSD.""]","{
+  ""concern_level"": ""SERIOUS"",
+  ""explanation"": ""The SSD shows frequent bursts in multiple SMART attributes (r_5, r_9, r_12, r_177, r_180, r_181, r_182, r_183, r_184, r_187, r_195, r_197, r_199, r_241, r_242) over the past 30 days, indicating a high risk of imminent failure. Specifically, r_5 (reallocated sector count), r_187 (reported uncorrectable errors), and r_197 (current pending sector count) show increasing errors, which are critical signs of hardware degradation."",
+  ""recommendations"": [
+    ""Replace the SSD immediately to prevent data loss."",
+    ""Perform a full backup of all critical data on the SSD.""
+  ]
+}",,1

@@ -1,0 +1,45 @@
+method,backbone,dataset,support_failed,support_healthy,tp,fp,tn,fn,source
+RF [3],-,MB1,368,8464,129,119,8345,239,published_table_sampled_support_reconstruction
+RF [3],-,MB2,1057,24311,348,164,24147,709,published_table_sampled_support_reconstruction
+NN [3],-,MB1,368,8464,89,52,8412,279,published_table_sampled_support_reconstruction
+NN [3],-,MB2,1057,24311,182,137,24174,875,published_table_sampled_support_reconstruction
+EC [8],-,MB1,368,8464,82,23,8441,286,published_table_sampled_support_reconstruction
+EC [8],-,MB2,1057,24311,250,44,24267,807,published_table_sampled_support_reconstruction
+AE [7],-,MB1,368,8464,114,124,8340,254,published_table_sampled_support_reconstruction
+AE [7],-,MB2,1057,24311,264,199,24112,793,published_table_sampled_support_reconstruction
+LSTM [17],-,MB1,368,8464,154,137,8327,214,published_table_sampled_support_reconstruction
+LSTM [17],-,MB2,1057,24311,529,352,23959,528,published_table_sampled_support_reconstruction
+MVTRF [36],-,MB1,368,8464,195,40,8424,173,published_table_sampled_support_reconstruction
+MVTRF [36],-,MB2,1057,24311,284,105,24206,773,published_table_sampled_support_reconstruction
+MSFRD [37],-,MB1,368,8464,180,27,8437,188,published_table_sampled_support_reconstruction
+MSFRD [37],-,MB2,1057,24311,349,77,24234,708,published_table_sampled_support_reconstruction
+Raw-LLM,OS1,MB1,368,8464,0,85,8379,368,published_table_zero_row_visible_fpr_fallback
+Raw-LLM,OS1,MB2,1057,24311,0,243,24068,1057,published_table_zero_row_visible_fpr_fallback
+Heuristic-LLM,OS1,MB1,368,8464,15,27,8437,353,published_table_sampled_support_reconstruction
+Heuristic-LLM,OS1,MB2,1057,24311,75,9,24302,982,published_table_sampled_support_reconstruction
+Raw-LLM,OS2,MB1,368,8464,0,85,8379,368,published_table_zero_row_visible_fpr_fallback
+Raw-LLM,OS2,MB2,1057,24311,0,243,24068,1057,published_table_zero_row_visible_fpr_fallback
+Heuristic-LLM,OS2,MB1,368,8464,11,31,8433,357,published_table_sampled_support_reconstruction
+Heuristic-LLM,OS2,MB2,1057,24311,44,8,24303,1013,published_table_sampled_support_reconstruction
+Raw-LLM,OS3,MB1,368,8464,0,85,8379,368,published_table_zero_row_visible_fpr_fallback
+Raw-LLM,OS3,MB2,1057,24311,0,243,24068,1057,published_table_zero_row_visible_fpr_fallback
+Heuristic-LLM,OS3,MB1,368,8464,7,23,8441,361,published_table_sampled_support_reconstruction
+Heuristic-LLM,OS3,MB2,1057,24311,43,6,24305,1014,published_table_sampled_support_reconstruction
+Raw-LLM,OS4,MB1,368,8464,0,85,8379,368,published_table_zero_row_visible_fpr_fallback
+Raw-LLM,OS4,MB2,1057,24311,0,243,24068,1057,published_table_zero_row_visible_fpr_fallback
+Heuristic-LLM,OS4,MB1,368,8464,26,25,8439,342,published_table_sampled_support_reconstruction
+Heuristic-LLM,OS4,MB2,1057,24311,43,12,24299,1014,published_table_sampled_support_reconstruction
+Raw-LLM,PROP,MB1,368,8464,4,4,8460,364,published_table_sampled_support_reconstruction
+Raw-LLM,PROP,MB2,1057,24311,22,18,24293,1035,published_table_sampled_support_reconstruction
+Heuristic-LLM,PROP,MB1,368,8464,15,20,8444,353,published_table_sampled_support_reconstruction
+Heuristic-LLM,PROP,MB2,1057,24311,73,15,24296,984,published_table_sampled_support_reconstruction
+SMARTTalk,OS1,MB1,368,8464,136,32,8432,232,published_table_sampled_support_reconstruction
+SMARTTalk,OS1,MB2,1057,24311,307,102,24209,750,published_table_sampled_support_reconstruction
+SMARTTalk,OS2,MB1,368,8464,151,23,8441,217,published_table_sampled_support_reconstruction
+SMARTTalk,OS2,MB2,1057,24311,359,54,24257,698,published_table_sampled_support_reconstruction
+SMARTTalk,OS3,MB1,368,8464,184,20,8444,184,published_table_sampled_support_reconstruction
+SMARTTalk,OS3,MB2,1057,24311,358,84,24227,699,published_table_sampled_support_reconstruction
+SMARTTalk,OS4,MB1,368,8464,191,48,8416,177,published_table_sampled_support_reconstruction
+SMARTTalk,OS4,MB2,1057,24311,360,90,24221,697,published_table_sampled_support_reconstruction
+SMARTTalk,PROP,MB1,368,8464,165,29,8435,203,published_table_sampled_support_reconstruction
+SMARTTalk,PROP,MB2,1057,24311,317,47,24264,740,published_table_sampled_support_reconstruction
