@@ -1,8 +1,8 @@
-# SMARTTalk Artifact Package
+# SMARTTalk
 
-This `final_package/` folder is the cleaned artifact bundle for the updated
+This repository is the cleaned artifact bundle for the updated
 SMARTTalk OSDI submission. It reorganizes the existing working code, cached
-results, checkpoints, and rebuttal add-ons into a reviewer-friendly layout with:
+results, checkpoints, and ablation add-ons into a clean artifact layout with:
 
 - a reusable `smarttalk/` Python package,
 - thin runnable scripts under `scripts/01...07`,
@@ -13,7 +13,6 @@ results, checkpoints, and rebuttal add-ons into a reviewer-friendly layout with:
 
 ## Package Overview
 
-- `paper/`: the updated paper PDF and supplementary material.
 - `configs/`: default configs for MB1, MB2, LLM backbones, and ablations.
 - `docker/`: Python requirements, Conda environment, and Dockerfile.
 - `smarttalk/`: reusable package code and preserved low-level implementation files.
@@ -30,7 +29,7 @@ results, checkpoints, and rebuttal add-ons into a reviewer-friendly layout with:
 Use the bundled sample data and cached assets:
 
 ```bash
-cd /Users/manu/Documents/SMARTTalk/final_package
+cd <repo-root>
 bash scripts/07_reproduce/reproduce_quick.sh
 ```
 
@@ -42,12 +41,12 @@ regenerates paper-facing tables from the cached artifact state.
 Regenerate the main paper tables and figures without API keys:
 
 ```bash
-cd /Users/manu/Documents/SMARTTalk/final_package
+cd <repo-root>
 bash scripts/07_reproduce/reproduce_from_cache.sh
 ```
 
 This uses the bundled deterministic table snapshots, cached phrase-dictionary
-outputs, sampled-test results, and cached rebuttal/ablation figures.
+outputs, sampled-test results, and cached ablation figures.
 
 ### 3. Full Reproduction
 
@@ -55,7 +54,7 @@ Run preprocessing, offline pattern learning, inference, evaluation, and
 ablation using the full dataset and available compute:
 
 ```bash
-cd /Users/manu/Documents/SMARTTalk/final_package
+cd <repo-root>
 bash scripts/07_reproduce/reproduce_full.sh
 ```
 
@@ -98,7 +97,7 @@ python scripts/05_evaluation/make_table6_ttf.py --config configs/default_mb2.yam
 python scripts/05_evaluation/make_table7_explanations.py --config configs/default_mb2.yaml
 ```
 
-### Run rebuttal ablations
+### Run ablations
 
 ```bash
 python scripts/06_ablation/run_ablation_N.py --config configs/ablation_N.yaml
@@ -117,12 +116,17 @@ includes code for rebuilding processed windows and the fixed imbalanced test set
 It does **not** bundle the full raw dataset to keep the GitHub package practical.
 See `DATA_ACCESS.md` and `data/README.md` for exact placement rules.
 
+The full generated `train.npz`, `val.npz`, and `test.npz` split trees are also
+left out of the repository by design, because those processed files can exceed
+typical GitHub-friendly sizes. The preprocessing and split-generation code is
+included so evaluators can rebuild them locally from the public raw dataset.
+
 ## What Is Bundled
 
 - updated paper tables and figures,
 - checkpoints and phrase-dictionary artifacts needed for inspection,
 - cached Table 5 sampled-set outputs with FPR/FNR,
-- cached rebuttal/ablation figures and supporting CSV summaries,
+- cached ablation figures and supporting CSV summaries,
 - small sample `.npz` splits for smoke tests.
 
 ## What Must Be Supplied Externally

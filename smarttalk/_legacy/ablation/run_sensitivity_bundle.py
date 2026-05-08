@@ -23,14 +23,14 @@ def run(cmd: list[str], cwd: Path) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Run the full rebuttal-facing N/L sensitivity pipeline from artifact preparation through plotting.",
+        description="Run the full N/L sensitivity pipeline from artifact preparation through plotting.",
     )
     parser.add_argument("--datasets", nargs="+", default=DEFAULT_DATASETS, choices=["MB1", "MB2"])
     parser.add_argument("--rounds", nargs="+", type=int, default=DEFAULT_ROUNDS)
     parser.add_argument("--window-values", nargs="+", type=int, default=DEFAULT_WINDOW_VALUES)
     parser.add_argument("--patch-values", nargs="+", type=int, default=DEFAULT_PATCH_VALUES)
     parser.add_argument("--backbones", nargs="+", default=DEFAULT_BACKBONES,
-                        help="LLM backbones for rebuttal runs. Defaults to OS3 + PROP.")
+                        help="LLM backbones for the sensitivity runs. Defaults to OS3 + PROP.")
     parser.add_argument("--device", type=str, default="cuda:0")
     parser.add_argument("--prepare-only", action="store_true",
                         help="Build processed splits, SMARTTalk artifacts, and prototype figures only.")

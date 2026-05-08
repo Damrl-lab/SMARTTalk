@@ -41,8 +41,7 @@ explanation reproduction without rerunning the full pipeline.
 
 ### `cached_ablation_results/`
 
-Contains rebuttal add-on outputs such as cached ablation figures and reviewer
-support files.
+Contains cached ablation figures and supporting summary files.
 
 ## Large-File Guidance
 

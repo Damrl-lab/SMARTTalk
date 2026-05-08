@@ -1,9 +1,9 @@
 {
-  "sampled_indices_csv": "/Users/manu/Documents/SMARTTalk/operate/Finalized_Package/data/processed/sampled_test_1to23/sampled_test_indices.csv",
-  "sampling_summary_csv": "/Users/manu/Documents/SMARTTalk/operate/Finalized_Package/data/processed/sampled_test_1to23/sampling_summary.csv",
+  "sampled_indices_csv": "data/splits/sampled_test_1to23/sampled_test_indices.csv",
+  "sampling_summary_csv": "data/splits/sampled_test_1to23/sampling_summary.csv",
   "run_root": null,
   "zero_row_visible_fpr": 0.01,
-  "paper_table_source": "/Users/manu/Documents/SMARTTalk/operate/Finalized_Package/configs/paper_tables/table5_status_with_fpr_fnr.csv",
+  "paper_table_source": "configs/paper_tables/table5_status_with_fpr_fnr.csv",
   "validation": {
     "fnr_matches_1_minus_recall_max_abs_diff": 1.1102230246251565e-16,
     "fpr_recomputed_from_fp_tn_max_abs_diff": 0.0

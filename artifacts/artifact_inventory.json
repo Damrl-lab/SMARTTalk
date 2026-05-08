@@ -1,58 +1,58 @@
 [
   {
     "path": "artifacts/MANIFEST.md",
-    "size_bytes": 1436
+    "size_bytes": 1406
   },
   {
     "path": "artifacts/artifact_inventory.json",
-    "size_bytes": 13428
+    "size_bytes": 12802
   },
   {
-    "path": "artifacts/cached_ablation_results/reviewer_results/ablation/ablation_curves.csv",
+    "path": "artifacts/cached_ablation_results/cached_outputs/ablation/ablation_curves.csv",
     "size_bytes": 7850
   },
   {
-    "path": "artifacts/cached_ablation_results/reviewer_results/ablation/combined.png",
+    "path": "artifacts/cached_ablation_results/cached_outputs/ablation/combined.png",
     "size_bytes": 612433
   },
   {
-    "path": "artifacts/cached_ablation_results/reviewer_results/ablation/main.png",
+    "path": "artifacts/cached_ablation_results/cached_outputs/ablation/main.png",
     "size_bytes": 612433
   },
   {
-    "path": "artifacts/cached_ablation_results/reviewer_results/ablation/metrics_mb1.png",
+    "path": "artifacts/cached_ablation_results/cached_outputs/ablation/metrics_mb1.png",
     "size_bytes": 1129488
   },
   {
-    "path": "artifacts/cached_ablation_results/reviewer_results/ablation/metrics_mb2.png",
+    "path": "artifacts/cached_ablation_results/cached_outputs/ablation/metrics_mb2.png",
     "size_bytes": 1169519
   },
   {
-    "path": "artifacts/cached_ablation_results/reviewer_results/audit.json",
-    "size_bytes": 1005
+    "path": "artifacts/cached_ablation_results/cached_outputs/audit.json",
+    "size_bytes": 825
   },
   {
-    "path": "artifacts/cached_ablation_results/reviewer_results/confusion_matrices.csv",
+    "path": "artifacts/cached_ablation_results/cached_outputs/confusion_matrices.csv",
     "size_bytes": 4055
   },
   {
-    "path": "artifacts/cached_ablation_results/reviewer_results/status_metrics_with_fpr_fnr.csv",
+    "path": "artifacts/cached_ablation_results/cached_outputs/status_metrics_with_fpr_fnr.csv",
     "size_bytes": 7359
   },
   {
-    "path": "artifacts/cached_ablation_results/reviewer_results/status_test_supports.json",
+    "path": "artifacts/cached_ablation_results/cached_outputs/status_test_supports.json",
     "size_bytes": 332
   },
   {
-    "path": "artifacts/cached_ablation_results/reviewer_results/table5_status_with_fpr_fnr.csv",
+    "path": "artifacts/cached_ablation_results/cached_outputs/table5_status_with_fpr_fnr.csv",
     "size_bytes": 1944
   },
   {
-    "path": "artifacts/cached_ablation_results/reviewer_results/table5_status_with_fpr_fnr_audit.json",
-    "size_bytes": 1005
+    "path": "artifacts/cached_ablation_results/cached_outputs/table5_status_with_fpr_fnr_audit.json",
+    "size_bytes": 825
   },
   {
-    "path": "artifacts/cached_ablation_results/reviewer_results/table5_status_with_fpr_fnr_details.csv",
+    "path": "artifacts/cached_ablation_results/cached_outputs/table5_status_with_fpr_fnr_details.csv",
     "size_bytes": 8190
   },
   {

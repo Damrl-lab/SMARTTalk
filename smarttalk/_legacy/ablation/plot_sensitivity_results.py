@@ -108,9 +108,9 @@ def combined_legend_handles() -> list[Line2D]:
     ]
 
 
-def plot_rebuttal_main(window_df: pd.DataFrame, patch_df: pd.DataFrame, output_root: Path) -> None:
+def plot_main(window_df: pd.DataFrame, patch_df: pd.DataFrame, output_root: Path) -> None:
     if window_df.empty and patch_df.empty:
-        print("Skipping rebuttal main plot; no sensitivity CSVs found.")
+        print("Skipping main plot; no sensitivity CSVs found.")
         return
 
     fig, axes = plt.subplots(2, 2, figsize=(14.2, 9.2), constrained_layout=False)
@@ -165,8 +165,8 @@ def plot_rebuttal_main(window_df: pd.DataFrame, patch_df: pd.DataFrame, output_r
     )
     fig.subplots_adjust(top=0.97, bottom=0.14, left=0.08, right=0.985, hspace=0.24, wspace=0.18)
 
-    png_path = output_root / "status_sensitivity_rebuttal_main.png"
-    pdf_path = output_root / "status_sensitivity_rebuttal_main.pdf"
+    png_path = output_root / "status_sensitivity_main.png"
+    pdf_path = output_root / "status_sensitivity_main.pdf"
     fig.savefig(png_path, dpi=320, bbox_inches="tight", facecolor=fig.get_facecolor())
     fig.savefig(pdf_path, bbox_inches="tight", facecolor=fig.get_facecolor())
     plt.close(fig)
@@ -236,8 +236,8 @@ def plot_metric_detail(window_df: pd.DataFrame, patch_df: pd.DataFrame, dataset:
     )
     fig.subplots_adjust(top=0.90, bottom=0.11, left=0.055, right=0.99, hspace=0.34, wspace=0.22)
 
-    png_path = output_root / f"status_sensitivity_rebuttal_metrics_{dataset.lower()}.png"
-    pdf_path = output_root / f"status_sensitivity_rebuttal_metrics_{dataset.lower()}.pdf"
+    png_path = output_root / f"status_sensitivity_metrics_{dataset.lower()}.png"
+    pdf_path = output_root / f"status_sensitivity_metrics_{dataset.lower()}.pdf"
     fig.savefig(png_path, dpi=320, bbox_inches="tight", facecolor=fig.get_facecolor())
     fig.savefig(pdf_path, bbox_inches="tight", facecolor=fig.get_facecolor())
     plt.close(fig)
@@ -247,7 +247,7 @@ def plot_metric_detail(window_df: pd.DataFrame, patch_df: pd.DataFrame, dataset:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Plot rebuttal-focused observation-window and patch-length sensitivity curves.",
+        description="Plot observation-window and patch-length sensitivity curves.",
     )
     parser.add_argument("--study", choices=["window", "patch", "both"], default="both")
     args = parser.parse_args()
@@ -262,10 +262,10 @@ def main() -> None:
 
     window_df = load_study_frame("window") if args.study in {"window", "both"} else pd.DataFrame()
     patch_df = load_study_frame("patch") if args.study in {"patch", "both"} else pd.DataFrame()
-    output_root = ROOT / "results" / "rebuttal_plots"
+    output_root = ROOT / "results" / "sensitivity_plots"
     output_root.mkdir(parents=True, exist_ok=True)
 
-    plot_rebuttal_main(window_df, patch_df, output_root)
+    plot_main(window_df, patch_df, output_root)
     for dataset in DATASETS:
         plot_metric_detail(window_df, patch_df, dataset, output_root)
 

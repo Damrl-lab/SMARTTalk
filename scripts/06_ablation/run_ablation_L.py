@@ -10,14 +10,14 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from smarttalk.common.config import add_config_argument, load_config
-from smarttalk.ablation.pipeline import run_rebuttal_bundle
+from smarttalk.ablation.pipeline import run_ablation_bundle
 
 
 def main() -> None:
     parser = add_config_argument(argparse.ArgumentParser(description="Run the L-sensitivity ablation bundle."))
     args = parser.parse_args()
     cfg = load_config(args.config)
-    run_rebuttal_bundle(
+    run_ablation_bundle(
         "--datasets", *cfg["datasets"],
         "--rounds", *[str(v) for v in cfg["rounds"]],
         "--window-values", "30",

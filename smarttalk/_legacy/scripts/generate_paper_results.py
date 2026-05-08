@@ -18,6 +18,7 @@ from status_sampled_utils import load_sampled_supports
 
 
 ROOT = Path(__file__).resolve().parent.parent
+PACKAGE_ROOT = Path(__file__).resolve().parents[3]
 CONFIG_ROOT = ROOT / "configs" / "paper_tables"
 OUTPUT_ROOT = ROOT / "results" / "paper_tables"
 FIGURE_SOURCE_ROOT = ROOT / "data" / "figures"
@@ -25,6 +26,13 @@ FIGURE_OUTPUT_ROOT = ROOT / "results" / "paper_figures"
 PROCESSED_ROOT = ROOT / "data" / "processed"
 SAMPLED_TEST_ROOT = PROCESSED_ROOT / "sampled_test_1to23"
 TABLE5_WITH_RATES_CONFIG = CONFIG_ROOT / "table5_status_with_fpr_fnr.csv"
+
+
+def relpath_str(path: Path) -> str:
+    try:
+        return str(path.resolve().relative_to(PACKAGE_ROOT.resolve()))
+    except ValueError:
+        return str(path)
 
 
 def normalize_backbone(value: object) -> str:
@@ -109,12 +117,12 @@ def write_table5_with_rates_artifacts(
         pd.DataFrame(
             [
                 {
-                    "sampled_indices_csv": str(sampled_indices_csv),
-                    "sampling_summary_csv": str(sampling_summary_csv),
+                    "sampled_indices_csv": relpath_str(sampled_indices_csv),
+                    "sampling_summary_csv": relpath_str(sampling_summary_csv),
                     "healthy_per_failed": DEFAULT_HEALTHY_PER_FAILED,
                     "seed": DEFAULT_SAMPLE_SEED,
                     "paper_table_source": (
-                        str(TABLE5_WITH_RATES_CONFIG)
+                        relpath_str(TABLE5_WITH_RATES_CONFIG)
                         if curated_table5_with_rates is not None
                         else "derived_from_sampled_supports"
                     ),

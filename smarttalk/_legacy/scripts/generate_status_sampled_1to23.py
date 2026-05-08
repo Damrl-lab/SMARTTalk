@@ -18,7 +18,17 @@ from status_sampled_utils import (
 
 
 ROOT = Path(__file__).resolve().parent.parent
+PACKAGE_ROOT = Path(__file__).resolve().parents[3]
 CURATED_TABLE_CSV = ROOT / "configs" / "paper_tables" / "table5_status_with_fpr_fnr.csv"
+
+
+def relpath_str(path: Path | None) -> str | None:
+    if path is None:
+        return None
+    try:
+        return str(path.resolve().relative_to(PACKAGE_ROOT.resolve()))
+    except ValueError:
+        return str(path)
 
 
 def main() -> None:
@@ -107,11 +117,11 @@ def main() -> None:
     detail_rows.to_csv(paper_table_dir / "table5_status_with_fpr_fnr_details.csv", index=False)
 
     audit = {
-        "sampled_indices_csv": str(sampled_indices_csv),
-        "sampling_summary_csv": str(sampling_summary_csv),
-        "run_root": None if run_root is None else str(run_root),
+        "sampled_indices_csv": relpath_str(sampled_indices_csv),
+        "sampling_summary_csv": relpath_str(sampling_summary_csv),
+        "run_root": relpath_str(run_root),
         "zero_row_visible_fpr": args.zero_row_visible_fpr,
-        "paper_table_source": str(CURATED_TABLE_CSV) if CURATED_TABLE_CSV.exists() else "derived_from_sampled_supports",
+        "paper_table_source": relpath_str(CURATED_TABLE_CSV) if CURATED_TABLE_CSV.exists() else "derived_from_sampled_supports",
         "validation": {
             "fnr_matches_1_minus_recall_max_abs_diff": float(
                 (detail_rows["fnr"] - (1.0 - detail_rows["recall"])).abs().max()

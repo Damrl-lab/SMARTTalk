@@ -58,7 +58,7 @@ These are broad artifact-level expectations rather than hard guarantees:
 - cached reproduction: minutes
 - offline CNN / clustering rebuild: tens of minutes to hours depending on GPU
 - live full LLM evaluation: highly dependent on model serving choice and batch size
-- full rebuttal ablation: the most expensive stage
+- full ablation sweep: the most expensive stage
 
 ## Nondeterminism
 

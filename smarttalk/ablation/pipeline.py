@@ -1,4 +1,4 @@
-"""Wrappers around the rebuttal sensitivity scripts."""
+"""Wrappers around the sensitivity-study scripts."""
 
 from __future__ import annotations
 
@@ -14,8 +14,8 @@ def run_sensitivity_study(*args: str) -> None:
     run_python(LEGACY_DIR / "ablation" / "run_sensitivity_study.py", args=args, cwd=ROOT)
 
 
-def run_rebuttal_bundle(*args: str) -> None:
-    run_python(LEGACY_DIR / "ablation" / "run_rebuttal_sensitivity_bundle.py", args=args, cwd=ROOT)
+def run_ablation_bundle(*args: str) -> None:
+    run_python(LEGACY_DIR / "ablation" / "run_sensitivity_bundle.py", args=args, cwd=ROOT)
 
 
 def make_ablation_figures(*args: str) -> None:

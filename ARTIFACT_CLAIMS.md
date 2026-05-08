@@ -5,7 +5,7 @@ expected outputs.
 
 ## Claim 1: SMARTTalk improves status prediction over Raw-LLM and Heuristic-LLM
 
-- Paper evidence: Table 5 in `paper/SMARTTalk_OSDI_Final.pdf`
+- Paper evidence: Table 5 in the SMARTTalk manuscript
 - Commands:
   - `python scripts/05_evaluation/make_table5_status.py --config configs/default_mb2.yaml`
   - `python scripts/03_baselines/run_raw_llm.py --config configs/default_mb2.yaml`

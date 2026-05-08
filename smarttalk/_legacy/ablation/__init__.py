@@ -1,1 +1,1 @@
-"""Copied rebuttal/ablation script entry points."""
+"""Copied ablation script entry points."""
