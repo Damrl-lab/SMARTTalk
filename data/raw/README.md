@@ -3,8 +3,8 @@
 This folder is where the public Alibaba SMART data should be placed before
 running preprocessing.
 
-The raw files are not bundled in this repository because they are too large for
-direct inclusion on GitHub. Download the source data from:
+The raw files are not bundled in this repository because they are large.
+Download the source data from:
 
 - <https://tianchi.aliyun.com/dataset/95044>
 
@@ -19,8 +19,10 @@ data/raw/source_logs/
 Run:
 
 ```bash
-python scripts/01_data_preparation/preprocess_raw_logs.py --config configs/default_mb2.yaml
+python scripts/01_data_preparation/preprocess_raw_logs.py --config configs/default_mb1.yaml
 ```
+
+This filtering step is shared by MB1 and MB2, so either default config works.
 
 This creates the filtered per-model daily SMART CSVs used by the next stage.
 
@@ -32,9 +34,13 @@ data/raw/dataset_by_model/MB2/
 data/raw/ssd_failure_tag.csv
 ```
 
+The `ssd_failure_tag.csv` file comes from the Alibaba Tianchi dataset package
+and should be copied into this location after download.
+
 Run:
 
 ```bash
+python scripts/01_data_preparation/make_temporal_splits.py --config configs/default_mb1.yaml
 python scripts/01_data_preparation/make_temporal_splits.py --config configs/default_mb2.yaml
 ```
 

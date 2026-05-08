@@ -6,17 +6,17 @@ The complete Alibaba SSD SMART dataset used by SMARTTalk can be downloaded from:
 
 - <https://tianchi.aliyun.com/dataset/95044>
 
-## What This Artifact Bundles
+## What This Repository Includes
 
-This artifact bundles:
+This repository includes:
 
 - small sample `.npz` windows in `data/sample_data/`,
 - cached tables and figures,
 - learned checkpoints and phrase-dictionary artifacts,
 - scripts for reconstructing processed windows, sampled test sets, and ablations.
 
-This artifact does **not** bundle the full raw public dataset in GitHub-friendly
-form because the full source files are large.
+The full raw public dataset is not included here because the source files are
+large.
 
 ## Expected Raw Data Placement
 
@@ -33,8 +33,10 @@ data/raw/source_logs/
 Then run:
 
 ```bash
-python scripts/01_data_preparation/preprocess_raw_logs.py --config configs/default_mb2.yaml
+python scripts/01_data_preparation/preprocess_raw_logs.py --config configs/default_mb1.yaml
 ```
+
+This filtering step is shared by MB1 and MB2, so either default config works.
 
 ### Option B: already filtered per-model daily CSVs
 
@@ -51,9 +53,13 @@ and the failure metadata file at:
 data/raw/ssd_failure_tag.csv
 ```
 
+The `ssd_failure_tag.csv` file comes from the Alibaba Tianchi dataset package
+and should be copied into this location after download.
+
 Then run:
 
 ```bash
+python scripts/01_data_preparation/make_temporal_splits.py --config configs/default_mb1.yaml
 python scripts/01_data_preparation/make_temporal_splits.py --config configs/default_mb2.yaml
 ```
 
@@ -82,8 +88,10 @@ For status evaluation, SMARTTalk uses all failed windows plus sampled healthy
 windows at a fixed `1:23` ratio. Build it with:
 
 ```bash
-python scripts/01_data_preparation/make_imbalanced_test_set.py --config configs/default_mb2.yaml
+python scripts/01_data_preparation/make_imbalanced_test_set.py --config configs/default_mb1.yaml
 ```
+
+This command combines MB1 and MB2, so either default config works.
 
 This writes:
 

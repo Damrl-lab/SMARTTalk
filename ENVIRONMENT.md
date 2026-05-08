@@ -80,5 +80,5 @@ bash scripts/07_reproduce/reproduce_from_cache.sh
 ## Notes
 
 - This artifact intentionally separates cached reproduction from live inference.
-- If you publish to GitHub, very large processed splits should be placed in Git
-  LFS, Zenodo, or another stable archive rather than committed directly.
+- Full processed split trees are not included in the repository; rebuild them
+  locally with the provided preprocessing scripts when needed.

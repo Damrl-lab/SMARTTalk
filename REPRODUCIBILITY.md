@@ -50,6 +50,9 @@ Expected behavior:
 7. regenerate the paper tables,
 8. run N/L ablations.
 
+The default MB1 and MB2 configs target round 1. To run other rounds, copy one
+of the default configs and update its `round` field.
+
 ## Approximate Runtime Guidance
 
 These are broad artifact-level expectations rather than hard guarantees:

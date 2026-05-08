@@ -46,8 +46,9 @@ Contains cached ablation figures and supporting summary files.
 ## Large-File Guidance
 
 - The full raw dataset should stay external and be downloaded separately.
-- Full processed split trees may be too large for direct GitHub commits.
-- For public release, prefer Git LFS or Zenodo for very large split archives.
+- Full processed split trees are intentionally kept outside this repository.
+- Rebuild processed splits locally with the provided preprocessing scripts when
+  needed.
 
 ## Inventory
 
@@ -55,4 +56,5 @@ A lightweight machine-readable inventory is provided at:
 
 - `artifact_inventory.json`
 
-Use this together with file sizes from the filesystem to stage a public release.
+Use this together with file sizes from the filesystem to inspect what is
+included in the repository.

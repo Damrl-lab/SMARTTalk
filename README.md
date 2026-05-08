@@ -67,32 +67,49 @@ Full reproduction assumes:
 ### Prepare full MB1 / MB2 temporal splits
 
 ```bash
+python scripts/01_data_preparation/preprocess_raw_logs.py --config configs/default_mb1.yaml
+python scripts/01_data_preparation/make_temporal_splits.py --config configs/default_mb1.yaml
 python scripts/01_data_preparation/make_temporal_splits.py --config configs/default_mb2.yaml
-python scripts/01_data_preparation/make_imbalanced_test_set.py --config configs/default_mb2.yaml
+python scripts/01_data_preparation/make_imbalanced_test_set.py --config configs/default_mb1.yaml
 ```
+
+The raw-log filtering step is shared by both datasets, so either default config
+works there. The sampled-test builder combines MB1 and MB2 and can also be
+launched with either default config.
 
 ### Rebuild offline SMARTTalk artifacts
 
 ```bash
+python scripts/02_offline_pattern_learning/run_offline_pipeline.py --config configs/default_mb1.yaml
 python scripts/02_offline_pattern_learning/run_offline_pipeline.py --config configs/default_mb2.yaml
 ```
+
+The default configs target round 1. To run another round, copy one of the
+default configs and update its `round` field.
 
 ### Run one baseline or LLM method
 
 ```bash
+python scripts/03_baselines/train_baseline.py --config configs/default_mb1.yaml --model rf
 python scripts/03_baselines/train_baseline.py --config configs/default_mb2.yaml --model rf
-python scripts/03_baselines/run_raw_llm.py --config configs/default_mb2.yaml
-python scripts/03_baselines/run_heuristic_llm.py --config configs/default_mb2.yaml
-python scripts/04_inference/run_smarttalk_inference.py --config configs/default_mb2.yaml
+python scripts/03_baselines/run_raw_llm.py --config configs/default_mb1.yaml
+python scripts/03_baselines/run_heuristic_llm.py --config configs/default_mb1.yaml
+python scripts/04_inference/run_smarttalk_inference.py --config configs/default_mb1.yaml
 ```
+
+Use `configs/default_mb2.yaml` in the same commands when you want the MB2 run
+instead of MB1.
 
 ### Regenerate paper tables
 
 ```bash
-python scripts/05_evaluation/make_table5_status.py --config configs/default_mb2.yaml
-python scripts/05_evaluation/make_table6_ttf.py --config configs/default_mb2.yaml
-python scripts/05_evaluation/make_table7_explanations.py --config configs/default_mb2.yaml
+python scripts/05_evaluation/make_table5_status.py --config configs/default_mb1.yaml
+python scripts/05_evaluation/make_table6_ttf.py --config configs/default_mb1.yaml
+python scripts/05_evaluation/make_table7_explanations.py --config configs/default_mb1.yaml
 ```
+
+These table-generation commands use shared cached outputs, so either default
+config works here.
 
 ### Run sensitivity studies
 
@@ -110,13 +127,13 @@ The full public dataset can be downloaded from Alibaba Tianchi:
 
 This repository includes small sample `.npz` files for quick checks and the full
 code path for rebuilding processed windows and the fixed imbalanced test set. It
-does **not** bundle the full raw dataset. See `DATA_ACCESS.md` and `data/README.md`
+does not bundle the full raw dataset. See `DATA_ACCESS.md` and `data/README.md`
 for placement and preprocessing details.
 
 The full generated `train.npz`, `val.npz`, and `test.npz` split trees are also
-left out of the repository by design, because those processed files can exceed
-typical GitHub-friendly sizes. The preprocessing and split-generation code is
-included so evaluators can rebuild them locally from the public raw dataset.
+left out of the repository by design because those processed files are much
+larger than the rest of the artifact. The preprocessing and split-generation
+code is included so they can be rebuilt locally from the public raw dataset.
 
 ## What Is Bundled
 
@@ -129,10 +146,9 @@ included so evaluators can rebuild them locally from the public raw dataset.
 ## What Must Be Supplied Externally
 
 - the full Alibaba raw SMART dataset,
-- any project-approved public release location for very large processed splits if
-  you choose not to regenerate them locally,
+- `data/raw/ssd_failure_tag.csv` from the Tianchi dataset package,
 - live LLM endpoints or API keys for full online evaluation,
-- a project-approved open-source license text for public release.
+- a project-approved open-source license text.
 
 ## Notes
 

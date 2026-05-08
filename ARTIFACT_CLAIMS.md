@@ -7,10 +7,11 @@ expected outputs.
 
 - Paper evidence: Table 5 in the SMARTTalk manuscript
 - Commands:
-  - `python scripts/05_evaluation/make_table5_status.py --config configs/default_mb2.yaml`
-  - `python scripts/03_baselines/run_raw_llm.py --config configs/default_mb2.yaml`
-  - `python scripts/03_baselines/run_heuristic_llm.py --config configs/default_mb2.yaml`
-  - `python scripts/04_inference/run_smarttalk_inference.py --config configs/default_mb2.yaml`
+  - `python scripts/05_evaluation/make_table5_status.py --config configs/default_mb1.yaml`
+  - `python scripts/03_baselines/run_raw_llm.py --config configs/default_mb1.yaml`
+  - `python scripts/03_baselines/run_heuristic_llm.py --config configs/default_mb1.yaml`
+  - `python scripts/04_inference/run_smarttalk_inference.py --config configs/default_mb1.yaml`
+  - repeat the same commands with `configs/default_mb2.yaml` for MB2
 - Main outputs:
   - `results/tables/table5_status_with_fpr_fnr.csv`
   - `results/tables/status_sampled_1to23/status_metrics_with_fpr_fnr.csv`
@@ -19,6 +20,7 @@ expected outputs.
 
 - Paper evidence: Table 6
 - Commands:
+  - `python scripts/05_evaluation/make_table6_ttf.py --config configs/default_mb1.yaml`
   - `python scripts/05_evaluation/make_table6_ttf.py --config configs/default_mb2.yaml`
 - Outputs:
   - `results/tables/table6_ttf.csv`
@@ -27,6 +29,7 @@ expected outputs.
 
 - Paper evidence: Table 7
 - Commands:
+  - `python scripts/05_evaluation/make_table7_explanations.py --config configs/default_mb1.yaml`
   - `python scripts/05_evaluation/make_table7_explanations.py --config configs/default_mb2.yaml`
 - Outputs:
   - `results/tables/table7_explanations.csv`
@@ -37,6 +40,7 @@ expected outputs.
   - `smarttalk/patterns/`
   - `scripts/02_offline_pattern_learning/run_offline_pipeline.py`
 - Command:
+  - `python scripts/02_offline_pattern_learning/run_offline_pipeline.py --config configs/default_mb1.yaml`
   - `python scripts/02_offline_pattern_learning/run_offline_pipeline.py --config configs/default_mb2.yaml`
 - Outputs:
   - `artifacts/checkpoints/`
@@ -51,7 +55,7 @@ expected outputs.
   - `results/figures/paper_figures/fig_attr_prototypes.png`
   - `results/figures/paper_figures/fig_cross_prototypes.png`
 
-## Claim 6: Rebuttal ablations support N/L sensitivity analysis
+## Claim 6: Ablations support N/L sensitivity analysis
 
 - Commands:
   - `python scripts/06_ablation/run_ablation_N.py --config configs/ablation_N.yaml`
@@ -76,5 +80,6 @@ expected outputs.
   - `bash scripts/07_reproduce/reproduce_full.sh`
 - Requirements:
   - raw dataset from Alibaba Tianchi
+  - `data/raw/ssd_failure_tag.csv` copied from the Tianchi dataset package
   - GPU resources for CNN training
   - optional local vLLM or API credentials for live LLM inference

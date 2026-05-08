@@ -13,6 +13,6 @@ evaluation scripts.
 - `explanation_oracle_user_prompt_template.txt`: runtime wrapper used before judge and perturbation scoring.
 - `judge_prompt_template.txt`: LLM-as-a-judge prompt from supplementary Figure 4.
 
-The runnable scripts also keep in-code fallbacks for robustness, but these files
+These files are the prompt definitions used by the runnable scripts, and they
 are included so the prompts can be inspected directly and reused by external
 runners if needed.
