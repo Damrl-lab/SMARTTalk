@@ -1,13 +1,14 @@
-# Raw Data Placement
+# Raw Data
 
-This folder is intentionally mostly empty in the GitHub artifact.
+This folder is where the public Alibaba SMART data should be placed before
+running preprocessing.
 
-The full Alibaba SMART dataset is public, but the raw files are too large to
-bundle directly in this repository. Download the source data from:
+The raw files are not bundled in this repository because they are too large for
+direct inclusion on GitHub. Download the source data from:
 
 - <https://tianchi.aliyun.com/dataset/95044>
 
-Then place the raw inputs in one of these layouts:
+After download, place the raw inputs in one of these layouts:
 
 ## Option A: original source logs
 
@@ -37,5 +38,5 @@ Run:
 python scripts/01_data_preparation/make_temporal_splits.py --config configs/default_mb2.yaml
 ```
 
-That command generates the processed train/val/test `.npz` splits under
-`data/splits/`.
+That command generates the processed `train.npz`, `val.npz`, and `test.npz`
+files under `data/splits/`.

@@ -1,13 +1,14 @@
-# Processed Split Layout
+# Processed Splits
 
-The full processed window splits are **not** bundled in the GitHub artifact.
+This folder is the target location for the generated MB1 and MB2 window splits.
 
-Reason:
+The full processed splits are **not** bundled in the repository because the
+generated `train.npz`, `val.npz`, and `test.npz` files can be large and may
+exceed practical GitHub limits. Instead, the repository includes:
 
-- the generated `train.npz`, `val.npz`, and `test.npz` files can be large,
-- GitHub has a hard per-file size limit,
-- this repository therefore keeps only small sample `.npz` files and the fixed
-  sampled-test CSVs needed for quick verification.
+- the preprocessing and split-generation code,
+- small sample `.npz` files for quick checks,
+- the fixed sampled-test CSVs used for status evaluation.
 
 ## How To Generate Full Splits
 

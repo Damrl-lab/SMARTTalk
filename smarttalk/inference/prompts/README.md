@@ -1,6 +1,7 @@
 # Prompt Files
 
-This folder stores the exact prompt texts used by the finalized reproduction package.
+This folder stores the prompt files used by the SMARTTalk inference and
+evaluation scripts.
 
 - `raw_system_prompt.txt`: Raw-LLM baseline prompt from the supplementary material Figure 1.
 - `raw_user_prompt_template.txt`: runtime wrapper for raw SMART windows.
@@ -12,4 +13,6 @@ This folder stores the exact prompt texts used by the finalized reproduction pac
 - `explanation_oracle_user_prompt_template.txt`: runtime wrapper used before judge and perturbation scoring.
 - `judge_prompt_template.txt`: LLM-as-a-judge prompt from supplementary Figure 4.
 
-The runnable scripts keep in-code copies for robustness, but these files are included so the prompts can be audited directly and referenced from documentation or external runners.
+The runnable scripts also keep in-code fallbacks for robustness, but these files
+are included so the prompts can be inspected directly and reused by external
+runners if needed.

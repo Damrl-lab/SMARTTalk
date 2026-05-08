@@ -1,17 +1,14 @@
-# SMARTTalk
+# SMARTTalk: Teaching SMART Logs to Talk to LLM
 
-This repository is the cleaned artifact bundle for the updated
-SMARTTalk OSDI submission. It reorganizes the existing working code, cached
-results, checkpoints, and ablation add-ons into a clean artifact layout with:
+This repository is the artifact bundle for the paper *SMARTTalk: Teaching SMART
+Logs to Talk to LLM*.
 
-- a reusable `smarttalk/` Python package,
-- thin runnable scripts under `scripts/01...07`,
-- focused reproducibility documents,
-- bundled sample data for a quick smoke test,
-- cached tables and figures for paper-level reproduction, and
-- clear instructions for obtaining the full Alibaba SMART dataset.
+It contains the code, configs, sample data, cached outputs, and documentation
+needed to reproduce the main experiments, rebuild the processed SMART windows
+from the public Alibaba dataset, and inspect the learned pattern-memory and
+phrase-dictionary artifacts.
 
-## Package Overview
+## Repository Layout
 
 - `configs/`: default configs for MB1, MB2, LLM backbones, and ablations.
 - `docker/`: Python requirements, Conda environment, and Dockerfile.
@@ -22,9 +19,9 @@ results, checkpoints, and ablation add-ons into a clean artifact layout with:
 - `results/`: paper tables, prototype figures, phrase-dictionary exports, and ablation figures.
 - `tests/`: lightweight correctness and packaging tests.
 
-## Three Reproduction Levels
+## Reproduction Options
 
-### 1. Quick Artifact Check
+### 1. Quick Check
 
 Use the bundled sample data and cached assets:
 
@@ -33,8 +30,8 @@ cd <repo-root>
 bash scripts/07_reproduce/reproduce_quick.sh
 ```
 
-This verifies package paths, validates the bundled sample `.npz` schema, and
-regenerates paper-facing tables from the cached artifact state.
+This checks the package structure, validates the sample `.npz` files, and
+regenerates the paper-facing tables from cached outputs.
 
 ### 2. Cached Reproduction
 
@@ -45,8 +42,8 @@ cd <repo-root>
 bash scripts/07_reproduce/reproduce_from_cache.sh
 ```
 
-This uses the bundled deterministic table snapshots, cached phrase-dictionary
-outputs, sampled-test results, and cached ablation figures.
+This uses the bundled table snapshots, cached phrase-dictionary outputs,
+sampled-test results, and cached ablation figures.
 
 ### 3. Full Reproduction
 
@@ -97,7 +94,7 @@ python scripts/05_evaluation/make_table6_ttf.py --config configs/default_mb2.yam
 python scripts/05_evaluation/make_table7_explanations.py --config configs/default_mb2.yaml
 ```
 
-### Run ablations
+### Run sensitivity studies
 
 ```bash
 python scripts/06_ablation/run_ablation_N.py --config configs/ablation_N.yaml
@@ -111,10 +108,10 @@ The full public dataset can be downloaded from Alibaba Tianchi:
 
 - <https://tianchi.aliyun.com/dataset/95044>
 
-This repository bundles small sample `.npz` files for a quick artifact check and
-includes code for rebuilding processed windows and the fixed imbalanced test set.
-It does **not** bundle the full raw dataset to keep the GitHub package practical.
-See `DATA_ACCESS.md` and `data/README.md` for exact placement rules.
+This repository includes small sample `.npz` files for quick checks and the full
+code path for rebuilding processed windows and the fixed imbalanced test set. It
+does **not** bundle the full raw dataset. See `DATA_ACCESS.md` and `data/README.md`
+for placement and preprocessing details.
 
 The full generated `train.npz`, `val.npz`, and `test.npz` split trees are also
 left out of the repository by design, because those processed files can exceed
@@ -123,7 +120,7 @@ included so evaluators can rebuild them locally from the public raw dataset.
 
 ## What Is Bundled
 
-- updated paper tables and figures,
+- paper tables and figures,
 - checkpoints and phrase-dictionary artifacts needed for inspection,
 - cached Table 5 sampled-set outputs with FPR/FNR,
 - cached ablation figures and supporting CSV summaries,
@@ -141,8 +138,8 @@ included so evaluators can rebuild them locally from the public raw dataset.
 
 - Positive class for status prediction is `RISK / failed`.
 - The paper’s fixed imbalanced sampled test set uses `1 failed : 23 healthy`.
-- The default paper setting is `N = 30` days and `L = 5` days.
-- Rebuttal ablations vary `N in {10,20,30,40,50}` and `L in {2,4,5,10,15}`.
+- The main paper setting is `N = 30` days and `L = 5` days.
+- The sensitivity studies vary `N in {10,20,30,40,50}` and `L in {2,4,5,10,15}`.
 
 See:
 
