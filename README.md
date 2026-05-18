@@ -161,7 +161,6 @@ See:
 
 - `ARTIFACT_CLAIMS.md`
 - `REPRODUCIBILITY.md`
-- `ORGANIZATION_REPORT.md`
 - `artifacts/MANIFEST.md`
 
 ## Paper Reference
