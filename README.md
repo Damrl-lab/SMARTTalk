@@ -163,3 +163,16 @@ See:
 - `REPRODUCIBILITY.md`
 - `ORGANIZATION_REPORT.md`
 - `artifacts/MANIFEST.md`
+
+## Paper Reference
+
+This artifact accompanies the following paper:
+
+```bibtex
+@inproceedings{AkewarEtAl_OSDI_2026,
+  author    = {Akewar, Mayur and Luo, Dongsheng and Madireddy, Sandeep and Bhimani, Janki},
+  title     = {SMARTTalk: Teaching SMART Logs to Talk to LLMs},
+  booktitle = {20th USENIX Symposium on Operating Systems Design and Implementation (OSDI)},
+  year      = {2026},
+  note      = {To appear}
+}
