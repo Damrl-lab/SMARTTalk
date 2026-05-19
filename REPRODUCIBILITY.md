@@ -17,6 +17,7 @@ bash scripts/07_reproduce/reproduce_quick.sh
 
 Expected behavior:
 
+- uses only bundled sample data and cached outputs,
 - validates sample `.npz` schema,
 - checks important artifact paths,
 - regenerates paper tables from cached state.
@@ -29,6 +30,7 @@ bash scripts/07_reproduce/reproduce_from_cache.sh
 
 Expected behavior:
 
+- uses cached outputs only,
 - rewrites the paper tables and cached figure outputs,
 - does not require raw dataset download,
 - does not require API keys.

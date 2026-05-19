@@ -11,7 +11,27 @@ import sys
 from pathlib import Path
 
 
-MODEL_CODE = {"MB1": "B1", "MB2": "B2"}
+MODEL_CODE = {"MB1": "MB1", "MB2": "MB2"}
+
+
+def resolve_failure_tag_path(path: str) -> Path:
+    candidate = Path(path)
+    if candidate.exists():
+        return candidate
+
+    alt_names = []
+    if candidate.name == "ssd_failure_tag.csv":
+        alt_names.append("ssd_failure_label.csv")
+    elif candidate.name == "ssd_failure_label.csv":
+        alt_names.append("ssd_failure_tag.csv")
+
+    for alt_name in alt_names:
+        alt_path = candidate.with_name(alt_name)
+        if alt_path.exists():
+            print(f"[info] Using {alt_path} instead of missing {candidate}")
+            return alt_path
+
+    return candidate
 
 
 def run(cmd: list[str], cwd: Path) -> None:
@@ -31,7 +51,7 @@ def main() -> None:
     parser.add_argument("--dataset-by-model-root", type=str, default="data/raw/dataset_by_model",
                         help="Folder containing per-model daily SMART CSVs.")
     parser.add_argument("--failure-tag-path", type=str, default="data/raw/ssd_failure_tag.csv",
-                        help="Path to ssd_failure_tag.csv.")
+                        help="Path to the failure label CSV (ssd_failure_tag.csv or ssd_failure_label.csv).")
     parser.add_argument("--processed-root", type=str, default="data/processed",
                         help="Output root for processed train/val/test splits.")
     parser.add_argument("--window-size", type=int, default=30,
@@ -41,6 +61,7 @@ def main() -> None:
     args = parser.parse_args()
 
     root = Path(__file__).resolve().parents[1]
+    failure_tag_path = resolve_failure_tag_path(args.failure_tag_path)
     datasets = ["MB1", "MB2"] if args.dataset_name == "ALL" else [args.dataset_name]
     for dataset in datasets:
         for round_id in args.rounds:
@@ -50,7 +71,7 @@ def main() -> None:
                 "code/core/n_day_window.py",
                 "--model-folder-name", dataset,
                 "--dataset-by-model-root", args.dataset_by_model_root,
-                "--failure-tag-path", args.failure_tag_path,
+                "--failure-tag-path", str(failure_tag_path),
                 "--failure-model-value", MODEL_CODE[dataset],
                 "--window-size", str(args.window_size),
                 "--fail-horizon-days", str(args.fail_horizon_days),

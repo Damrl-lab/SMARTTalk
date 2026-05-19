@@ -30,8 +30,9 @@ cd <repo-root>
 bash scripts/07_reproduce/reproduce_quick.sh
 ```
 
-This checks the package structure, validates the sample `.npz` files, and
-regenerates the paper-facing tables from cached outputs.
+This path uses only bundled sample data and cached outputs. It checks the
+package structure, validates the sample `.npz` files, and regenerates the
+paper-facing tables from cached state.
 
 ### 2. Cached Reproduction
 
@@ -42,8 +43,9 @@ cd <repo-root>
 bash scripts/07_reproduce/reproduce_from_cache.sh
 ```
 
-This uses the bundled table snapshots, cached phrase-dictionary outputs,
-sampled-test results, and cached ablation figures.
+This path uses cached outputs only. It relies on the bundled table snapshots,
+cached phrase-dictionary outputs, sampled-test results, and cached ablation
+figures.
 
 ### 3. Full Reproduction
 
@@ -147,8 +149,9 @@ code is included so they can be rebuilt locally from the public raw dataset.
 
 - the full Alibaba raw SMART dataset,
 - `data/raw/ssd_failure_tag.csv` from the Tianchi dataset package,
-- live LLM endpoints or API keys for full online evaluation,
-- a project-approved open-source license text.
+- the public Tianchi package may name this file `ssd_failure_label.csv`; the
+  preprocessing scripts accept either filename,
+- live LLM endpoints or API keys for full online evaluation.
 
 ## Notes
 
@@ -161,6 +164,7 @@ See:
 
 - `ARTIFACT_CLAIMS.md`
 - `REPRODUCIBILITY.md`
+- `ORGANIZATION_REPORT.md`
 - `artifacts/MANIFEST.md`
 
 ## Paper Reference
@@ -175,3 +179,4 @@ This artifact accompanies the following paper:
   year      = {2026},
   note      = {To appear}
 }
+```

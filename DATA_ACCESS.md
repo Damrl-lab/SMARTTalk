@@ -53,8 +53,9 @@ and the failure metadata file at:
 data/raw/ssd_failure_tag.csv
 ```
 
-The `ssd_failure_tag.csv` file comes from the Alibaba Tianchi dataset package
-and should be copied into this location after download.
+The current public Tianchi package may provide this file as
+`ssd_failure_label.csv`. The preprocessing scripts accept either
+`ssd_failure_tag.csv` or `ssd_failure_label.csv`.
 
 Then run:
 

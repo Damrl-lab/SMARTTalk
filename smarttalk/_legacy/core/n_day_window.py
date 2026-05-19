@@ -16,7 +16,7 @@ MODEL_FOLDER_NAME = "MB2"
 DATASET_BY_MODEL_ROOT = Path("data/raw/dataset_by_model")
 MODEL_ROOT = DATASET_BY_MODEL_ROOT / MODEL_FOLDER_NAME
 
-# Failure-tag CSV (original from ssd_smart_logs/)
+# Failure-label CSV from the Alibaba public release or older local copies
 FAILURE_TAG_PATH = Path("data/raw/ssd_failure_tag.csv")
 
 # Column names in CSVs
@@ -24,8 +24,10 @@ DISK_ID_COL = "disk_id"
 DATE_COL = "ds"
 MODEL_COL = "model"
 
-# Model code in failure_tag file for this dataset
-FAIL_MODEL_VALUE = "B2"   # in ssd_failure_tag.csv, model is A1/A2/B1/B2/C1/C2...
+# Model code in the failure-label file for this dataset.
+# Current public Tianchi releases use MA1/MA2/MB1/MB2/MC1/MC2.
+# Older local copies may use A1/A2/B1/B2/C1/C2.
+FAIL_MODEL_VALUE = "MB2"
 
 # SMART features for MB1/MB2 (after dropping high-NaN ones)
 MODEL_FEATURES = [
@@ -199,10 +201,22 @@ def load_failure_tags_for_model() -> pd.DataFrame:
     """
     df_fail = pd.read_csv(FAILURE_TAG_PATH)
 
-    # filter to this model code in the original tag file
-    df_fail = df_fail[df_fail[MODEL_COL] == FAIL_MODEL_VALUE].copy()
+    # Accept both public Tianchi model codes (MB1/MB2) and older short aliases (B1/B2).
+    model_value = str(FAIL_MODEL_VALUE).strip().upper()
+    model_aliases = [model_value]
+    if model_value.startswith("M") and len(model_value) > 1:
+        model_aliases.append(model_value[1:])
+    else:
+        model_aliases.append(f"M{model_value}")
+    model_aliases = list(dict.fromkeys(model_aliases))
+
+    model_series = df_fail[MODEL_COL].astype(str).str.strip().str.upper()
+    df_fail = df_fail[model_series.isin(model_aliases)].copy()
     if df_fail.empty:
-        print(f"WARNING: No {FAIL_MODEL_VALUE} entries in ssd_failure_tag.csv")
+        print(
+            f"WARNING: No entries found for model aliases {model_aliases} "
+            f"in {FAILURE_TAG_PATH.name}"
+        )
 
     # failure_time might be "2018-01-01 00:00:00" or integer 20180101
     df_fail["failure_time"] = pd.to_datetime(df_fail["failure_time"].astype(str),
@@ -382,13 +396,13 @@ def main():
         "--failure-tag-path",
         type=str,
         default=str(FAILURE_TAG_PATH),
-        help="Path to ssd_failure_tag.csv.",
+        help="Path to the failure label CSV (ssd_failure_tag.csv or ssd_failure_label.csv).",
     )
     parser.add_argument(
         "--failure-model-value",
         type=str,
         default=FAIL_MODEL_VALUE,
-        help="Model code value in ssd_failure_tag.csv, e.g. B1 or B2.",
+        help="Model code value in the failure label CSV, e.g. MB1/MB2 or B1/B2.",
     )
     parser.add_argument(
         "--window-size",
@@ -420,7 +434,17 @@ def main():
     MODEL_FOLDER_NAME = args.model_folder_name.strip()
     DATASET_BY_MODEL_ROOT = Path(args.dataset_by_model_root)
     MODEL_ROOT = DATASET_BY_MODEL_ROOT / MODEL_FOLDER_NAME
-    FAILURE_TAG_PATH = Path(args.failure_tag_path)
+    requested_failure_tag_path = Path(args.failure_tag_path)
+    if requested_failure_tag_path.exists():
+        FAILURE_TAG_PATH = requested_failure_tag_path
+    elif requested_failure_tag_path.name == "ssd_failure_tag.csv" and requested_failure_tag_path.with_name("ssd_failure_label.csv").exists():
+        FAILURE_TAG_PATH = requested_failure_tag_path.with_name("ssd_failure_label.csv")
+        print(f"[info] Using {FAILURE_TAG_PATH} instead of missing {requested_failure_tag_path}")
+    elif requested_failure_tag_path.name == "ssd_failure_label.csv" and requested_failure_tag_path.with_name("ssd_failure_tag.csv").exists():
+        FAILURE_TAG_PATH = requested_failure_tag_path.with_name("ssd_failure_tag.csv")
+        print(f"[info] Using {FAILURE_TAG_PATH} instead of missing {requested_failure_tag_path}")
+    else:
+        FAILURE_TAG_PATH = requested_failure_tag_path
     FAIL_MODEL_VALUE = args.failure_model_value.strip()
     WINDOW_SIZE = int(args.window_size)
     FAIL_HORIZON_DAYS = int(args.fail_horizon_days)
