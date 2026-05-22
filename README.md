@@ -8,6 +8,12 @@ needed to reproduce the main experiments, rebuild the processed SMART windows
 from the public Alibaba dataset, and inspect the learned pattern-memory and
 phrase-dictionary artifacts.
 
+For evaluation with the bundled cached SMARTTalk artifacts, the repository also
+includes the matching cached `test.npz` files under `data/splits/`. For a full
+end-to-end rerun, the recommended workflow is to regenerate the processed
+splits, rebuild the sampled test set, and rerun offline pattern learning before
+launching live inference.
+
 ## Repository Layout
 
 - `configs/`: default configs for MB1, MB2, LLM backbones, and ablations.
@@ -44,8 +50,9 @@ bash scripts/07_reproduce/reproduce_from_cache.sh
 ```
 
 This path uses cached outputs only. It relies on the bundled table snapshots,
-cached phrase-dictionary outputs, sampled-test results, and cached ablation
-figures.
+cached phrase-dictionary outputs, sampled-test results, cached ablation
+figures, and the matching bundled `data/splits/*/test.npz` files used by the
+cached evaluation path.
 
 ### 3. Full Reproduction
 
@@ -77,8 +84,9 @@ python scripts/01_data_preparation/make_imbalanced_test_set.py --config configs/
 ```
 
 The raw-log filtering step is shared by both datasets, so either default config
-works there. The sampled-test builder combines MB1 and MB2 and can also be
-launched with either default config.
+works there. The sampled-test builder scans the processed splits currently
+present under `data/splits/`, so it can also be launched with either default
+config.
 
 The default raw-log location is `data/raw/source_logs/`, for example:
 
@@ -148,13 +156,16 @@ for placement and preprocessing details.
 
 The full generated `train.npz`, `val.npz`, and `test.npz` split trees are also
 left out of the repository by design because those processed files are much
-larger than the rest of the artifact. The preprocessing and split-generation
-code is included so they can be rebuilt locally from the public raw dataset.
+larger than the rest of the artifact. The repository may include matching
+cached `test.npz` files for evaluation with the bundled artifacts, but the full
+preprocessing and split-generation code is included so complete train/val/test
+trees can be rebuilt locally from the public raw dataset.
 
 ## What Is Bundled
 
 - paper tables and figures,
 - checkpoints and phrase-dictionary artifacts needed for inspection,
+- matching cached `test.npz` files for the bundled evaluation artifacts,
 - cached Table 5 sampled-set outputs with FPR/FNR,
 - cached ablation figures and supporting CSV summaries,
 - small sample `.npz` splits for smoke tests.
@@ -165,6 +176,8 @@ code is included so they can be rebuilt locally from the public raw dataset.
 - `data/raw/ssd_failure_tag.csv` from the Tianchi dataset package,
 - the public Tianchi package may name this file `ssd_failure_label.csv`; the
   preprocessing scripts accept either filename,
+- full `train.npz` and `val.npz` processed splits when running the complete
+  pipeline without relying on the bundled cached evaluation files,
 - live LLM endpoints or API keys for full online evaluation.
 
 ## Notes

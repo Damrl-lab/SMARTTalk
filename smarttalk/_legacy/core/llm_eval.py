@@ -28,10 +28,15 @@ import argparse
 import json
 import re
 from pathlib import Path
+import sys
 from typing import Dict, List, Tuple, Optional
 import csv
 import numpy as np
 from openai import OpenAI
+
+PACKAGE_ROOT = Path(__file__).resolve().parents[3]
+if str(PACKAGE_ROOT) not in sys.path:
+    sys.path.insert(0, str(PACKAGE_ROOT))
 
 from sampled_test_utils import DEFAULT_HEALTHY_PER_FAILED, DEFAULT_SAMPLE_SEED, select_eval_indices
 from smarttalk.inference.output_parser import (
@@ -584,7 +589,15 @@ def main():
     # Load status labels
     y_status = load_status_labels(test_npz, base_test_path)
     y_status = np.asarray(y_status).astype(int)
-    assert y_status.shape[0] == N, "Label length mismatch."
+    if y_status.shape[0] != N:
+        raise ValueError(
+            "Label length mismatch between the current test split and the cached "
+            f"prototype assignments: test_prototypes has {N} windows, while "
+            f"{base_test_path} provides {y_status.shape[0]} labels/windows. "
+            "For cached evaluation, use the matching bundled test.npz files under "
+            "data/splits/. For a full rerun, regenerate the processed splits and "
+            "rerun the offline pattern-learning pipeline before launching inference."
+        )
 
     # Sample all selected failures first, then randomly add healthy windows
     # according to the requested healthy_per_fail ratio.

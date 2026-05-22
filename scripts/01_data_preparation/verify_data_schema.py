@@ -18,7 +18,16 @@ def main() -> None:
     parser.add_argument("--split", type=str, default=None, help="Optional explicit .npz path.")
     args = parser.parse_args()
     cfg = load_config(args.config)
-    split_path = Path(args.split) if args.split else ROOT / "data" / "sample_data" / f"{cfg['dataset']}_round1_test_sample.npz"
+    if args.split:
+        split_path = Path(args.split)
+    else:
+        dataset = cfg["dataset"]
+        round_id = cfg.get("round", 1)
+        cached_test_split = ROOT / "data" / "splits" / f"{dataset}_round{round_id}" / "test.npz"
+        if cached_test_split.exists():
+            split_path = cached_test_split
+        else:
+            split_path = ROOT / "data" / "sample_data" / f"{dataset}_round1_test_sample.npz"
     print(summarize_npz_split(split_path))
 
 

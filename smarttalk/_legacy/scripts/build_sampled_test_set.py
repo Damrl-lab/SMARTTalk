@@ -22,9 +22,9 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description="Build one fixed sampled test set shared by all status-prediction methods.",
     )
-    parser.add_argument("--processed-root", type=str, default="data/processed",
-                        help="Root containing MB1_round*/test.npz and MB2_round*/test.npz.")
-    parser.add_argument("--output-dir", type=str, default="data/processed/sampled_test_1to23",
+    parser.add_argument("--processed-root", type=str, default="data/splits",
+                        help="Root containing generated *_round*/test.npz split folders.")
+    parser.add_argument("--output-dir", type=str, default="data/splits/sampled_test_1to23",
                         help="Output folder for sampled_test_indices.csv and sampling_summary.csv.")
     parser.add_argument("--healthy-per-failed", type=float, default=DEFAULT_HEALTHY_PER_FAILED,
                         help="Number of healthy windows sampled per failed window.")

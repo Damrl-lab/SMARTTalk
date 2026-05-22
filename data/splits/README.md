@@ -3,8 +3,10 @@
 This folder is the target location for the generated MB1 and MB2 window splits.
 
 The full processed splits are **not** bundled in the repository because the
-generated `train.npz`, `val.npz`, and `test.npz` files can be large. Instead,
-the repository includes:
+generated `train.npz`, `val.npz`, and `test.npz` files can be large. For the
+cached evaluation path, the repository may include the matching cached
+`test.npz` files used by the bundled SMARTTalk artifacts. In addition, the
+repository includes:
 
 - the preprocessing and split-generation code,
 - small sample `.npz` files for quick checks,
@@ -46,6 +48,11 @@ Each split file is an `.npz` bundle containing:
 - `ttf`: time-to-failure in days
 - `features`: SMART attribute names
 
+If the bundled cached `test.npz` files are present, they are intended for
+evaluation together with the bundled cached artifacts. For a complete rerun,
+regenerate the full split tree and then rebuild the offline artifacts so the
+processed data and prototype assignments stay aligned.
+
 ## Fixed Sampled Test Set
 
 After the full test splits are created, build the fixed imbalanced evaluation
@@ -55,7 +62,11 @@ subset with:
 python scripts/01_data_preparation/make_imbalanced_test_set.py --config configs/default_mb1.yaml
 ```
 
-This command combines MB1 and MB2, so either default config works.
+This command scans the currently available `MB1_round*` and `MB2_round*`
+directories under `data/splits/` and builds the fixed sampled test set from
+whichever processed test splits are present. If only MB1 has been prepared, it
+creates an MB1-only sampled set. If you later generate MB2 and rerun the same
+command, the sampled-test CSVs will be refreshed to include both datasets.
 
 This writes:
 

@@ -31,6 +31,8 @@ bash scripts/07_reproduce/reproduce_from_cache.sh
 Expected behavior:
 
 - uses cached outputs only,
+- uses the matching bundled `data/splits/*/test.npz` files when cached
+  evaluation against bundled SMARTTalk artifacts is needed,
 - rewrites the paper tables and cached figure outputs,
 - does not require raw dataset download,
 - does not require API keys.
@@ -52,8 +54,17 @@ Expected behavior:
 7. regenerate the paper tables,
 8. run N/L ablations.
 
+For the full workflow, the recommended path is to regenerate the processed
+splits and offline artifacts together rather than mixing newly generated
+`test.npz` files with older cached prototype-assignment artifacts.
+
 The default MB1 and MB2 configs target round 1. To run other rounds, copy one
 of the default configs and update its `round` field.
+
+The paper-level Table 5 and Table 6 numbers are aggregated across rounds 1, 2,
+and 3. The single-config convenience wrappers are useful for one dataset / one
+round local runs, while the paper tables summarize the aggregate over all three
+rounds.
 
 ## Approximate Runtime Guidance
 

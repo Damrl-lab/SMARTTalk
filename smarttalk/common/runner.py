@@ -14,6 +14,14 @@ from .paths import ROOT
 
 def _base_env() -> dict[str, str]:
     env = dict(os.environ)
+    existing_pythonpath = env.get("PYTHONPATH", "")
+    root_str = str(ROOT)
+    if existing_pythonpath:
+        pythonpath_entries = existing_pythonpath.split(os.pathsep)
+        if root_str not in pythonpath_entries:
+            env["PYTHONPATH"] = os.pathsep.join([root_str, *pythonpath_entries])
+    else:
+        env["PYTHONPATH"] = root_str
     if "MPLCONFIGDIR" not in env:
         mpl_dir = ROOT / ".cache" / "matplotlib"
         mpl_dir.mkdir(parents=True, exist_ok=True)

@@ -22,10 +22,15 @@ import argparse
 import json
 import os
 from pathlib import Path
+import sys
 from typing import Dict, List, Tuple
 
 import numpy as np
 from openai import OpenAI
+
+PACKAGE_ROOT = Path(__file__).resolve().parents[3]
+if str(PACKAGE_ROOT) not in sys.path:
+    sys.path.insert(0, str(PACKAGE_ROOT))
 
 from sampled_test_utils import DEFAULT_HEALTHY_PER_FAILED, DEFAULT_SAMPLE_SEED, select_eval_indices
 from smarttalk.inference.output_parser import (

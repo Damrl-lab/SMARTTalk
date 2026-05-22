@@ -52,10 +52,14 @@ def write_sampled_test_tables(
 
     index_rows: List[Dict[str, object]] = []
     summary_rows: List[Dict[str, object]] = []
+    found_any_split = False
 
     for dataset in datasets:
         for round_id in rounds:
             test_path = processed_root / f"{dataset}_round{round_id}" / "test.npz"
+            if not test_path.exists():
+                continue
+            found_any_split = True
             data = np.load(test_path)
             y = np.asarray(data["y"]).astype(int)
 
@@ -102,6 +106,12 @@ def write_sampled_test_tables(
                     "seed": seed,
                 }
             )
+
+    if not found_any_split:
+        raise FileNotFoundError(
+            f"No test.npz files found under {processed_root} for the requested "
+            f"datasets={list(datasets)} and rounds={list(rounds)}."
+        )
 
     with indices_csv.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(

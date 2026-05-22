@@ -11,6 +11,8 @@ The complete Alibaba SSD SMART dataset used by SMARTTalk can be downloaded from:
 This repository includes:
 
 - small sample `.npz` windows in `data/sample_data/`,
+- matching cached `test.npz` files under `data/splits/` for evaluation with
+  the bundled SMARTTalk artifacts,
 - cached tables and figures,
 - learned checkpoints and phrase-dictionary artifacts,
 - scripts for reconstructing processed windows, sampled test sets, and ablations.
@@ -83,6 +85,11 @@ Each `.npz` contains:
 - `ttf`: time-to-failure in days
 - `features`: ordered SMART attribute names
 
+When the bundled cached `test.npz` files are present, they should be used
+together with the matching bundled artifacts for cached evaluation. For a full
+pipeline rerun, regenerate the processed splits first and then rebuild the
+offline SMARTTalk artifacts before launching live inference.
+
 ## Fixed Imbalanced Test Set
 
 For status evaluation, SMARTTalk uses all failed windows plus sampled healthy
@@ -92,7 +99,8 @@ windows at a fixed `1:23` ratio. Build it with:
 python scripts/01_data_preparation/make_imbalanced_test_set.py --config configs/default_mb1.yaml
 ```
 
-This command combines MB1 and MB2, so either default config works.
+This command scans the processed splits currently available under `data/splits/`
+and builds the sampled evaluation set from the datasets that are present.
 
 This writes:
 
