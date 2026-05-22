@@ -156,6 +156,8 @@ Constraints:
 - Never include anything outside the JSON object.
 """
 
+MAX_PARSE_WARNING_EXAMPLES = 5
+
 
 def build_raw_system_prompt(window_days: int) -> str:
     return (
@@ -405,6 +407,7 @@ def main():
     prediction_records = []
     parse_recovery_count = 0
     skipped_parse_error_count = 0
+    parse_warning_examples_shown = 0
 
     for rank, idx in enumerate(selected, start=1):
         print("=" * 80)
@@ -460,16 +463,30 @@ def main():
             obj = best_effort_prediction_payload(raw_output)
             if obj is None:
                 skipped_parse_error_count += 1
-                print(
-                    f"WARNING: model output for window {idx} was not valid JSON "
-                    "and could not be recovered; skipping this window."
-                )
+                parse_warning_examples_shown += 1
+                if parse_warning_examples_shown <= MAX_PARSE_WARNING_EXAMPLES:
+                    print(
+                        f"WARNING: model output for window {idx} was not valid JSON "
+                        "and could not be recovered; skipping this window."
+                    )
+                elif parse_warning_examples_shown == MAX_PARSE_WARNING_EXAMPLES + 1:
+                    print(
+                        "WARNING: additional JSON-format warnings are being suppressed; "
+                        "see the final parsing summary for counts."
+                    )
                 continue
             parse_recovery_count += 1
-            print(
-                f"WARNING: model output for window {idx} was not valid JSON; "
-                "recovered a best-effort structured prediction from text."
-            )
+            parse_warning_examples_shown += 1
+            if parse_warning_examples_shown <= MAX_PARSE_WARNING_EXAMPLES:
+                print(
+                    f"WARNING: model output for window {idx} was not valid JSON; "
+                    "recovered a best-effort structured prediction from text."
+                )
+            elif parse_warning_examples_shown == MAX_PARSE_WARNING_EXAMPLES + 1:
+                print(
+                    "WARNING: additional JSON-format warnings are being suppressed; "
+                    "see the final parsing summary for counts."
+                )
 
         status_str = str(obj.get("status", "HEALTHY"))
         # we ignore concern_level / ttf / explanation / recommendations
@@ -522,6 +539,10 @@ def main():
         print(f"FPR      : {fpr:.6f}")
         print(f"FNR      : {fnr:.4f}")
         print(f"F1-score : {f1:.4f}")
+        if parse_recovery_count or skipped_parse_error_count:
+            print("\n=== Parsing summary ===")
+            print(f"Recovered non-JSON outputs : {parse_recovery_count}")
+            print(f"Skipped unrecoverable outputs: {skipped_parse_error_count}")
 
         if args.output_jsonl:
             output_jsonl = Path(args.output_jsonl)
