@@ -17,8 +17,8 @@ from status_sampled_utils import (
 )
 
 
-ROOT = Path(__file__).resolve().parent.parent
 PACKAGE_ROOT = Path(__file__).resolve().parents[3]
+ROOT = PACKAGE_ROOT
 CURATED_TABLE_CSV = ROOT / "configs" / "paper_tables" / "table5_status_with_fpr_fnr.csv"
 
 
@@ -38,15 +38,15 @@ def main() -> None:
     parser.add_argument("--table5-csv", type=str, default="configs/paper_tables/table5_status.csv",
                         help="Published Table 5 CSV with precision/recall/F0.5 columns.")
     parser.add_argument("--sampled-indices-csv", type=str,
-                        default="data/processed/sampled_test_1to23/sampled_test_indices.csv",
+                        default="data/splits/sampled_test_1to23/sampled_test_indices.csv",
                         help="Fixed sampled test indices shared across all methods.")
     parser.add_argument("--sampling-summary-csv", type=str,
-                        default="data/processed/sampled_test_1to23/sampling_summary.csv",
+                        default="data/splits/sampled_test_1to23/sampling_summary.csv",
                         help="Summary CSV emitted next to the sampled test indices.")
     parser.add_argument("--run-root", type=str, default=None,
                         help="Optional run root containing per-round prediction JSONL files.")
     parser.add_argument("--output-dir", type=str, default="results/status_sampled_1to23",
-                        help="Output folder for confusion matrices, metrics CSV, and LaTeX table.")
+                        help="Output folder for confusion matrices, metrics CSV, and the formatted status table.")
     parser.add_argument("--zero-row-visible-fpr", type=float, default=DEFAULT_ZERO_ROW_VISIBLE_FPR,
                         help="Visible fallback FPR used only for published rows with P=R=F0.5=0 and no predictions.")
     args = parser.parse_args()

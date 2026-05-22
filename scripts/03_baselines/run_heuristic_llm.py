@@ -28,6 +28,8 @@ def main() -> None:
         "--model-name", cfg["llm_model_name"],
         "--base-url", cfg["base_url"],
         "--api-key", cfg["api_key"],
+        "--temperature", str(cfg.get("temperature", 0.0)),
+        "--max-tokens", str(cfg.get("max_tokens", 512)),
     )
 
 

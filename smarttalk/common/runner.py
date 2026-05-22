@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -11,12 +12,21 @@ from .logging_utils import log_step
 from .paths import ROOT
 
 
+def _base_env() -> dict[str, str]:
+    env = dict(os.environ)
+    if "MPLCONFIGDIR" not in env:
+        mpl_dir = ROOT / ".cache" / "matplotlib"
+        mpl_dir.mkdir(parents=True, exist_ok=True)
+        env["MPLCONFIGDIR"] = str(mpl_dir)
+    return env
+
+
 def run_python(script: Path, args: Iterable[str] = (), cwd: Path | None = None) -> None:
     cmd = [sys.executable, str(script), *list(args)]
     log_step(" ".join(cmd))
-    subprocess.run(cmd, cwd=cwd or ROOT, check=True)
+    subprocess.run(cmd, cwd=cwd or ROOT, check=True, env=_base_env())
 
 
 def run_shell(command: list[str], cwd: Path | None = None) -> None:
     log_step(" ".join(command))
-    subprocess.run(command, cwd=cwd or ROOT, check=True)
+    subprocess.run(command, cwd=cwd or ROOT, check=True, env=_base_env())

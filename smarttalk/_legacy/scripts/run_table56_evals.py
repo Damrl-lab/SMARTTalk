@@ -12,13 +12,13 @@ import subprocess
 import sys
 from pathlib import Path
 
-DEFAULT_SAMPLED_INDICES = "data/processed/sampled_test_1to23/sampled_test_indices.csv"
+DEFAULT_SAMPLED_INDICES = "data/splits/sampled_test_1to23/sampled_test_indices.csv"
 
 
 SCRIPT_MAP = {
-    "raw": "code/core/raw_llm_eval.py",
-    "heuristic": "code/core/heuristic_llm_eval.py",
-    "smarttalk": "code/core/llm_eval.py",
+    "raw": "smarttalk/_legacy/core/raw_llm_eval.py",
+    "heuristic": "smarttalk/_legacy/core/heuristic_llm_eval.py",
+    "smarttalk": "smarttalk/_legacy/core/llm_eval.py",
 }
 
 
@@ -45,9 +45,9 @@ def main() -> None:
                         help="Backbone config JSON.")
     parser.add_argument("--run-root", type=str, default="results/llm_runs/table56",
                         help="Output root for per-run artifacts.")
-    parser.add_argument("--processed-root", type=str, default="data/processed",
+    parser.add_argument("--processed-root", type=str, default="data/splits",
                         help="Root containing dataset round processed folders.")
-    parser.add_argument("--artifacts-root", type=str, default="data/artifacts",
+    parser.add_argument("--artifacts-root", type=str, default="artifacts/checkpoints/by_round",
                         help="Root containing dataset round SMARTTalk artifact folders.")
     parser.add_argument("--base-url", type=str, default=None,
                         help="Base URL for open-source backbones. Defaults to config file.")
@@ -73,7 +73,7 @@ def main() -> None:
                         help="Skip model calls and only aggregate existing run outputs.")
     args = parser.parse_args()
 
-    root = Path(__file__).resolve().parents[1]
+    root = Path(__file__).resolve().parents[3]
     configs = json.loads((root / args.config_path).read_text(encoding="utf-8"))
     run_root = root / args.run_root
     run_root.mkdir(parents=True, exist_ok=True)
@@ -127,7 +127,7 @@ def main() -> None:
     run(
         [
             sys.executable,
-            "scripts/aggregate_table56_metrics.py",
+            "smarttalk/_legacy/scripts/aggregate_table56_metrics.py",
             "--run-root", str(run_root),
             "--output-dir", str(run_root / "aggregated"),
         ],

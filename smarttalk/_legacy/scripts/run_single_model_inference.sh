@@ -28,7 +28,7 @@ Examples:
     --model-name Phi-4 \
     --base-url http://localhost:8000/v1 \
     --api-key EMPTY \
-    --sampled-indices-csv data/processed/sampled_test_1to23/sampled_test_indices.csv
+    --sampled-indices-csv data/splits/sampled_test_1to23/sampled_test_indices.csv
 
   bash scripts/run_single_model_inference.sh \
     --method raw \
@@ -45,11 +45,11 @@ ROUND=""
 MODEL_NAME=""
 BASE_URL=""
 API_KEY="${OPENAI_API_KEY:-EMPTY}"
-PROCESSED_ROOT="data/processed"
-ARTIFACTS_ROOT="data/artifacts"
+PROCESSED_ROOT="data/splits"
+ARTIFACTS_ROOT="artifacts/checkpoints/by_round"
 OUTPUT_ROOT="results/single_runs"
 NUM_SAMPLES=""
-SAMPLED_INDICES_CSV="data/processed/sampled_test_1to23/sampled_test_indices.csv"
+SAMPLED_INDICES_CSV="data/splits/sampled_test_1to23/sampled_test_indices.csv"
 HEALTHY_PER_FAIL="23"
 EVALUATE_ALL="false"
 TEMPERATURE="0.0"
@@ -136,13 +136,13 @@ fi
 
 case "$METHOD" in
   raw)
-    SCRIPT_PATH="code/core/raw_llm_eval.py"
+    SCRIPT_PATH="smarttalk/_legacy/core/raw_llm_eval.py"
     ;;
   heuristic)
-    SCRIPT_PATH="code/core/heuristic_llm_eval.py"
+    SCRIPT_PATH="smarttalk/_legacy/core/heuristic_llm_eval.py"
     ;;
   smarttalk)
-    SCRIPT_PATH="code/core/llm_eval.py"
+    SCRIPT_PATH="smarttalk/_legacy/core/llm_eval.py"
     ;;
   *)
     echo "Unsupported method: $METHOD" >&2

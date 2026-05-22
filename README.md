@@ -113,6 +113,11 @@ python scripts/05_evaluation/make_table7_explanations.py --config configs/defaul
 These table-generation commands use shared cached outputs, so either default
 config works here.
 
+The paper-level Table 5 and Table 6 values are aggregated across rounds 1, 2,
+and 3. The single-config convenience wrappers shown above are useful for local
+one-dataset / one-round runs, while the paper-level reported values summarize
+the aggregate over all three rounds.
+
 ### Run sensitivity studies
 
 ```bash

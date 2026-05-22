@@ -14,6 +14,7 @@ from smarttalk.evaluation.pipeline import make_paper_tables
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Refresh cached paper tables after running baseline code.")
+    parser.add_argument("--config", type=str, default=None, help="Optional config path; accepted for CLI consistency.")
     parser.parse_args()
     make_paper_tables()
 

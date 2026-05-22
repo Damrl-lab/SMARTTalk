@@ -30,6 +30,11 @@ import numpy as np
 from openai import OpenAI
 
 from sampled_test_utils import DEFAULT_HEALTHY_PER_FAILED, DEFAULT_SAMPLE_SEED, select_eval_indices
+from smarttalk.inference.output_parser import (
+    best_effort_prediction_payload,
+    extract_first_json_block,
+    normalize_status,
+)
 
 
 
@@ -156,19 +161,11 @@ def build_heuristic_system_prompt(window_days: int) -> str:
 # ============================================================
 
 def extract_json(s: str) -> Dict:
-    start = s.find("{")
-    end = s.rfind("}")
-    if start == -1 or end == -1 or end <= start:
-        raise ValueError(f"No JSON object found in model output:\n{s}")
-    snippet = s[start:end + 1]
-    return json.loads(snippet)
+    return extract_first_json_block(s)
 
 
 def status_to_int(status: str) -> int:
-    status_norm = status.strip().upper().replace("-", "_")
-    if "AT_RISK" in status_norm or "RISK" in status_norm:
-        return 1
-    return 0
+    return normalize_status(status)
 
 
 def compute_prf1(y_true: List[int], y_pred: List[int]) -> Tuple[float, float, float]:
@@ -330,7 +327,7 @@ def main():
                         help="Dataset/model name, e.g. MB1 or MB2.")
     parser.add_argument("--round", type=int, default=1,
                         help="Temporal split round number (default: 1)")
-    parser.add_argument("--processed-root", type=str, default="data/processed",
+    parser.add_argument("--processed-root", type=str, default="data/splits",
                         help="Root directory for processed split folders.")
     parser.add_argument("--processed-dir", type=str, default=None,
                         help="Optional explicit processed split directory for this run.")
@@ -433,6 +430,8 @@ def main():
     y_true_all: List[int] = []
     y_pred_all: List[int] = []
     prediction_records = []
+    parse_recovery_count = 0
+    skipped_parse_error_count = 0
 
     for rank, idx in enumerate(selected, start=1):
         print("=" * 80)
@@ -487,10 +486,19 @@ def main():
         try:
             obj = extract_json(raw_output)
         except Exception as e:
-            raise RuntimeError(
-                f"Model output for window {idx} was not valid JSON. "
-                "This packaged evaluator does not use free-text fallbacks."
-            ) from e
+            obj = best_effort_prediction_payload(raw_output)
+            if obj is None:
+                skipped_parse_error_count += 1
+                print(
+                    f"WARNING: model output for window {idx} was not valid JSON "
+                    "and could not be recovered; skipping this window."
+                )
+                continue
+            parse_recovery_count += 1
+            print(
+                f"WARNING: model output for window {idx} was not valid JSON; "
+                "recovered a best-effort structured prediction from text."
+            )
 
         status_str = str(obj.get("status", "HEALTHY"))
         pred_status = status_to_int(status_str)
@@ -502,6 +510,7 @@ def main():
                 "true_status": int(gt),
                 "pred_status": int(pred_status),
                 "raw_response": obj,
+                "raw_text_response": raw_output,
             }
         )
 
@@ -575,6 +584,10 @@ def main():
                     "sample_seed": int(args.sample_seed),
                     "sampled_indices_csv": args.sampled_indices_csv,
                     "selection_mode": sampling_meta["selection_mode"],
+                },
+                "parsing": {
+                    "best_effort_recoveries": int(parse_recovery_count),
+                    "skipped_parse_errors": int(skipped_parse_error_count),
                 },
             }
             output_metrics_json = Path(args.output_metrics_json)

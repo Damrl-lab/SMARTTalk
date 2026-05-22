@@ -14,6 +14,7 @@ from smarttalk.ablation.pipeline import make_ablation_figures
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Regenerate cached ablation figures without rerunning live inference.")
+    parser.add_argument("--config", type=str, default=None, help="Optional config path; accepted for CLI consistency.")
     parser.parse_args()
     make_ablation_figures()
 
