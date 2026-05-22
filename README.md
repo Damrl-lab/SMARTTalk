@@ -60,7 +60,8 @@ bash scripts/07_reproduce/reproduce_full.sh
 Full reproduction assumes:
 
 - the Alibaba SSD SMART dataset has been downloaded,
-- raw data is placed as described in `DATA_ACCESS.md`,
+- raw data is placed under `data/raw/source_logs/` or `data/raw/dataset_by_model/`
+  as described in `DATA_ACCESS.md`,
 - GPU resources are available for CNN training and optional local vLLM serving,
 - API keys or local model endpoints are configured if live LLM inference is used.
 
@@ -78,6 +79,14 @@ python scripts/01_data_preparation/make_imbalanced_test_set.py --config configs/
 The raw-log filtering step is shared by both datasets, so either default config
 works there. The sampled-test builder combines MB1 and MB2 and can also be
 launched with either default config.
+
+The default raw-log location is `data/raw/source_logs/`, for example:
+
+```text
+data/raw/source_logs/
+├── smartlog2018ssd/
+└── smartlog2019ssd/
+```
 
 ### Rebuild offline SMARTTalk artifacts
 

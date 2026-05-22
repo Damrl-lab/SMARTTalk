@@ -14,6 +14,8 @@ After download, place the raw inputs in one of these layouts:
 
 ```text
 data/raw/source_logs/
+├── smartlog2018ssd/
+└── smartlog2019ssd/
 ```
 
 Run:
@@ -23,6 +25,8 @@ python scripts/01_data_preparation/preprocess_raw_logs.py --config configs/defau
 ```
 
 This filtering step is shared by MB1 and MB2, so either default config works.
+The `source_logs/` directory is the default raw-data root used by both
+`configs/default_mb1.yaml` and `configs/default_mb2.yaml`.
 
 This creates the filtered per-model daily SMART CSVs used by the next stage.
 

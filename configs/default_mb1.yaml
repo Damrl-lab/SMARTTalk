@@ -9,6 +9,7 @@ seed: 2026
 processed_root: data/splits
 artifacts_root: artifacts/checkpoints/by_round
 results_root: results
+raw_source_root: data/raw/source_logs
 dataset_by_model_root: data/raw/dataset_by_model
 failure_tag_path: data/raw/ssd_failure_tag.csv
 llm_backbone: OS3
