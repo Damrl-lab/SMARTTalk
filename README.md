@@ -23,6 +23,7 @@ launching live inference.
 - `data/`: sample data, schema notes, and split-placement instructions.
 - `artifacts/`: checkpoints, pattern-memory assets, phrase dictionaries, cached predictions, and cached ablation outputs.
 - `results/`: paper tables, prototype figures, phrase-dictionary exports, and ablation figures.
+- `baselines_repro/`: self-contained reproduction of the Table 5 numerical baselines (RF, NN, EC, AE, LSTM, MVTRF, MSFRD) on MB1 and MB2, with per-baseline code, trained checkpoints, and fixed 1:23 evaluation sets.
 - `tests/`: lightweight correctness and packaging tests.
 
 ## Reproduction Options
@@ -106,18 +107,42 @@ python scripts/02_offline_pattern_learning/run_offline_pipeline.py --config conf
 The default configs target round 1. To run another round, copy one of the
 default configs and update its `round` field.
 
-### Run one baseline or LLM method
+### Run a Raw-LLM / Heuristic-LLM method or SMARTTalk inference
 
 ```bash
-python scripts/03_baselines/train_baseline.py --config configs/default_mb1.yaml --model rf
-python scripts/03_baselines/train_baseline.py --config configs/default_mb2.yaml --model rf
 python scripts/03_baselines/run_raw_llm.py --config configs/default_mb1.yaml
 python scripts/03_baselines/run_heuristic_llm.py --config configs/default_mb1.yaml
 python scripts/04_inference/run_smarttalk_inference.py --config configs/default_mb1.yaml
 ```
 
 Use `configs/default_mb2.yaml` in the same commands when you want the MB2 run
-instead of MB1.
+instead of MB1. The numerical baselines (RF, NN, EC, AE, LSTM, MVTRF, MSFRD) are
+reproduced separately — see *Reproduce the Table 5 numerical baselines* below.
+
+### Reproduce the Table 5 numerical baselines
+
+The `baselines_repro/` package reproduces the RF, NN, EC, AE, LSTM, MVTRF, and
+MSFRD rows of Table 5 on MB1 and MB2. It is self-contained: the trained
+checkpoints and the fixed 1:23 evaluation sets are bundled, so the table can be
+rebuilt without the full dataset.
+
+```bash
+cd baselines_repro
+
+# rebuild the whole baseline block from the bundled checkpoints -> results/table5_reproduced.csv
+python reproduce_table5.py
+
+# run a single baseline (loads its checkpoint and reports P, R, F0.5, FPR, FNR)
+python baselines/rf.py --dataset MB1
+python baselines/mvtrf.py --dataset MB2
+
+# retrain the models from data/splits, then rebuild the table on them
+python train_baselines.py --out checkpoints_retrained
+python reproduce_table5.py --checkpoints checkpoints_retrained
+```
+
+Each baseline lives in its own file under `baselines_repro/baselines/` and is
+labelled with its source paper. See `baselines_repro/README.md` for details.
 
 ### Regenerate paper tables
 
@@ -167,6 +192,7 @@ trees can be rebuilt locally from the public raw dataset.
 - checkpoints and phrase-dictionary artifacts needed for inspection,
 - matching cached `test.npz` files for the bundled evaluation artifacts,
 - cached Table 5 sampled-set outputs with FPR/FNR,
+- trained baseline checkpoints and fixed 1:23 evaluation sets for the Table 5 numerical baselines (`baselines_repro/`),
 - cached ablation figures and supporting CSV summaries,
 - small sample `.npz` splits for smoke tests.
 
