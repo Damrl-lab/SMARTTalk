@@ -15,3 +15,4 @@ python scripts/04_inference/run_smarttalk_inference.py --config configs/default_
 python scripts/05_evaluation/make_table5_status.py --config configs/default_mb1.yaml
 python scripts/05_evaluation/make_table6_ttf.py --config configs/default_mb1.yaml
 python scripts/05_evaluation/make_table7_explanations.py --config configs/default_mb1.yaml
+python baselines_repro/reproduce_table5.p
