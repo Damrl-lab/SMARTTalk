@@ -15,6 +15,9 @@ expected outputs.
 - Main outputs:
   - `results/tables/table5_status_with_fpr_fnr.csv`
   - `results/tables/status_sampled_1to23/status_metrics_with_fpr_fnr.csv`
+- Numerical baseline block (RF, NN, EC, AE, LSTM, MVTRF, MSFRD):
+  - `cd baselines_repro && python reproduce_table5.py`
+  - output: `baselines_repro/results/table5_reproduced.csv` (see `baselines_repro/README.md`)
 
 ## Claim 2: SMARTTalk yields useful TTF bucket predictions
 
