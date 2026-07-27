@@ -20,6 +20,21 @@ This repository includes:
 The full raw public dataset is not included here because the source files are
 large.
 
+## Download Processed / Sampled Splits (Google Drive)
+
+The large processed arrays are hosted on Google Drive rather than in this
+repository. The full original splits (`data/splits/`, all MB1/MB2 rounds) and the
+large sampled MB2 training arrays (`data/splits_sampled/MB2_round*/train.npz`) can
+be downloaded from:
+
+- <https://drive.google.com/drive/folders/1oMqZz4nr5Q071f20i2dCbvPb3gaoPn2x?usp=sharing>
+
+After downloading, place the `splits/` and `splits_sampled/` folders under `data/`
+so the paths match the layout below. The repository already ships the small pieces
+(sampled `val`/`test`, the `1:23` test indices in `data/splits/sampled_test_1to23/`,
+and `data/sample_data/`), so this download is only needed to retrain from the full
+or sampled arrays.
+
 ## Expected Raw Data Placement
 
 After download, place the raw inputs in one of the following layouts:

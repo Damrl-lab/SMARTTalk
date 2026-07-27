@@ -82,6 +82,12 @@ seeds), pooled across the three temporal rounds:
 python sample_splits.py --splits-root data/splits --out-root data/splits_sampled --ratio 23
 ```
 
+The repository ships the small sampled files (MB1 `train`, and `val`/`test` for both
+datasets). The large arrays — the full original `data/splits/` and MB2's sampled
+`data/splits_sampled/MB2_round*/train.npz` — are hosted on Google Drive and only
+needed to retrain (the shipped checkpoints reproduce the table without them):
+<https://drive.google.com/drive/folders/1oMqZz4nr5Q071f20i2dCbvPb3gaoPn2x?usp=sharing>
+
 Each baseline is trained on the pooled **train + val** windows following its source
 paper's regime (RF/NN downsample the majority class to 1:1; AE and MSFRD's forecaster
 train on healthy windows only; the tree ensembles keep the imbalance with class
