@@ -17,8 +17,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from common import pooled_train, downsample, per_attribute_stats, cli  # noqa: E402
 
 CONFIG = {
-    "MB1": {"gb_max_iter": 15, "gb_max_depth": 2, "rf_max_depth": 2},
-    "MB2": {"gb_max_iter": 15, "gb_max_depth": 2, "rf_max_depth": 2},
+    "MB1": {"gb_max_iter": 60, "gb_max_depth": 4, "rf_max_depth": 6},
+    "MB2": {"gb_max_iter": 60, "gb_max_depth": 4, "rf_max_depth": 6},
 }
 
 

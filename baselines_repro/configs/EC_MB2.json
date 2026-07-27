@@ -1,0 +1,21 @@
+{
+  "model": "EC",
+  "dataset": "MB2",
+  "hyperparameters": {
+    "gb_max_iter": 60,
+    "gb_max_depth": 4,
+    "rf_max_depth": 6
+  },
+  "decision_threshold": 0.631577836457831,
+  "metrics": {
+    "tp": 254,
+    "fp": 45,
+    "tn": 23305,
+    "fn": 803,
+    "precision": 0.8494983277591973,
+    "recall": 0.2403027436140019,
+    "f05": 0.5636928539724811,
+    "fpr": 0.0019271948608137045,
+    "fnr": 0.759697256385998
+  }
+}

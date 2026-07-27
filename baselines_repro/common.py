@@ -23,11 +23,19 @@ def load_split(path):
     return X, y, ttf, feats
 
 
-def pooled_train(data_root, dataset, rounds=ROUNDS):
+def pooled_train(data_root, dataset, rounds=ROUNDS, splits=("train", "val")):
+    """Pooled training windows across the temporal rounds. Both the train and the
+    validation split are used for fitting (the validation split adds labelled
+    windows rather than being held out), matching how the shipped checkpoints were
+    trained. A split file that is absent is skipped."""
     Xs, ys = [], []
     for r in rounds:
-        X, y, _, _ = load_split(Path(data_root) / f"{dataset}_round{r}" / "train.npz")
-        Xs.append(X); ys.append(y)
+        for split in splits:
+            p = Path(data_root) / f"{dataset}_round{r}" / f"{split}.npz"
+            if not p.exists():
+                continue
+            X, y, _, _ = load_split(p)
+            Xs.append(X); ys.append(y)
     return np.concatenate(Xs), np.concatenate(ys)
 
 
@@ -134,7 +142,7 @@ def cli(name, train_fn):
     ap.add_argument("--dataset", default="MB1", choices=["MB1", "MB2"])
     ap.add_argument("--train", action="store_true",
                     help="train from data instead of loading the shipped checkpoint")
-    ap.add_argument("--data-root", default="data/splits")
+    ap.add_argument("--data-root", default="data/splits_sampled")
     ap.add_argument("--out", default=None, help="checkpoint output path when training")
     args = ap.parse_args()
     if args.train:

@@ -1,0 +1,23 @@
+{
+  "model": "NN",
+  "dataset": "MB2",
+  "hyperparameters": {
+    "hidden_layer_sizes": [
+      128,
+      64
+    ],
+    "max_iter": 200
+  },
+  "decision_threshold": 0.9964870512485504,
+  "metrics": {
+    "tp": 180,
+    "fp": 136,
+    "tn": 24216,
+    "fn": 877,
+    "precision": 0.569620253164557,
+    "recall": 0.17029328287606432,
+    "f05": 0.3877638948728996,
+    "fpr": 0.005584756898817346,
+    "fnr": 0.8297067171239356
+  }
+}

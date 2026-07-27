@@ -1,0 +1,20 @@
+{
+  "model": "RF",
+  "dataset": "MB2",
+  "hyperparameters": {
+    "n_estimators": 300,
+    "max_depth": 6
+  },
+  "decision_threshold": 0.560793993643097,
+  "metrics": {
+    "tp": 349,
+    "fp": 164,
+    "tn": 22483,
+    "fn": 708,
+    "precision": 0.6803118908382066,
+    "recall": 0.3301797540208136,
+    "f05": 0.5612737214538436,
+    "fpr": 0.007241577250850002,
+    "fnr": 0.6698202459791863
+  }
+}

@@ -25,7 +25,7 @@ MODULE = {"RF": "rf", "NN": "nn", "EC": "ec", "AE": "ae", "LSTM": "lstm", "MVTRF
 
 def main():
     ap = argparse.ArgumentParser(description="Train SMART baselines and save checkpoints")
-    ap.add_argument("--data-root", default="data/splits")
+    ap.add_argument("--data-root", default="data/splits_sampled")
     ap.add_argument("--models", default=",".join(MODELS))
     ap.add_argument("--datasets", default=",".join(DATASETS))
     ap.add_argument("--out", default="checkpoints")

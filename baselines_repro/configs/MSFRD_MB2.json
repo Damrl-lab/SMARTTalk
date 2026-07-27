@@ -1,0 +1,21 @@
+{
+  "model": "MSFRD",
+  "dataset": "MB2",
+  "hyperparameters": {
+    "k": 35,
+    "ref_cap": 12000,
+    "fc_iter": 60
+  },
+  "decision_threshold": 1.0,
+  "metrics": {
+    "tp": 438,
+    "fp": 96,
+    "tn": 23737,
+    "fn": 619,
+    "precision": 0.8202247191011236,
+    "recall": 0.41438032166508987,
+    "f05": 0.6858753523332289,
+    "fpr": 0.004028028364033064,
+    "fnr": 0.5856196783349101
+  }
+}

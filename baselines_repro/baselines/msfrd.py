@@ -18,14 +18,15 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from common import pooled_train, flatten, MinMaxScaler, cli  # noqa: E402
 
 CONFIG = {
-    "MB1": {"k": 35, "ref_cap": 12000},
-    "MB2": {"k": 35, "ref_cap": 2000},
+    "MB1": {"k": 35, "ref_cap": 12000, "fc_iter": 60},
+    "MB2": {"k": 35, "ref_cap": 12000, "fc_iter": 60},
 }
 
 
 class MSFRDBaseline:
-    def __init__(self, t_in=20, t_out=10, k=35, ref_cap=12000, seed=0):
-        self.t_in = t_in; self.t_out = t_out; self.k = k; self.ref_cap = ref_cap; self.seed = seed
+    def __init__(self, t_in=20, t_out=10, k=35, ref_cap=12000, fc_iter=60, seed=0):
+        self.t_in = t_in; self.t_out = t_out; self.k = k; self.ref_cap = ref_cap
+        self.fc_iter = fc_iter; self.seed = seed
 
     def _split(self, X):
         return X[:, :self.t_in, :], X[:, self.t_in:self.t_in + self.t_out, :]
@@ -37,7 +38,7 @@ class MSFRDBaseline:
         xin, xout = self._split(Xs)
         Ni, No = xin.reshape(len(X), -1), xout.reshape(len(X), -1)
         self.fc = MLPRegressor(hidden_layer_sizes=(256,), activation="relu", solver="adam",
-                               max_iter=60, random_state=self.seed)
+                               max_iter=self.fc_iter, random_state=self.seed)
         self.fc.fit(Ni[y == 0], No[y == 0])
         mut = No - self.fc.predict(Ni)
         self.mscaler = StandardScaler().fit(mut)

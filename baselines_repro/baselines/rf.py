@@ -17,8 +17,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from common import pooled_train, downsample, per_attribute_stats, cli  # noqa: E402
 
 CONFIG = {
-    "MB1": {"n_estimators": 300, "max_depth": 2},
-    "MB2": {"n_estimators": 300, "max_depth": 2},
+    "MB1": {"n_estimators": 300, "max_depth": 6},
+    "MB2": {"n_estimators": 300, "max_depth": 6},
 }
 
 
